@@ -1,6 +1,6 @@
 Ref: https://angular.io/docs/ts/latest/quickstart.html
 
-Step #1: Package definition and configuration files
+## Step #1: Package definition and configuration files
 
 Add the following package definition and configuration files to the project folder:
 
@@ -10,13 +10,13 @@ typings.json identifies TypeScript definition files.
 systemjs.config.js, the SystemJS configuration file. 
 
 
-Step #2: Install packages
+## Step #2: Install packages
 We install the packages listed in package.json using npm. Enter the following command in a terminal window (command window in Windows):
 
 npm install
 
 
-Step #4: app folder
+## Step #4: app folder
 Let's create a folder to hold our application and add a super-simple Angular component.
 
 mkdir app
@@ -31,7 +31,7 @@ Every Angular app has at least one root component, conventionally named AppCompo
 import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
-  template: '<h1>My First Angular 2 App</h1>'
+  template: '&lt;h1&gt;My First Angular 2 App&lt;/h1&gt;'
 })
 export class AppComponent { }
 
@@ -89,7 +89,7 @@ Minimal index file Eg:
 </html>
 
 
-Step #5: lite-server
+## Step #5: lite-server
 We could use lite-server from npm without needing to worry about webserver installation and configuration
 
 Enter the following command in a terminal window (command window in Windows):
