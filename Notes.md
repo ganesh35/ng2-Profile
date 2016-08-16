@@ -31,7 +31,7 @@ Every Angular app has at least one root component, conventionally named AppCompo
 import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
-  template: '<h1>My First Angular 2 App</h1>'
+  template: '&lt;h1&gt;My First Angular 2 App&lt;/h1&gt;'
 })
 export class AppComponent { }
 
