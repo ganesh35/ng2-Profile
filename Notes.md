@@ -84,7 +84,7 @@ Minimal index file Eg:
 </html>
 ```
 
-## Step #5: lite-server
+## Step #5: lite-server (optional)
 We could use lite-server from npm without needing to worry about webserver installation and configuration  
 Enter the following command in a terminal window (command window in Windows):
 ```sh
