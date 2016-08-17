@@ -54,7 +54,7 @@ Now we need something to tell Angular to load the app module. Create the file ap
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app.module';
 platformBrowserDynamic().bootstrapModule(AppModule);
-```javascript
+```
 
 **File: index.html**  
 In the project root folder create an index.html file with appropriate content
