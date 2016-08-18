@@ -1,7 +1,18 @@
 # Changes over previous version:
 - **Removed  "exclude" definitions**  from tsconfig.json  
   it causes npm install to fail installing all the required files
--  **File: index.html**:  
+
+
+# Implementation of Theme
+
+## Pre-setup
+Create folder structure for global assets such as stylesheets, images and other scripts
+- **<doc-root> assets/css** : Globally acccessable style sheets
+- **<doc-root> assets/img** : Globally acccessable images
+- **<doc-root> assets/js** : Globally acccessable javascripts  
+
+As a foundation, Downloaded and deployed bootstrap v4.0.0-alpha.3 in to the assets folders
+##  Changes to File: index.html:  
 ```html
       <head>
       ...
@@ -16,16 +27,6 @@
     <script src="assets/js/bootstrap.min.js"          type="text/javascript"></script>
     </body>
 ```
-
-# Implementation of Theme
-
-## Pre-setup
-Create folder structure for global assets such as stylesheets, images and other scripts
-- **<doc-root> assets/css** : Globally acccessable style sheets
-- **<doc-root> assets/img** : Globally acccessable images
-- **<doc-root> assets/js** : Globally acccessable javascripts
-
-As a foundation, Downloaded and deployed bootstrap v4.0.0-alpha.3 in to the assets folders
 
 ## Folder structure for custom theme
 - **<doc-root> themes/<theme>** : Theme folder
