@@ -1,6 +1,6 @@
 # Changes over previous version:
 - **Removed  "exclude" definitions**  from tsconfig.json  
-	it causes npm install to fail installing all the required files
+  it causes npm install to fail installing all the required files
 - 
 
 # Implementation of Theme
@@ -21,8 +21,7 @@ As a foundation, Downloaded and deployed bootstrap v4.0.0-alpha.3 in to the asse
 
 ### Eg. 
 - **<doc-root> themes/bs4/** : Theme folder
-- **<doc-root> themes/bs4/css/bootstrap.min.css** : Bootstrap 4 minified stylesheet
-- - **<doc-root> themes/bs4/css/theme.css** : Custom styles
+- **<doc-root> themes/bs4/css/theme.css** : Custome theme folder
 - **<doc-root> themes/bs4/img/logo.png** : Logo
 - **<doc-root> themes/bs4/theme.tpl.html** :   
     ```html
@@ -35,6 +34,22 @@ As a foundation, Downloaded and deployed bootstrap v4.0.0-alpha.3 in to the asse
     ```
 
 ## Code changes 
+
+**File: index.html**:  
+```html
+    <head>
+    ...
+    <link href="assets/css/bootstrap.min.css"       rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css"    rel="stylesheet">
+    <link href="themes/default/css/theme.css"       rel="stylesheet">
+```
+
+```html
+  <script src="assets/js/jquery.min.js"             type="text/javascript"></script>
+  <script src="assets/js/tether.min.js"             type="text/javascript"></script>
+  <script src="assets/js/bootstrap.min.js"          type="text/javascript"></script>
+  </body>
+```
 **File: app.component.ts**:  
 ```javascript
 import { Component } from '@angular/core';
@@ -42,9 +57,6 @@ var theme = 'default';      // default theme
 @Component({
   selector: 'my-app',
   templateUrl: '../themes/'+ theme +'/theme.tpl.html',
-  styleUrls: [                                          // All css  files related to this theme goes here
-  		'../themes/'+ theme +'/css/theme.css'
-  	]
 })
 export class AppComponent {}
 ```
