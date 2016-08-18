@@ -1,7 +1,21 @@
 # Changes over previous version:
 - **Removed  "exclude" definitions**  from tsconfig.json  
   it causes npm install to fail installing all the required files
-- 
+-  **File: index.html**:  
+```html
+      <head>
+      ...
+      <link href="assets/css/bootstrap.min.css"       rel="stylesheet">
+      <link href="assets/css/font-awesome.min.css"    rel="stylesheet">
+      <link href="themes/default/css/theme.css"       rel="stylesheet">
+```
+
+```html
+    <script src="assets/js/jquery.min.js"             type="text/javascript"></script>
+    <script src="assets/js/tether.min.js"             type="text/javascript"></script>
+    <script src="assets/js/bootstrap.min.js"          type="text/javascript"></script>
+    </body>
+```
 
 # Implementation of Theme
 
@@ -23,33 +37,19 @@ As a foundation, Downloaded and deployed bootstrap v4.0.0-alpha.3 in to the asse
 - **<doc-root> themes/bs4/** : Theme folder
 - **<doc-root> themes/bs4/css/theme.css** : Custome theme folder
 - **<doc-root> themes/bs4/img/logo.png** : Logo
-- **<doc-root> themes/bs4/theme.tpl.html** :   
-    ```html
+- **<doc-root> themes/bs4/theme.tpl.html** :
+```html
     <div class="container">
         <router-outlet></router-outlet>
         <footer class="footer">
             <p>&copy; Company 2016</p>
         </footer>
     </div> <!-- /container -->
-    ```
+```
 
 ## Code changes 
 
-**File: index.html**:  
-```html
-    <head>
-    ...
-    <link href="assets/css/bootstrap.min.css"       rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css"    rel="stylesheet">
-    <link href="themes/default/css/theme.css"       rel="stylesheet">
-```
 
-```html
-  <script src="assets/js/jquery.min.js"             type="text/javascript"></script>
-  <script src="assets/js/tether.min.js"             type="text/javascript"></script>
-  <script src="assets/js/bootstrap.min.js"          type="text/javascript"></script>
-  </body>
-```
 **File: app.component.ts**:  
 ```javascript
 import { Component } from '@angular/core';
