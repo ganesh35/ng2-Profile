@@ -1,0 +1,21 @@
+{
+	"en-GB": "English",
+	"de-DE": "Deutsch",
+	"PREVIOUS": "Previous",
+	"NEXT": "Next",
+
+	"LOGO_TEXT":"Buchman, L.",
+	"LOGO_CAPTION":"Laxman Buchman",
+	"FOOTER_TEXT":"Copyright © 2016 Buchman, L. All rights reserved.",
+
+	"MENU_ITEM_HOME": "Home",
+	"MENU_ITEM_ABOUT": "About",
+	"MENU_ITEM_CONTACT": "Contact",
+	"MENU_ITEM_IMPRINT": "Imprint",
+
+	"IMPRINT_PAGE_TITLE":"Imprint",
+
+	"ABOUT_PAGE_TEXT1_HEAD":"Welcome",
+
+	"CONTACT_PAGE_HEAD":"Contact us"
+}
