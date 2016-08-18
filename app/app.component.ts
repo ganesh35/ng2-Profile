@@ -1,12 +1,11 @@
 import { Component} from '@angular/core';
 
-
-var theme = 'default';
+var themeName = 'default';
 @Component({
   selector: 'my-app',
-  templateUrl: '../themes/'+ theme +'/theme.tpl.html',
+  templateUrl: '../themes/'+ themeName +'/theme.tpl.html',
   styleUrls: [
-  		'../themes/'+ theme +'/css/theme.css'
+  		'../themes/'+ themeName +'/css/theme.css'
   	]
 })
 
