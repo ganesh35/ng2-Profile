@@ -1,6 +1,16 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
+
+
+var theme = 'default';
 @Component({
   selector: 'my-app',
-  template: '<h1>Hello World!</h1><p>Powered by Angular 2</p>'
+  templateUrl: '../themes/'+ theme +'/theme.tpl.html',
+  styleUrls: [
+  		'../themes/'+ theme +'/css/theme.css'
+  	]
 })
-export class AppComponent { }
+
+export class AppComponent {
+	public siteName = "Buchman, L.";
+
+}
