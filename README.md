@@ -5,7 +5,7 @@
 A basic minimal program to display Hello World using Angular 2
 
 ## Build & development
-- Step #1: Download and extract [.zip file](https://github.com/ganesh35/ngProfile/archive/02_Theme.zip)  
+- Step #1: Download and extract [.zip file](https://github.com/ganesh35/ngProfile/archive/master.zip)  
    Extract the zip file contents to a folder (ex: profile)  
    Open command prompt  
    Change directory to the folder (ex: profile)  
