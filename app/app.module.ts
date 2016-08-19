@@ -10,9 +10,19 @@ import { ContactComponent }      from './components/contact/contact.component';
 
 import { routing }        from './app.routing';
 
+import {TranslateModule, TranslateLoader} from 'ng2-translate/ng2-translate';
+import {  Http, HTTP_PROVIDERS } from '@angular/http';
+
 @NgModule({
-  imports:      [ BrowserModule, routing],
+  imports:      [ BrowserModule, routing,
+  TranslateModule.forRoot({ 
+          provide: TranslateLoader,
+          useFactory: (http: Http) => new TranslateStaticLoader(http, 'assets/i18n', '.json'),
+          deps: [Http]
+        })
+        ],
   declarations: [ AppComponent, HomeComponent, AboutComponent, ProfileComponent, ContactComponent],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent ],
+  exports: [TranslateModule],
 })
 export class AppModule { }

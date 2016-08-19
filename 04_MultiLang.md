@@ -40,3 +40,13 @@ import {  Http } from '@angular/http';
   ..
 
 
+Step #4: Changes to app.component.ts
+..
+import {  Http, HTTP_PROVIDERS } from '@angular/http';
+..
+@Component({
+  selector: 'my-app',
+  templateUrl: '../themes/'+ themeName +'/theme.tpl.html',
+  providers: [HTTP_PROVIDERS],   // + included
+})
+..

@@ -8,6 +8,7 @@
     'app':                        'app', // 'dist',
     '@angular':                   'node_modules/@angular',
     'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
+    'ng2-translate':              'node_modules/ng2-translate',       // + Included in the map list
     'rxjs':                       'node_modules/rxjs'
   };
   // packages tells the System loader how to load when no filename and/or no extension
@@ -15,6 +16,7 @@
     'app':                        { main: 'main.js',  defaultExtension: 'js' },
     'rxjs':                       { defaultExtension: 'js' },
     'angular2-in-memory-web-api': { main: 'index.js', defaultExtension: 'js' },
+    'ng2-translate': { main: 'ng2-translate.js', defaultExtension: 'js' }   // + Included in the packages list    
   };
   var ngPackageNames = [
     'common',
