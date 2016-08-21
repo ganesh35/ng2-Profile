@@ -1,31 +1,50 @@
 <div class="container">
 
   <nav class="navbar navbar-dark bg-inverse">
-      <a href="/en/" class="navbar-brand">{{siteName}}</a>
+      <a href="/en/" class="navbar-brand">{{'LOGO_TEXT' | translate}} <small>{{'LOGO_CAPTION' | translate}}</small></a>
       <button data-target="#exCollapsingNavbar2" data-toggle="collapse" type="button" class="navbar-toggler hidden-sm-up"> ☰ </button>
       <div id="exCollapsingNavbar2" class="collapse navbar-toggleable-xs">
       <ul class="nav navbar-nav pull-right">
           <li class="nav-item  ">
-              <a class="nav-link" routerLink="/home" routerLinkActive="active"><i class="glyphicon glyphicon-home"></i> Home </a>
+              <a class="nav-link" routerLink="/home" routerLinkActive="active"><i class="glyphicon glyphicon-home"></i> {{'MENU_ITEM_HOME' | translate}} </a>
           </li>        
           <li class="nav-item  ">
-              <a class="nav-link" routerLink="/about" routerLinkActive="active"><i class=" glyphicon glyphicon-th"></i> About </a>
+              <a class="nav-link" routerLink="/about" routerLinkActive="active"><i class=" glyphicon glyphicon-th"></i> {{'MENU_ITEM_ABOUT' | translate}} </a>
+          </li>
+          <li class="nav-item  ">
+              <a class="nav-link" routerLink="/profile" routerLinkActive="active"><i class=" glyphicon glyphicon-user"></i> {{'MENU_ITEM_PROFILE' | translate}} </a>
           </li>        
           <li class="nav-item  ">
-              <a class="nav-link" routerLink="/profile" routerLinkActive="active"><i class=" glyphicon glyphicon-th"></i> Profile </a>
-          </li>        
-          <li class="nav-item  ">
-              <a class="nav-link" routerLink="/contact" routerLinkActive="active"><i class="glyphicon glyphicon-envelope"></i> Contact </a>
+              <a class="nav-link" routerLink="/contact" routerLinkActive="active"><i class="glyphicon glyphicon-envelope"></i> {{'MENU_ITEM_CONTACT' | translate}} </a>
           </li>        
       </ul>    
       </div>
   </nav>
-
     <router-outlet></router-outlet>
-
+    <hr/>
     <!-- Site footer -->
     <footer class="footer">
-        <p>&copy; Company 2016</p>
+        <div class="row">
+            <div class="col-xs-6 col-md-6">{{'FOOTER_TEXT' | translate}}</div>
+            <div class="col-xs-12 col-sm-6 col-md-6 ">
+                <p class="pull-right">
+                <span *ngFor="let item of langList">
+                    <span *ngIf="currentLang==item.lang">
+                        <img  class="privacy_link" src="images/{{item.flag}}"  > 
+                    </span>
+                    <span *ngIf="currentLang!=item.lang" >
+                        <a (click)="onLangChange(item.lang)" style="cursor: pointer; cursor: hand;"><img  src="images/{{item.flag}}"  ></a>
+                    </span>
+                    &nbsp; &nbsp;
+                </span>
+
+                </p>
+
+            </div>
+            
+        </div>
+
+        <p></p>    
     </footer>
 
 </div> <!-- /container -->

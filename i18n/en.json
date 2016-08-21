@@ -5,13 +5,14 @@
 	"NEXT": "Next",
 
 	"LOGO_TEXT":"Buchman, L.",
-	"LOGO_CAPTION":"Laxman Buchman",
+	"LOGO_CAPTION":"My profile website",
 	"FOOTER_TEXT":"Copyright © 2016 Buchman, L. All rights reserved.",
 
 	"MENU_ITEM_HOME": "Home",
 	"MENU_ITEM_ABOUT": "About",
 	"MENU_ITEM_CONTACT": "Contact",
 	"MENU_ITEM_IMPRINT": "Imprint",
+	"MENU_ITEM_PROFILE": "Profile",
 
 	"IMPRINT_PAGE_TITLE":"Imprint",
 

@@ -1,23 +1,31 @@
-import { Component} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-//import {  Http, HTTP_PROVIDERS } from '@angular/http';
 import {TranslateService} from 'ng2-translate/ng2-translate';
+
 
 var themeName = 'default';
 @Component({
   selector: 'my-app',
-  templateUrl: '../themes/'+ themeName +'/theme.tpl.html',
+  templateUrl: '../themes/' + themeName +'/theme.tpl.html',
 })
+export class AppComponent implements OnInit { 
+	public langList = [];
 
-export class AppComponent {
-	public siteName = "Buchman, L.";
-	
-/* 	constructor(translate: TranslateService) {
-        // this language will be used as a fallback when a translation isn't found in the current language
+	constructor(private translate: TranslateService) {
         translate.setDefaultLang('en');
-
-         // the lang to use, if the lang isn't available, it will use the current loader to get them
-        translate.use('en');
+        translate.use('de');
     }
-*/
+
+
+    ngOnInit(){
+    	this.langList = [
+    		{lang:'en', 'flag':'en.gif' },
+    		{lang:'de', 'flag':'de.gif' }
+    	];
+    }
+
+    onLangChange(val){
+    	this.translate.use(val);
+    }
+
 }

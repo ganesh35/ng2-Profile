@@ -1,6 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+
 @Component({
-  template: '<h3>Home page</h3>'
+  templateUrl: './app/components/home/home.tpl.html'
 })
+
 export class HomeComponent {
+	public pageHeading = "Welcome";
 }
