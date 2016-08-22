@@ -1,4 +1,5 @@
 {
+	"Theme":"default",
 	"en-GB": "English",
 	"de-DE": "Deutsch",
 	"PREVIOUS": "Früher",
@@ -18,5 +19,51 @@
 
 	"ABOUT_PAGE_TEXT1_HEAD":"Herzlich Willkommen",
 
-	"CONTACT_PAGE_HEAD":"Kontakt"
+	"CONTACT_PAGE_HEAD":"Kontakt",
+
+
+
+
+	"Profile" : {
+		"PersonalData" :{
+			"Title": "Mr.",
+			"FirstName" : "Laxman",
+	        "MiddleName" : "",
+	        "LastName" : "Buchman",
+	        "DisplayName": "Buchman K. Laxman",
+	        "DisplayProfession": "Web Developer",
+	        "DisplayCaption" : "Love to do Angular 2",
+	        "CurrentStatus": "Seeking employment"
+		},
+		"ContactData" :{
+	       "Addresses" : [
+	            { "AddressType" : "Home", "Addr1" : "Oberbilker Allee", "Addr2" : "333", "Postcode" : "40227", "City" : "Dusseldorf", "State" : "NRW", "Country" : "Germany" },
+	            { "AddressType" : "Work", "Addr1" : "Oberbilker Allee", "Addr2" : "333", "Postcode" : "40227", "City" : "Dusseldorf", "State" : "NRW", "Country" : "Germany" },
+	            { "AddressType" : "Billing", "Addr1" : "Oberbilker Allee", "Addr2" : "333", "Postcode" : "40227", "City" : "Dusseldorf", "State" : "NRW", "Country" : "Germany" }
+	        ],
+			"Emails" : [
+	            { "EmailType" : "Work", "Addr" : "buchman.l@example.org", "Primary" : false },
+	            { "EmailType" : "Personal", "Addr" : "buchman.l@example.org", "Primary" : true }
+	        ],
+	        "Phones" : [
+	            { "PhoneType" : "Work", "Num" : "+12345678900", "Primary" : false  },
+	            { "PhoneType" : "Mobile", "Num" : "+12345678901", "Primary" : true  }
+	        ]
+		},		
+		"SocialNetworksData" : [
+	    	{"NetworkType": "Profile", "Title": "Profile", "Link":"https://www.xing.com/profile/GaneshKumar_Butcha/cv", "Description":"Xing", "CSS":"fa fa-xing" },
+	    	{"NetworkType": "Profile", "Title": "gkbatchu", "Link":"https://www.linkedin.com/in/gkbatchu", "Description":"Linkedin", "CSS":"fa fa-linkedin" },
+	    	{"NetworkType": "Messaging", "Title": "ganesh35", "Link":"https://twitter.com/ganesh35", "Description":"Twitter", "CSS":"fa fa-twitter" },
+	        {"NetworkType": "Chat", "Title": "ganesh35", "Link":"", "Description":"Google hangout" , "CSS":"fa fa-google-plus"},
+	        {"NetworkType": "Chat", "Title": "ganesh343@outlook.com", "Link":"", "Description":"Skype" , "CSS":"fa fa-skype"},
+	        {"NetworkType": "Web", "Title": "ganesh.batchu.org", "Link":"http://ganesh.batchu.org", "Description":"Personal website" , "CSS":"fa fa-link"},
+	        {"NetworkType": "DevTools", "Title": "ganesh35", "Link":"https://github.com/ganesh35", "Description":"Github repository" , "CSS":"fa fa-github"},
+	        {"NetworkType": "Youtube Channel", "Title": "GoLang", "Link":"https://www.youtube.com/channel/UCi9Is8R72kWw7nvWtY7Pn3A", "Description":"How to videos on Golang Web Applications" , "CSS":"fa fa-youtube"},
+	        {"NetworkType": "Youtube Channel", "Title": "PHP Development", "Link":"https://www.youtube.com/user/idolator35", "Description":"Building a RESTful web services platform using Joomla Framework and other PHP development videos" , "CSS":"fa fa-youtube"},
+	        {"NetworkType": "Youtube Channel", "Title": "Mediadoxx", "Link":"https://www.youtube.com/user/Mediadoxx", "Description":"Videos related to projects of Mediadoxx" , "CSS":"fa fa-youtube"}
+	    ]
+
+
+
+	}	
 }

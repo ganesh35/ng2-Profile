@@ -1,0 +1,175 @@
+<div class="container">
+
+<div class="row">
+  <div class="col-md-3">
+    
+
+    <div class="card">
+      <img class="card-img-top img-fluid text-md-center" src="images/profile.jpg" alt="{{'LOGO_TEXT' | translate}}">
+      <div class="card-block">
+        <h4 class="card-title ">{{profile?.PersonalData?.DisplayName}}<br><small><strong>{{profile?.PersonalData?.DisplayProfession}}</strong></small></h4>
+        <p class="card-text ">{{profile?.PersonalData?.DisplayCaption}}</p>
+
+
+
+      </div>
+    </div>
+
+
+
+<div class="card">
+  
+  <div class="card-block">
+       
+      
+      {{profile?.PersonalData?.DisplayName}}
+      <span *ngFor="let item of profile?.SocialNetworksData">
+          {{item.Title}}
+      </span>
+
+              <div class="row">
+                <div class="col-md-2"><i class="fa fa-xing"></i></div>
+                <div class="col-md-10"><a target="_BLANK" href="https://www.xing.com/profile/GaneshKumar_Butcha/cv" title="Profile: Xing">Profile</a></div>
+              </div>
+        
+        
+              <div class="row">
+                <div class="col-md-2"><i class="fa fa-github"></i></div>
+                <div class="col-md-10"><a target="_BLANK" href="https://github.com/ganesh35" title="DevTools: Github repository">ganesh35</a></div>
+              </div>
+        
+              <div class="row">
+                <div class="col-md-2"><i class="fa fa-youtube"></i></div>
+                <div class="col-md-10"><a target="_BLANK" href="https://www.youtube.com/channel/UCi9Is8R72kWw7nvWtY7Pn3A" title="Youtube Channel: How to videos on Golang Web Applications">GoLang</a></div>
+              </div>
+        
+              <div class="row">
+                <div class="col-md-2"><i class="fa fa-youtube"></i></div>
+                <div class="col-md-10"><a target="_BLANK" href="https://www.youtube.com/user/idolator35" title="Youtube Channel: Building a RESTful web services platform using Joomla Framework and other PHP development videos">PHP Development</a></div>
+              </div>
+        
+              <div class="row">
+                <div class="col-md-2"><i class="fa fa-youtube"></i></div>
+                <div class="col-md-10"><a target="_BLANK" href="https://www.youtube.com/user/Mediadoxx" title="Youtube Channel: Videos related to projects of Mediadoxx">Mediadoxx</a></div>
+              </div>
+        
+    
+  
+
+
+
+
+
+  </div>
+
+
+<div class="card-footer">
+  <h4 class="">Seeking employment </h4>
+</div>
+
+
+</div>
+
+
+
+
+    <div class="card">
+      <div class="card-block">
+      <h4 class="card-title">Language Skills</h4>
+         <p class="card-text">
+
+        
+            
+                  </p><div class="row">
+                    <div class="col-md-4"><strong>English</strong></div>
+                    <div class="col-md-8">Fluent</div>
+                  </div>
+            
+                  <div class="row">
+                    <div class="col-md-4"><strong>German</strong></div>
+                    <div class="col-md-8">Good Knowledge</div>
+                  </div>
+            
+                  <div class="row">
+                    <div class="col-md-4"><strong>Telugu</strong></div>
+                    <div class="col-md-8">First language</div>
+                  </div>
+            
+                  <div class="row">
+                    <div class="col-md-4"><strong>Hindi</strong></div>
+                    <div class="col-md-8">Good Knowledge</div>
+                  </div>
+            
+        
+        <p></p>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  <div class="col-md-9">
+
+
+      <nav class="navbar navbar-dark bg-inverse">
+          <a routerLink="/home"  class="navbar-brand">{{'LOGO_TEXT' | translate}}</a>
+          <button data-target="#exCollapsingNavbar2" data-toggle="collapse" type="button" class="navbar-toggler hidden-sm-up"> ☰ </button>
+          <div id="exCollapsingNavbar2" class="collapse navbar-toggleable-xs">
+          <ul class="nav navbar-nav pull-right">
+              <li class="nav-item  ">
+                  <a class="nav-link" routerLink="/home" routerLinkActive="active"><i class="fa fa-home"></i> {{'MENU_ITEM_HOME' | translate}} </a>
+              </li>        
+              <li class="nav-item  ">
+                  <a class="nav-link" routerLink="/about" routerLinkActive="active"><i class=" fa fa-th"></i> {{'MENU_ITEM_ABOUT' | translate}} </a>
+              </li>
+              <li class="nav-item  ">
+                  <a class="nav-link" routerLink="/profile" routerLinkActive="active"><i class=" fa fa-user"></i> {{'MENU_ITEM_PROFILE' | translate}} </a>
+              </li>        
+              <li class="nav-item  ">
+                  <a class="nav-link" routerLink="/contact" routerLinkActive="active"><i class="fa fa-envelope"></i> {{'MENU_ITEM_CONTACT' | translate}} </a>
+              </li>        
+          </ul>    
+          </div>
+      </nav>
+      <br />
+
+
+
+      <div class="box" style="">
+          <router-outlet></router-outlet>
+      </div>
+  </div>
+</div>
+
+
+
+
+    
+    <hr/>
+    <!-- Site footer -->
+    <footer class="footer">
+        <div class="row">
+            <div class="col-xs-6 col-md-6">{{'FOOTER_TEXT' | translate}}</div>
+            <div class="col-xs-12 col-sm-6 col-md-6 ">
+                <p class="pull-right">
+                <span *ngFor="let item of langList">
+                    <span *ngIf="currentLang==item.lang">
+                        <img  class="privacy_link" src="images/{{item.flag}}"  > 
+                    </span>
+                    <span *ngIf="currentLang!=item.lang" >
+                        <a (click)="onLangChange(item.lang)" style="cursor: pointer; cursor: hand;"><img  src="images/{{item.flag}}"  ></a>
+                    </span>
+                    &nbsp; &nbsp;
+                </span>
+
+                </p>
+
+            </div>
+            
+        </div>
+
+        <p></p>    
+    </footer>
+
+</div> <!-- /container -->
