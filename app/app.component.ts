@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import {TranslateService} from 'ng2-translate/ng2-translate';
 
-var themeName = 'theme2';
+var themeName = 'theme3';
 
 @Component({
   selector: 'my-app',
