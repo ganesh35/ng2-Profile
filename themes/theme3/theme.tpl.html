@@ -53,12 +53,41 @@
     </div> <!--    Left bar /  -->
     <div class="col-md-3"> <!--    Right bar  -->
 
-        <div class="card" *ngIf="profile?.MessageData?.AboutMe">
+        <div class="card" *ngIf="profile?.MessageData?.ShortMsg">   <!-- MessageData.ShortMsg data -->
             <div class="card-block">
-                <span  [innerHTML]="profile?.MessageData?.AboutMe"  ></span>
-                
+                <p class="card-title text-md-center" style="font-size: 130%;" [innerHTML]="profile?.MessageData?.ShortMsg"  ></p>
             </div>
-        </div>
+        </div>                                                         <!-- MessageData.ShortMsg data / -->
+
+
+        <div class="card" *ngIf="profile?.SkillData">    <!-- Skills data -->
+            <div class="card-block">
+             <h4 class="card-title"> {{'ProfilePage.Language Skills' | translate }}</h4>
+            <span *ngFor="let item of profile.SkillData[0].SkillItems">
+                <div class="row">
+                    <div class="col-md-4"><strong>{{item.Title}}</strong></div>
+                    <div class="col-md-8">{{item.Level}}</div>
+                </div>
+            </span>
+            </div>
+        </div>                                              <!-- Skills data / -->
+
+        <div class="card" *ngIf="profile?.LanguageData">    <!-- Language data -->
+            <div class="card-block">
+             <h4 class="card-title"> {{'ProfilePage.Language Skills' | translate }}</h4>
+            <span *ngFor="let item of profile?.LanguageData">
+                <div class="row">
+                    <div class="col-md-4"><strong>{{item.Title}}</strong></div>
+                    <div class="col-md-8">{{item.MoreInfo}}</div>
+                </div>
+            </span>
+            </div>
+        </div>                                              <!-- Language data / -->
+
+
+
+
+
 
 
 
