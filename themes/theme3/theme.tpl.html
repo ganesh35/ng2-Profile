@@ -3,13 +3,8 @@
 
 
 <div class="row">
-    <div class="col-md-3">
-        <div class="card">    
-          <img class="card-img img-fluid img-responsive text-md-center img-thumbnail" src="themes/theme3/img/profile.png" alt="{{'LOGO_TEXT' | translate}}">
-        </div>
-    </div>
 
-    <div class="col-md-9">
+    <div class="col-md-9">  <!--    Header Left   -->
       
         <h1 class="text-md-center">
           <hr/>
@@ -25,6 +20,7 @@
                 <a class="btn btn-sm btn-danger" target="_BLANK" href="{{item.Link}}" title="{{item.Title}}"> <span class="{{item.CSS}}" > </span></a> &nbsp; &nbsp; &nbsp; 
             </span>
             </p>
+            <br/>
 
         <hr/>
             <nav class="nav nav-inline text-md-center">
@@ -36,35 +32,38 @@
 
         <hr/>
 
-    </div>
+    </div> <!--    Header Left /   -->
+
+    <div class="col-md-3">   <!--    Header Right   -->
+        <div class="card">    
+          <img class="card-img img-fluid img-responsive text-md-center img-thumbnail" src="themes/theme3/img/profile.png" alt="{{'LOGO_TEXT' | translate}}">
+        </div>
+    </div>  <!--    Header Right /  -->
+
 </div>
 
 
 
 <div class="row">
-    <div class="col-md-3"> <!--    Right bar  -->
-
-        <div class="card">
-            <div class="card-block">
-                <span *ngFor="let item of profile?.SocialNetworksData">
-                     <div class="row">
-                          <div class="col-md-2"><i class="{{item.CSS}}"></i></div>
-                          <div class="col-md-10"><a target="_BLANK" href="{{item.Link}}" title="Profile: Xing">{{item.Title}}</a></div>
-                      </div>
-                    
-                </span>
-            </div>
-        </div>
-
-
-
-    </div>  <!--    Right bar /  -->
     <div class="col-md-9"> <!--    Left bar  -->
         <div class="box" style="">
           <router-outlet></router-outlet>
         </div>
 
     </div> <!--    Left bar /  -->
+    <div class="col-md-3"> <!--    Right bar  -->
+
+        <div class="card" *ngIf="profile?.MessageData?.AboutMe">
+            <div class="card-block">
+                <span  [innerHTML]="profile?.MessageData?.AboutMe"  ></span>
+                
+            </div>
+        </div>
+
+
+
+    </div>  <!--    Right bar /  -->
+
 </div>
 
 
