@@ -13,6 +13,7 @@ export class AppComponent implements OnInit {
     public profile: any;
 
 	constructor(private translate: TranslateService) {
+        //translate.setDefaultLang('en');
         translate.setDefaultLang('en');
         translate.use('de');
     }

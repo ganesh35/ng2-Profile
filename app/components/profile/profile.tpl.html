@@ -1,4 +1,122 @@
-<h1>{{'MENU_ITEM_ABOUT' | translate}}</h1>
-<ul *ngIf="'Profile.SocialNetworksData'|translate">
-	<li *ngFor="let item of 'Profile.SocialNetworksData'|translate" > {{item?.Title}} </li>
-</ul>
+<div class="row">
+    <div class="col-md-9"> <!--    Left bar  -->
+        <div class="box" style="">
+
+
+
+
+    <!--    Educational details  -->
+
+
+    <h1 [innerHTML]="'Profile.EducationalData_Title' | translate"></h1>
+    <p [innerHTML]="'Profile.EducationalData_Description' | translate"></p>
+    <hr/>
+    <span *ngIf="'Profile.EducationalData' | translate ">
+        <span *ngFor="let item of 'Profile.EducationalData' | translate ">
+
+
+
+
+
+            <div class="row">
+          
+            <div class="col-md-8">
+              <h4> <strong>{{item.Degree}}</strong> <small>@{{item.Institution}}</small></h4>
+              <strong>{{'Profile.EducationtionalData_FieldOfStudy' | translate}}</strong> : {{item.FieldOfStudy}}<br/>
+              {{item.Description}}          
+            </div>
+            <div class="col-md-4"><p class="text-md-right" style="font-size: 110%;"><i class="fa fa-calendar"></i> {{item.DateFrom }} -  {{item.DateTo}}</p></div>
+          </div>
+
+            <hr/>
+        </span>
+    </span>
+
+    
+
+    <!--    Educational details / -->
+
+
+
+    <!--    Experience details  -->
+    <h1 [innerHTML]="'Profile.EducationalData_Title' | translate"></h1>
+    <p [innerHTML]="'Profile.EducationalData_Description' | translate"></p>
+    <hr/>
+    <span *ngIf="'Profile.EducationalData' | translate ">
+        <span *ngFor="let item of 'Profile.EducationalData' | translate ">
+
+
+
+
+
+            <div class="row">
+          
+            <div class="col-md-8">
+              <h4> <strong>{{item.Degree}}</strong> <small>@{{item.Institution}}</small></h4>
+              <strong>{{'Profile.EducationtionalData_FieldOfStudy' | translate}}</strong> : {{item.FieldOfStudy}}<br/>
+              {{item.Description}}          
+            </div>
+            <div class="col-md-4"><p class="text-md-right" style="font-size: 110%;"><i class="fa fa-calendar"></i> {{item.DateFrom }} -  {{item.DateTo}}</p></div>
+          </div>
+
+            <hr/>
+        </span>
+    </span>
+    <!--   Experience details / -->
+
+
+
+        </div>
+    </div> <!--    Left bar /  -->
+
+
+
+
+    <div class="col-md-3"> <!--    Right bar  -->
+
+        <div class="card" *ngIf="'Profile.MessageData.ShortMsg' | translate">   <!-- MessageData.ShortMsg data -->
+            <div class="card-block">
+                <h4 class="card-title text-md-center" [innerHTML]="'Profile.MessageData.ShortMsg' | translate"  ></h4>
+            </div>
+        </div>                                                         <!-- MessageData.ShortMsg data / -->
+        <div class="card" *ngIf="'Profile.MessageData.Objective' | translate">   <!-- MessageData.ShortMsg data -->
+            <div class="card-block">
+                <h4 class="card-title" [innerHTML]="'ProfilePage.My Objective' | translate"></h4>
+                <div class="card-text" [innerHTML]="'Profile.MessageData.Objective' | translate"  ></div>
+            </div>
+        </div>     
+
+        <div class="card" *ngIf="'Profile.ProfessionalSkills' | translate">    <!-- Skills data -->
+            <div class="card-block">
+             <h4 class="card-title" [innerHTML]="'Profile.ProfessionalSkills_Title' | translate"></h4>
+            <small *ngFor="let item of 'Profile.ProfessionalSkills' | translate ">
+
+              <div class="row">
+                <div class="col-md-6"><strong>{{item.Title}} </strong></div>
+                <div class="col-md-6 pull-right">
+                    <span [outerHTML]="item.Level | starRating "  ></span>
+               </div>
+              </div>
+              </small>
+
+            </div>
+        </div>                                              <!-- Skills data / -->
+
+        <div class="card" *ngIf="'Profile.LanguageData' | translate">    <!-- Language data -->
+            <div class="card-block">
+             <h4 class="card-title" [innerHTML]="'Profile.LanguageData_Title' | translate"></h4>
+            <small *ngFor="let item of 'Profile.LanguageData' | translate">
+
+                <div class="row">
+                    <div class="col-md-6"><strong>{{item.Title}}</strong></div>
+                    <div class="col-md-6 pull-right" ><span [outerHTML]="item.Level | starRating "  ></span></div>
+                </div>
+            </small>
+            </div>
+        </div>                                              <!-- Language data / -->
+
+
+
+    </div>  <!--    Right bar /  -->
+
+</div>

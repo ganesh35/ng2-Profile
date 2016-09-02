@@ -15,6 +15,8 @@ import {HttpModule} from '@angular/http';
 import {TranslateModule} from 'ng2-translate/ng2-translate';
 
 
+import { StarRatingPipe } from './pipes/starrating.pipe';
+
 @NgModule({
   imports:      [ 
       BrowserModule, 
@@ -22,7 +24,7 @@ import {TranslateModule} from 'ng2-translate/ng2-translate';
       HttpModule,
       TranslateModule.forRoot()
    ],
-  declarations: [ AppComponent, HomeComponent, AboutComponent, ProfileComponent, ContactComponent ],
+  declarations: [ AppComponent, HomeComponent, AboutComponent, ProfileComponent, ContactComponent, StarRatingPipe ],
   bootstrap:    [ AppComponent  ]
 })
 export class AppModule { }

@@ -26,8 +26,7 @@
 		"Email": "E-Mail",
 		"Website": "Website",
 		"Address": "Address",
-		"Language Skills": "Language Skills",
-		"Professional Skills": "Professional Skills"
+		"My Objective": "<i class='fa fa-bullseye'></i> My Objective"
 	},
 
 	"Profile" : {
@@ -61,50 +60,27 @@
 	        {"NetworkType": "Youtube Channel", "Title": "Mediadoxx", "Link":"https://www.youtube.com/user/Mediadoxx", "Description":"Videos related to projects of Mediadoxx" , "CSS":"fa fa-youtube"}
 	    ],
 
-
-	"EducationalData" :[
-		{
-			"Institution": "Andhra University, Visakhapatnam, India",
-			"FieldOfStudy": "Business Administration",
-			"Degree": "Master of Business Applications",
-			"DateFrom": 200107,
-			"DateTo": 200303,
-			"Description": "Major in Information Technology"
-		},
-		{
-			"Institution": "Sir, C.R.R College, Eluru, India",
-			"FieldOfStudy": "Commerce",
-			"Degree": "Bachelor of Commerce",
-			"DateFrom": 199607,
-			"DateTo": 200105,
-			"Description": "Commerce, Accountancy, Taxation and Business Management"
-		},		
-		{
-			"Institution": "Government Junior College, Eluru, India",
-			"FieldOfStudy": "Accountancy and Taxation",
-			"Degree": "Intermediate",
-			"DateFrom": 199407,
-			"DateTo": 199603,
-			"Description": "Vocational Course - Accountancy and Taxation"
-		},
-
-		{
-			"Institution": "S.E.S.D.M. High School, Eluru, India",
-			"FieldOfStudy": "Secondary School",
-			"Degree": "SSC - Secondary School Certificate",
-			"DateFrom": 198906,
-			"DateTo": 199404,
-			"Description": "Class 6 to Class 10"
-		},
-		{
-			"Institution": "Government Primary School, Eluru, India",
-			"FieldOfStudy": "Primary School",
-			"Degree": "Primary School Course",
-			"DateFrom": 198406,
-			"DateTo": 198904,
-			"Description": "Class 1 to Class 5"
-		}
-	],
+		"EducationalData_Title": "<i class='fa fa-graduation-cap'></i> Education",
+		"EducationalData_Description": "Educationtional Qualifications",
+		"EducationtionalData_FieldOfStudy": "Field of study",
+		"EducationalData" :[
+			{
+				"Institution": "Example University, Stdt City, xCountry",
+				"FieldOfStudy": "Business Administration",
+				"Degree": "Master of Business Applications",
+				"DateFrom": "July 2001",
+				"DateTo": "March 2003",
+				"Description": "Major in Information Technology"
+			},
+			{
+				"Institution": "Some other University, Other City, yCountry",
+				"FieldOfStudy": "Commerce",
+				"Degree": "Bachelor of Commerce",
+				"DateFrom": "July 1996",
+				"DateTo": "May 2001",
+				"Description": "Commerce, Accountancy, Taxation and Business Management"
+			}
+		],
 	"CertificationData" :[
 		{
 			"Institution": "APEL, Visakhapatnam, India",
@@ -433,236 +409,146 @@
 			]		
 		}				
 	],
-	"SkillData" :[
-		{
-			"Title": "Key Skills",
-			"Description": "The skills which I use all the time",
-			"SkillItems": [
-				{ 
-					"Title": "PHP Programming",
-					"Level": 10,
-					"Years": 8.5
-				},
-				{ 
-					"Title": "Go Language",
-					"Level": 6,
-					"Years": 1
-				},
-				{ 
-					"Title": "MySQL",
-					"Level": 10,
-					"Years": 8.5
-				},
-				{ 
-					"Title": "MongoDB",
-					"Level": 4,
-					"Years": 0.6
-				},
-				{ 
-					"Title": "Linux Administration",
-					"Level": 10,
-					"Years": 8
-				}
-			]
-		},
-		{
-			"Title": "Web Development Skills",
-			"Description": "Tools I use for web development",
-			"SkillItems": [
-				{ 
-					"Title": "HTML",
-					"Level": 10,
-					"Years": 8.5
-				},
-				{ 
-					"Title": "Javascript / JQuery",
-					"Level": 7,
-					"Years": 7
-				},
-				{ 
-					"Title": "Bootstrap",
-					"Level": 10,
-					"Years": 4
-				},
-				{ 
-					"Title": "XAMPP / LAMPP",
-					"Level": 10,
-					"Years": 8
-				},				{ 
-					"Title": "Joomla CMS",
-					"Level": 10,
-					"Years": 5
-				},
-				{ 
-					"Title": "Virtuemart",
-					"Level": 10,
-					"Years": 4
-				},
-				{ 
-					"Title": "Wordpress",
-					"Level": 4,
-					"Years": 1
-				},
-				{ 
-					"Title": "Joomla Framework",
-					"Level": 9,
-					"Years": 1.5
-				},
-				{ 
-					"Title": "Symfony Framework",
-					"Level": 4,
-					"Years": 0.6
-				},
-				{ 
-					"Title": "Yii2 Framework",
-					"Level": 5,
-					"Years": 1.6
-				},
-				{ 
-					"Title": "SEO & SEM",
-					"Level": 6,
-					"Years": 3
-				}
-			]
-		},
 
-		{
-			"Title": "Technical Skills",
-			"Description": "The skills which I use make things done",
-			"SkillItems": [
-
-				{ 
-					"Title": "Linux Virtualization / Virtuozzo",
-					"Level": 10,
-					"Years": 6
-				},				
-				{ 
-					"Title": "Networking",
-					"Level": 8,
-					"Years": 2
-				},
-				{ 
-					"Title": "Apache",
-					"Level": 10,
-					"Years": 8.5
-				},
-				{ 
-					"Title": "Shell Script",
-					"Level": 8,
-					"Years": 3
-				}				
-			]
+	"ProfessionalSkills_Title":"<i class='fa fa-briefcase'></i> Professional Skills",
+	"ProfessionalSkills_Description":"The skills which I use all the time",
+	"ProfessionalSkills":[
+		{ 
+			"Title": "PHP",
+			"Level": 6,
+			"Years": 8.5
 		},
-		{
-			"Title": "Other Technical Skills",
-			"Description": "The skills which I use from time to time but not allways",
-			"SkillItems": [
-				{ 
-					"Title": "MS Excel",
-					"Level": 10,
-					"Years": 10
-				},
-				{ 
-					"Title": "MS Word",
-					"Level": 8,
-					"Years": 10
-				},
-				{ 
-					"Title": "MS Powerpoint",
-					"Level": 10,
-					"Years": 10
-				},
-				{ 
-					"Title": "Microsoft Visio",
-					"Level": 8,
-					"Years": 3
-				},
-				{ 
-					"Title": "Camtasia Studio",
-					"Level": 9,
-					"Years": 4
-				},
-				{ 
-					"Title": "Scrum Agile",
-					"Level": 4,
-					"Years": 1
-				}							
-			]
+		{ 
+			"Title": "Go Language",
+			"Level": 3,
+			"Years": 1
 		},
-		{
-			"Title": "Strengths",
-			"Description": "The quality or state of being strong",
-			"SkillItems": [
-				{ 
-					"Title": "Quick learning",
-					"Level": 10
-				},
-				{ 
-					"Title": "Experience in Project life cycle",
-					"Level": 8
-				},
-				{ 
-					"Title": "Analytical thinking",
-					"Level": 10
-				},
-				{ 
-					"Title": "Able to work under stress",
-					"Level": 10
-				},
-				{ 
-					"Title": "Communication Skills",
-					"Level": 8
-				},
-				{ 
-					"Title": "Hardworking and commitment",
-					"Level": 10
-				},
-				{ 
-					"Title": "Initiative",
-					"Level": 10
-				}
-			]
+		{ 
+			"Title": "MySQL",
+			"Level": 6,
+			"Years": 8.5
+		},
+		{ 
+			"Title": "MongoDB",
+			"Level": 3,
+			"Years": 0.6
+		},
+		{ 
+			"Title": "Linux Admin",
+			"Level": 5,
+			"Years": 8
 		}
 	],
+	
+
+	"TechnicalSkills_Title":"Technical Skills",
+	"TechnicalSkills_Description":"The skills which I use make things done",
+	"TechnicalSkills": [
+		{ 
+			"Title": "HTML",
+			"Level": 6,
+			"Years": 8.5
+		},
+		{ 
+			"Title": "Javascript / JQuery",
+			"Level": 4,
+			"Years": 7
+		},
+		{ 
+			"Title": "Bootstrap",
+			"Level": 6,
+			"Years": 4
+		},
+		{ 
+			"Title": "XAMPP / LAMPP",
+			"Level": 6,
+			"Years": 8
+		},
+		{ 
+			"Title": "SEO & SEM",
+			"Level": 4,
+			"Years": 3
+		},
+		{ 
+			"Title": "Linux Virtualization / Virtuozzo",
+			"Level": 6,
+			"Years": 6
+		}
+
+	],
+
+	"PersonalSkills_Title":"Personal Skills",
+	"PersonalSkills_Description":"The skills which defines me as me",
+	"PersonalSkills": [
+		{ 
+			"Title": "Quick learning",
+			"Level": 6
+		},
+		{ 
+			"Title": "Experience in Project life cycle",
+			"Level": 5
+		},
+		{ 
+			"Title": "Analytical thinking",
+			"Level": 6
+		},
+		{ 
+			"Title": "Able to work under stress",
+			"Level": 6
+		},
+		{ 
+			"Title": "Communication Skills",
+			"Level": 5
+		},
+		{ 
+			"Title": "Hardworking and commitment",
+			"Level": 6
+		},
+		{ 
+			"Title": "Initiative",
+			"Level": 6
+		}
+	],
+	"LanguageData_Title": "<i class='fa fa-language'></i> Language Skills",
 	"LanguageData":[
 
 		{
 			"Title": "English",
-			"Level": 10,
-			"Read": 10,
-			"Write": 10,
-			"Speak": 10,
-			"Understand": 10,
+			"Level": 6,
+			"Read": 6,
+			"Write": 6,
+			"Speak": 6,
+			"Understand": 6,
 			"MoreInfo": "Fluent"
 		},
 		{
 			"Title": "German",
-			"Level": 10,
-			"Read": 10,
-			"Write": 10,
-			"Speak": 10,
-			"Understand": 10,
+			"Level": 3,
+			"Read": 6,
+			"Write": 6,
+			"Speak": 4,
+			"Understand": 4,
 			"MoreInfo": "Good Knowledge"
 		},
 		{
 			"Title": "Telugu",
-			"Level": 10,
-			"Read": 10,
-			"Write": 10,
-			"Speak": 10,
-			"Understand": 10,
+			"Level": 6,
+			"Read": 6,
+			"Write": 6,
+			"Speak": 6,
+			"Understand": 6,
 			"MoreInfo": "First language"
 		},
 		{
 			"Title": "Hindi",
-			"Level": 10,
-			"Read": 10,
-			"Write": 10,
-			"Speak": 10,
-			"Understand": 10,
+			"Level": 4,
+			"Read": 6,
+			"Write": 6,
+			"Speak": 4,
+			"Understand": 4,
 			"MoreInfo": "Good Knowledge"
 		}
-	],
+	],	
 	"MessageData" :{
 		"ShortMsg":"PHP Developer by Profession <br>and<br/> Go Learner by Passion",
 		"ToRecruiters": "Please do not ask me to change my profile to fit the job description, contact me only when the job description fits my profile.",
@@ -671,7 +557,8 @@
 		"ToOthers": "",
 		"LongMsg":"<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p><p><ul><li>Phasellus viverra nulla ut metus varius laoreet.</li><li> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</li><li> Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.</li><li> sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</li></ul></p>",
 		"FooterMessage":"I can be reached by email via {{email}} or by mobile on {{mobile}}",
-		"Disclaimer": ""
+		"Objective":"<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated</p>"
+		
 	},
 	"SystemData" :{
 		"DateAccessed": 20160402,
@@ -894,6 +781,14 @@
 
 
 	"IMPRINT_DISCLAIMER":"Disclaimer",
-	"IMPRINT_DISCLAIMER_MSG":"The information contained in this website is for general information purposes only. The information is provided by this website and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.<br><br>Every effort is made to keep the website up and running smoothly. However, we takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control."
+	"IMPRINT_DISCLAIMER_MSG":"The information contained in this website is for general information purposes only. The information is provided by this website and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.<br><br>Every effort is made to keep the website up and running smoothly. However, we takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.",
 
+
+
+	"STAR_6": "<i class='fa fa-asterisk text-success' aria-hidden=true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i>",
+	"STAR_5": "<i class='fa fa-asterisk text-success' aria-hidden=true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk' aria-hidden=true'></i>",
+	"STAR_4": "<i class='fa fa-asterisk text-success' aria-hidden=true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i>",
+	"STAR_3": "<i class='fa fa-asterisk text-success' aria-hidden=true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i>",
+	"STAR_2": "<i class='fa fa-asterisk text-success' aria-hidden=true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i>",
+	"STAR_1": "<i class='fa fa-asterisk text-success' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i>"
 }
