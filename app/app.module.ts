@@ -20,9 +20,9 @@ import {TranslateModule} from 'ng2-translate/ng2-translate';
       BrowserModule, 
       routing,
       HttpModule,
-        TranslateModule.forRoot()
+      TranslateModule.forRoot()
    ],
   declarations: [ AppComponent, HomeComponent, AboutComponent, ProfileComponent, ContactComponent ],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent  ]
 })
 export class AppModule { }

@@ -5,8 +5,8 @@ import {TranslateService} from 'ng2-translate/ng2-translate';
 var themeName = 'theme3';
 
 @Component({
-  selector: 'my-app',
-  templateUrl: '../themes/' + themeName +'/theme.tpl.html',
+    selector: 'my-app',
+    templateUrl: '../themes/' + themeName +'/theme.tpl.html',
 })
 export class AppComponent implements OnInit { 
 	public langList = [];
@@ -17,20 +17,15 @@ export class AppComponent implements OnInit {
         translate.use('de');
     }
 
-
     ngOnInit(){
     	this.langList = [
     		{lang:'en', 'flag':'en.gif' },
     		{lang:'de', 'flag':'de.gif' }
     	];
 
-        //this.profile = this.translate.get('Profile' , interpolateParams?: Object);
-
-
         this.translate.get('Profile').subscribe((res: string) => {
              this.profile = res;
         });
-
     }
 
     onLangChange(val){
@@ -38,7 +33,6 @@ export class AppComponent implements OnInit {
         this.translate.get('Profile').subscribe((res: string) => {
              this.profile = res;
         });
-
     }
 
 }

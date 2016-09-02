@@ -17,7 +17,7 @@
 
 	"IMPRINT_PAGE_TITLE":"Impressum",
 
-	"ABOUT_PAGE_TEXT1_HEAD":"Herzlich Willkommen",
+	"ABOUT_PAGE_TEXT1_HEAD":"Über mich",
 
 	"CONTACT_PAGE_HEAD":"Kontakt",
 
@@ -27,7 +27,8 @@
 		"Email": "E-Mail",
 		"Website": "Website",
 		"Address": "Address",
-		"Language Skills": "Language Skills"
+		"Language Skills": "Sprachliche Fähigkeiten",
+		"Professional Skills": "Berufliche Fähigkeiten"
 	},
 
 
@@ -51,7 +52,7 @@
 		},
 	
 		"SocialNetworksData" : [
-	    	{"NetworkType": "Profile", "Title": "Profile", "Link":"https://www.xing.com/profile/GaneshKumar_Butcha/cv", "Description":"Xing", "CSS":"fa fa-xing" },
+	    	{"NetworkType": "Profile", "Title": "Profil", "Link":"https://www.xing.com/profile/GaneshKumar_Butcha/cv", "Description":"Xing", "CSS":"fa fa-xing" },
 	    	{"NetworkType": "Profile", "Title": "gkbatchu", "Link":"https://www.linkedin.com/in/gkbatchu", "Description":"Linkedin", "CSS":"fa fa-linkedin" },
 	    	{"NetworkType": "Messaging", "Title": "ganesh35", "Link":"https://twitter.com/ganesh35", "Description":"Twitter", "CSS":"fa fa-twitter" },
 	        {"NetworkType": "Chat", "Title": "ganesh35", "Link":"", "Description":"Google hangout" , "CSS":"fa fa-google-plus"},
@@ -59,7 +60,7 @@
 	        {"NetworkType": "Web", "Title": "ganesh.batchu.org", "Link":"http://ganesh.batchu.org", "Description":"Personal website" , "CSS":"fa fa-link"},
 	        {"NetworkType": "DevTools", "Title": "ganesh35", "Link":"https://github.com/ganesh35", "Description":"Github repository" , "CSS":"fa fa-github"},
 	        {"NetworkType": "Youtube Channel", "Title": "GoLang", "Link":"https://www.youtube.com/channel/UCi9Is8R72kWw7nvWtY7Pn3A", "Description":"How to videos on Golang Web Applications" , "CSS":"fa fa-youtube"},
-	        {"NetworkType": "Youtube Channel", "Title": "PHP Development", "Link":"https://www.youtube.com/user/idolator35", "Description":"Building a RESTful web services platform using Joomla Framework and other PHP development videos" , "CSS":"fa fa-youtube"},
+	        {"NetworkType": "Youtube Channel", "Title": "PHP-Entwickler", "Link":"https://www.youtube.com/user/idolator35", "Description":"Building a RESTful web services platform using Joomla Framework and other PHP development videos" , "CSS":"fa fa-youtube"},
 	        {"NetworkType": "Youtube Channel", "Title": "Mediadoxx", "Link":"https://www.youtube.com/user/Mediadoxx", "Description":"Videos related to projects of Mediadoxx" , "CSS":"fa fa-youtube"}
 	    ],
 
@@ -670,7 +671,7 @@
 		"ToFriends": "",
 		"ToCompanies": "",
 		"ToOthers": "",
-		"LongMsg":"<p>Looking for a challenging <strong>Web Developer</strong> position in an environment requiring a diverse array of technical skills<br> I have Several years of experience in Web Development, Support and Linux system administration</p><ul><li>7 Years of hands on experience in PHP Development, which include various frameworks</li><li>5 Years of experience in Linux administration and Server Virtualization.</li><li>Hands on experience in OpenVZ / Virtuozzo Server Virtualization.</li><li>Flexible to handle any role.</li><li>Experienced in Software test life cycle and  Worked in Waterfall, V-Model, Scrum Agile</li><li>Knowledge in Test life cycle from Test planning to defect tracking and managing defect life-cycle.</li></ul>",
+		"LongMsg":"<p>Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude.</p><p>Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können. </p><ul><li>Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengender körperlicher Betätigung.</li><li>Außer um Vorteile daraus zu ziehen? Aber wer hat irgend ein Recht</li><li>einen Menschen zu tadeln, der die Entscheidung trifft, eine Freude zu genießen</li><li>Die keine unangenehmen Folgen hat, oder einen, der Schmerz vermeidet, welcher keine daraus resultierende Freude nach sich zieht?</li></ul></p>",
 		"FooterMessage":"I can be reached by email via {{email}} or by mobile on {{mobile}}"
 	},
 	"SystemData" :{
@@ -886,5 +887,7 @@
 
 
 
-	}	
+	},
+		"IMPRINT_DISCLAIMER":"Haftungshinweis",
+		"IMPRINT_DISCLAIMER_MSG":"Trotz sorgfältiger inhaltlicher Kontrolle können wir keine Haftung für die Inhalte externer Links übernehmen. Für den Inhalt der verlinkten Webseiten sind ausschließich deren Betreiber verantwortlich."
 }

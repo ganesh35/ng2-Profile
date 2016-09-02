@@ -9,14 +9,14 @@
         <h1 class="text-md-center">
           <hr/>
             <a href="home">
-              {{profile?.PersonalData?.DisplayName }}<br/>
+            {{'Profile.PersonalData.DisplayName' | translate }}<br/>
             </a>
             <small>{{profile?.PersonalData?.DisplayProfession }}</small>
          
         </h1>
 
-            <p class="text-md-center">
-            <span *ngFor="let item of profile?.SocialNetworksData" class="nav nav-inline">
+            <p class="text-md-center" *ngIf="'Profile.SocialNetworksData' | translate">
+            <span *ngFor="let item of 'Profile.SocialNetworksData' | translate" class="nav nav-inline">
                 <a class="btn btn-sm btn-danger" target="_BLANK" href="{{item.Link}}" title="{{item.Title}}"> <span class="{{item.CSS}}" > </span></a> &nbsp; &nbsp; &nbsp; 
             </span>
             </p>
@@ -53,16 +53,16 @@
     </div> <!--    Left bar /  -->
     <div class="col-md-3"> <!--    Right bar  -->
 
-        <div class="card" *ngIf="profile?.MessageData?.ShortMsg">   <!-- MessageData.ShortMsg data -->
+        <div class="card" *ngIf="'Profile.MessageData.ShortMsg' | translate">   <!-- MessageData.ShortMsg data -->
             <div class="card-block">
-                <p class="card-title text-md-center" style="font-size: 130%;" [innerHTML]="profile?.MessageData?.ShortMsg"  ></p>
+                <p class="card-title text-md-center" style="font-size: 130%;" [innerHTML]="'Profile.MessageData.ShortMsg' | translate"  ></p>
             </div>
         </div>                                                         <!-- MessageData.ShortMsg data / -->
 
 
-        <div class="card" *ngIf="profile?.SkillData">    <!-- Skills data -->
+        <div class="card" *ngIf="'Profile.SkillData' | translate">    <!-- Skills data -->
             <div class="card-block">
-             <h4 class="card-title"> {{'ProfilePage.Language Skills' | translate }}</h4>
+             <h4 class="card-title"> {{'ProfilePage.Professional Skills' | translate }}</h4>
             <span *ngFor="let item of profile.SkillData[0].SkillItems">
                 <div class="row">
                     <div class="col-md-4"><strong>{{item.Title}}</strong></div>
@@ -72,10 +72,10 @@
             </div>
         </div>                                              <!-- Skills data / -->
 
-        <div class="card" *ngIf="profile?.LanguageData">    <!-- Language data -->
+        <div class="card" *ngIf="'Profile.LanguageData' | translate">    <!-- Language data -->
             <div class="card-block">
              <h4 class="card-title"> {{'ProfilePage.Language Skills' | translate }}</h4>
-            <span *ngFor="let item of profile?.LanguageData">
+            <span *ngFor="let item of 'Profile.LanguageData' | translate">
                 <div class="row">
                     <div class="col-md-4"><strong>{{item.Title}}</strong></div>
                     <div class="col-md-8">{{item.MoreInfo}}</div>
@@ -111,6 +111,7 @@
     <hr/>
     <!-- Site footer -->
     <footer class="footer">
+
         <div class="row">
             <div class="col-xs-6 col-md-6">{{'FOOTER_TEXT' | translate}}</div>
             <div class="col-xs-12 col-sm-6 col-md-6 ">
@@ -133,5 +134,11 @@
 
         <p></p>    
     </footer>
+
+        <small>
+        <strong>{{'IMPRINT_DISCLAIMER' | translate}}</strong> :
+        <span class=""  [innerHTML]="'IMPRINT_DISCLAIMER_MSG' | translate"  ></span> 
+        </small>
+
 
 </div> <!-- /container -->

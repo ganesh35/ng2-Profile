@@ -17,7 +17,7 @@
 
 	"IMPRINT_PAGE_TITLE":"Imprint",
 
-	"ABOUT_PAGE_TEXT1_HEAD":"Welcome",
+	"ABOUT_PAGE_TEXT1_HEAD":"About me",
 
 	"CONTACT_PAGE_HEAD":"Contact us",
 	
@@ -26,7 +26,8 @@
 		"Email": "E-Mail",
 		"Website": "Website",
 		"Address": "Address",
-		"Language Skills": "Language Skills"
+		"Language Skills": "Language Skills",
+		"Professional Skills": "Professional Skills"
 	},
 
 	"Profile" : {
@@ -668,8 +669,9 @@
 		"ToFriends": "",
 		"ToCompanies": "",
 		"ToOthers": "",
-		"LongMsg":"<p>Looking for a challenging <strong>Web Developer</strong> position in an environment requiring a diverse array of technical skills<br> I have Several years of experience in Web Development, Support and Linux system administration</p><ul><li>7 Years of hands on experience in PHP Development, which include various frameworks</li><li>5 Years of experience in Linux administration and Server Virtualization.</li><li>Hands on experience in OpenVZ / Virtuozzo Server Virtualization.</li><li>Flexible to handle any role.</li><li>Experienced in Software test life cycle and  Worked in Waterfall, V-Model, Scrum Agile</li><li>Knowledge in Test life cycle from Test planning to defect tracking and managing defect life-cycle.</li></ul>",
-		"FooterMessage":"I can be reached by email via {{email}} or by mobile on {{mobile}}"
+		"LongMsg":"<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p><p><ul><li>Phasellus viverra nulla ut metus varius laoreet.</li><li> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</li><li> Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.</li><li> sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</li></ul></p>",
+		"FooterMessage":"I can be reached by email via {{email}} or by mobile on {{mobile}}",
+		"Disclaimer": ""
 	},
 	"SystemData" :{
 		"DateAccessed": 20160402,
@@ -886,7 +888,12 @@
 
 
 
-	}	
+	},
 
+
+
+
+	"IMPRINT_DISCLAIMER":"Disclaimer",
+	"IMPRINT_DISCLAIMER_MSG":"The information contained in this website is for general information purposes only. The information is provided by this website and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.<br><br>Every effort is made to keep the website up and running smoothly. However, we takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control."
 
 }
