@@ -16,15 +16,21 @@ import {TranslateModule} from 'ng2-translate/ng2-translate';
 
 
 import { StarRatingPipe } from './pipes/starrating.pipe';
+import { SanitizeHTML } from './pipes/sanitizeHTML.pipe';
+
+
+import { FormsModule }   from '@angular/forms';
+
 
 @NgModule({
   imports:      [ 
       BrowserModule, 
       routing,
       HttpModule,
-      TranslateModule.forRoot()
+      TranslateModule.forRoot(),
+      FormsModule
    ],
-  declarations: [ AppComponent, HomeComponent, AboutComponent, ProfileComponent, ContactComponent, StarRatingPipe ],
+  declarations: [ AppComponent, HomeComponent, AboutComponent, ProfileComponent, ContactComponent, StarRatingPipe, SanitizeHTML ],
   bootstrap:    [ AppComponent  ]
 })
 export class AppModule { }

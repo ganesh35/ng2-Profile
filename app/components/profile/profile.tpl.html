@@ -1,72 +1,100 @@
 <div class="row">
     <div class="col-md-9"> <!--    Left bar  -->
-        <div class="box" style="">
 
 
-
+        <div class="card" *ngIf="'Profile.MessageData.Objective' | translate">   <!-- MessageData.ShortMsg data -->
+            <div class="card-block">
+                <h4 class="card-title" [innerHTML]="'ProfilePage.My Objective' | translate"></h4>
+                <hr/>
+                <div class="card-text" [innerHTML]="'Profile.MessageData.Objective' | translate"  ></div>
+            </div>
+        </div>  
 
     <!--    Educational details  -->
-
-
-    <h1 [innerHTML]="'Profile.EducationalData_Title' | translate"></h1>
-    <p [innerHTML]="'Profile.EducationalData_Description' | translate"></p>
-    <hr/>
-    <span *ngIf="'Profile.EducationalData' | translate ">
-        <span *ngFor="let item of 'Profile.EducationalData' | translate ">
-
-
-
-
-
-            <div class="row">
-          
-            <div class="col-md-8">
-              <h4> <strong>{{item.Degree}}</strong> <small>@{{item.Institution}}</small></h4>
-              <strong>{{'Profile.EducationtionalData_FieldOfStudy' | translate}}</strong> : {{item.FieldOfStudy}}<br/>
-              {{item.Description}}          
+        <div class="card" *ngIf="'Profile.EducationalData' | translate">   <!-- MessageData.ShortMsg data -->
+            <div class="card-block">
+                <h4 class="card-title" [innerHTML]="'Profile.EducationalData_Title' | translate"></h4>
+                <div class="card-text" *ngIf="'Profile.EducationalData' | translate "  >
+                    <span *ngFor="let item of 'Profile.EducationalData' | translate ">
+                        <hr/>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h4> <strong>{{item.Degree}}</strong> <small>@{{item.Institution}}</small></h4>
+                                <strong>{{'Profile.EducationtionalData_FieldOfStudy' | translate}}</strong> : {{item.FieldOfStudy}}<br/>
+                                <p [innerHTML]="item.Description"></p>
+                            </div>
+                            <div class="col-md-4"><p class="text-md-right" style="font-size: 110%;"><i class="fa fa-calendar"></i> {{item.DateFrom }} -  {{item.DateTo}}</p></div>
+                        </div>
+                    </span>
+                </div>
             </div>
-            <div class="col-md-4"><p class="text-md-right" style="font-size: 110%;"><i class="fa fa-calendar"></i> {{item.DateFrom }} -  {{item.DateTo}}</p></div>
-          </div>
+        </div>  
+        <!--    Educational details / -->
 
-            <hr/>
-        </span>
-    </span>
+        <!--    Experience details  -->
+        <div class="card" *ngIf="'Profile.ExperienceData' | translate">   <!-- MessageData.ShortMsg data -->
+            <div class="card-block">
+                <h4 class="card-title" [innerHTML]="'Profile.ExperienceData_Title' | translate"></h4>
+                <div class="card-text" *ngIf="'Profile.ExperienceData' | translate "  >
+                    <span *ngFor="let item of 'Profile.ExperienceData' | translate; let i = index; ">
+                        <hr/>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h4> <strong>{{item.Role}}</strong> <small>@{{item.Company}}</small></h4>
+                                <p *ngIf="item?.ShortDescription" [innerHTML]="item.ShortDescription"></p>
+                                <button class="btn btn-link btn-sm" type="button" data-toggle="collapse" attr.data-target="#exp{{i}}" attr.aria-expanded="false" [attr.data-controls]="'exp' + i">
+                                    <i class="fa fa-angle-down"></i> {{"MORE_INFO" | translate}}
+                                </button>
+                            </div>
+                            <div class="col-md-4"><p class="text-md-right" style="font-size: 110%;"><i class="fa fa-calendar"></i> {{item.DateFrom }} -  {{item.DateTo}}</p></div>
+                        </div>
 
-    
+                        <div class="collapse" id="exp{{i}}">  <!-- Collapsable content for {{item?.DateTo}} -->
+                            <div class="card card-block">
+                                <dl class="dl-horizontal">
+                                    <dt class="col-md-3">{{"Location" | translate}}</dt><dd class="col-md-9">{{item.Location}}</dd>
+                                    <dt class="col-md-3">{{"Industry" | translate}}</dt><dd class="col-md-9">{{item.Industry}}</dd>
+                                    <dt class="col-md-3">{{"Type of organisation" | translate}}</dt><dd class="col-md-9">{{item.LegalForm}}</dd>
+                                    <dt class="col-md-3">{{"Employment" | translate}}</dt><dd class="col-md-9">{{item.EmploymentType}}</dd>
+                                    <dt class="col-md-3">{{"Discipline" | translate}}</dt><dd class="col-md-9">{{item.Discipline}}</dd>
+                                    <dt class="col-md-3">{{"Career Level" | translate}}</dt><dd class="col-md-9">{{item.CareerLevel}}</dd>
+                                    <dt class="col-md-3">{{"Url" | translate}}</dt><dd class="col-md-9"><a href="{{item.Url}}" target="_BLANK">{{item.Company}}</a></dd>
+                                </dl>
 
-    <!--    Educational details / -->
+                                <a *ngIf="item.Image" href="{{item.Url}}" target="_BLANK" title="{{item.Title}}">
+                                    <img class="img-fluid" src="images/{{item.Image}}" alt="{{item.Title}}" title="{{item.Title}}">
+                                </a>
 
-
-
-    <!--    Experience details  -->
-    <h1 [innerHTML]="'Profile.EducationalData_Title' | translate"></h1>
-    <p [innerHTML]="'Profile.EducationalData_Description' | translate"></p>
-    <hr/>
-    <span *ngIf="'Profile.EducationalData' | translate ">
-        <span *ngFor="let item of 'Profile.EducationalData' | translate ">
-
-
-
-
-
-            <div class="row">
-          
-            <div class="col-md-8">
-              <h4> <strong>{{item.Degree}}</strong> <small>@{{item.Institution}}</small></h4>
-              <strong>{{'Profile.EducationtionalData_FieldOfStudy' | translate}}</strong> : {{item.FieldOfStudy}}<br/>
-              {{item.Description}}          
+                                <p *ngIf="item?.Description" [innerHTML]="item.Description"></p>
+                            </div>
+                        </div> <!-- Collapsable content for {{item?.DateTo}} /-->
+                    </span>
+                </div>
             </div>
-            <div class="col-md-4"><p class="text-md-right" style="font-size: 110%;"><i class="fa fa-calendar"></i> {{item.DateFrom }} -  {{item.DateTo}}</p></div>
-          </div>
+        </div>          
+        <!--    Experience details  /-->
 
-            <hr/>
-        </span>
-    </span>
-    <!--   Experience details / -->
+        <!--    Certification details  -->
+        <div class="card" *ngIf="'Profile.CertificationData' | translate">   <!-- MessageData.ShortMsg data -->
+            <div class="card-block">
+                <h4 class="card-title" [innerHTML]="'Profile.CertificationData_Title' | translate"></h4>
+                <div class="card-text" *ngIf="'Profile.CertificationData' | translate "  >
+                    <span *ngFor="let item of 'Profile.CertificationData' | translate ">
+                        <hr/>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h4> <strong>{{item.Degree}}</strong> <small>@{{item.Institution}}</small></h4>
+                                <p [innerHTML]="item.Description"></p>
+                            </div>
+                            <div class="col-md-4"><p class="text-md-right" style="font-size: 110%;"><i class="fa fa-calendar"></i> {{item.DateFrom }} -  {{item.DateTo}}</p></div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>  
+        <!--    Certification details  /-->
 
-
-
-        </div>
+     
     </div> <!--    Left bar /  -->
 
 
@@ -79,18 +107,59 @@
                 <h4 class="card-title text-md-center" [innerHTML]="'Profile.MessageData.ShortMsg' | translate"  ></h4>
             </div>
         </div>                                                         <!-- MessageData.ShortMsg data / -->
-        <div class="card" *ngIf="'Profile.MessageData.Objective' | translate">   <!-- MessageData.ShortMsg data -->
+   
+        <div class="card" *ngIf="'Profile.PersonalData' | translate">   <!-- PersonalData -->
             <div class="card-block">
-                <h4 class="card-title" [innerHTML]="'ProfilePage.My Objective' | translate"></h4>
-                <div class="card-text" [innerHTML]="'Profile.MessageData.Objective' | translate"  ></div>
+                <h4 class="card-title" [innerHTML]="'Profile.PersonalData_Title' | translate"  ></h4>
+                <div class="card-text">
+                    <small *ngIf="'Profile.PersonalData.DisplayName' | translate">
+                        <div class="row">
+                            <div class="col-md-5"><strong>{{'Profile.PersonalData_DisplayName' | translate}}</strong></div>
+                            <div class="col-md-7 pull-right" >{{'Profile.PersonalData.DisplayName' | translate}}</div>
+                        </div>
+                    </small>
+                    <small *ngIf="'Profile.PersonalData.Nationality' | translate">
+                        <div class="row">
+                            <div class="col-md-5"><strong>{{'Profile.PersonalData_Nationality' | translate}}</strong></div>
+                            <div class="col-md-7 pull-right" >{{'Profile.PersonalData.Nationality' | translate}}</div>
+                        </div>
+                    </small>
+
+                    <small *ngIf="'Profile.PersonalData.AddressHome' | translate">
+                        <div class="row">
+                            <div class="col-md-5"><strong>{{'Profile.PersonalData_Address' | translate}}</strong></div>
+                            <div class="col-md-7 pull-right" >
+                                {{'Profile.PersonalData.AddressHome.Addr1' | translate}}, {{'Profile.PersonalData.AddressHome.Addr2' | translate}}<br/>
+                                {{'Profile.PersonalData.AddressHome.Postcode' | translate}}, {{'Profile.PersonalData.AddressHome.City' | translate}}<br/>
+                                {{'Profile.PersonalData.AddressHome.Country' | translate}}
+                            </div>
+                        </div>
+                    </small>
+
+                    <small *ngIf="'Profile.PersonalData.Experience' | translate">
+                        <div class="row">
+                            <div class="col-md-5"><strong>{{'Profile.PersonalData_Experience' | translate}}</strong></div>
+                            <div class="col-md-7 pull-right" >{{'Profile.PersonalData.Experience' | translate}}</div>
+                        </div>
+                    </small>
+
+
+                    <small *ngIf="'Profile.PersonalData.Availability' | translate">
+                        <div class="row">
+                            <div class="col-md-5"><strong>{{'Profile.PersonalData_Availability' | translate}}</strong></div>
+                            <div class="col-md-7 pull-right" >{{'Profile.PersonalData.Availability' | translate}}</div>
+                        </div>
+                    </small>
+
+                </div>                
             </div>
-        </div>     
+        </div>                                                         <!-- PersonalData  / -->
+   
 
         <div class="card" *ngIf="'Profile.ProfessionalSkills' | translate">    <!-- Skills data -->
             <div class="card-block">
              <h4 class="card-title" [innerHTML]="'Profile.ProfessionalSkills_Title' | translate"></h4>
             <small *ngFor="let item of 'Profile.ProfessionalSkills' | translate ">
-
               <div class="row">
                 <div class="col-md-6"><strong>{{item.Title}} </strong></div>
                 <div class="col-md-6 pull-right">
@@ -98,7 +167,6 @@
                </div>
               </div>
               </small>
-
             </div>
         </div>                                              <!-- Skills data / -->
 
@@ -117,6 +185,32 @@
 
 
 
-    </div>  <!--    Right bar /  -->
 
+        <div class="card" *ngIf="'Profile.PersonalSkills' | translate">    <!-- PersonalSkills -->
+            <div class="card-block">
+             <h4 class="card-title" [innerHTML]="'Profile.PersonalSkills_Title' | translate"></h4>
+            <small *ngFor="let item of 'Profile.PersonalSkills' | translate">
+
+                <div class="row">
+                    <div class="col-md-6"><strong>{{item.Title}}</strong></div>
+                    <div class="col-md-6 pull-right" ><span [outerHTML]="item.Level | starRating "  ></span></div>
+                </div>
+            </small>
+            </div>
+        </div>                                              <!-- PersonalSkills / -->
+
+
+        <div class="card" *ngIf="'Profile.TechnicalSkills' | translate">    <!-- TechnicalSkills -->
+            <div class="card-block">
+             <h4 class="card-title" [innerHTML]="'Profile.TechnicalSkills_Title' | translate"></h4>
+            <small *ngFor="let item of 'Profile.TechnicalSkills' | translate">
+
+                <div class="row">
+                    <div class="col-md-6"><strong>{{item.Title}}</strong></div>
+                    <div class="col-md-6 pull-right" ><span [outerHTML]="item.Level | starRating "  ></span></div>
+                </div>
+            </small>
+            </div>
+        </div>                                              <!-- TechnicalSkills / -->
+    </div>  <!--    Right bar /  -->
 </div>

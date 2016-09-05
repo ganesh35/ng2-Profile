@@ -4,6 +4,7 @@
 	"de-DE": "Deutsch",
 	"PREVIOUS": "Previous",
 	"NEXT": "Next",
+	"MORE_INFO":"More ...",
 
 	"LOGO_TEXT":"Buchman, L.",
 	"LOGO_CAPTION":"My profile website",
@@ -14,13 +15,11 @@
 	"MENU_ITEM_CONTACT": "Contact",
 	"MENU_ITEM_IMPRINT": "Imprint",
 	"MENU_ITEM_PROFILE": "Profile",
-
 	"IMPRINT_PAGE_TITLE":"Imprint",
-
 	"ABOUT_PAGE_TEXT1_HEAD":"About me",
-
 	"CONTACT_PAGE_HEAD":"Contact us",
-	
+	"CONTACT_PAGE_MSG":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laboro autem non sine causa; Sullae consulatum? Nunc agendum est subtilius. <b>Praeclarae mortes sunt imperatoriae;</b> </p><ul><li>Non autem hoc: igitur ne illud quidem.</li><li>Duo Reges: constructio interrete.</li><li>Quis suae urbis conservatorem Codrum, quis Erechthei filias non maxime laudat?</li></ul><ol><li>Tu quidem reddes;</li><li>Si quicquam extra virtutem habeatur in bonis.</li></ol>",
+
 	"ProfilePage":{
 		"Mobile": "Mobile",
 		"Email": "E-Mail",
@@ -30,34 +29,38 @@
 	},
 
 	"Profile" : {
+		"PersonalData_Title" :"<i class='fa fa-user'></i> About me",
+		"PersonalData_DisplayName" : "Name",
+		"PersonalData_Nationality" : "Nationality",
+		"PersonalData_Address" : "Location",
+		"PersonalData_Experience" : "Experience",
+		"PersonalData_Availability" : "Availability",
+		"PersonalData_CurrentStatus" : "Current Status",
 		"PersonalData" :{
-			"Title": "Mr.",
-			"FirstName" : "Laxman",
-	        "MiddleName" : "",
-	        "LastName" : "Buchman",
 	        "DisplayName": "Buchman K. Laxman",
 	        "DisplayProfession": "Web Developer",
 	        "DisplayCaption" : "Love to do Angular 2",
+	        "Nationality": "Living Rock",
+	        "Experience": "8 Years",
+	        "Availability": "Part-time/Full-time",
 	        "CurrentStatus": "Seeking employment",
 	        "WebURL":"http://www.my-personal.cv",
 	        "Mobile": "+0099 123 123 123",
 	        "Phone": "+0099 123 123 123",
-	        "EmailWork": "buchman.l@workplace.com",
-	        "EmailPersonal": "buchman.l@personaldata.info",
-	        "AddressHome": {"Addr1" : "My home street", "Addr2" : "999.3", "Postcode" : "999000", "City" : "MyCity", "State" : "MyState", "Country" : "Nomans City" },
-	        "AddressWork": {"Addr1" : "My office street", "Addr2" : "003.3", "Postcode" : "999000", "City" : "Office City", "State" : "", "Country" : "Nowhere2Go?" }
+	        "EmailWork": "buchman.l@my-workplace.com",
+	        "EmailPersonal": "buchman.l@my-personaldata.info",
+	        "AddressHome": {"Addr1" : "My home street", "Addr2" : "999", "Postcode" : "999000", "City" : "MyCity", "State" : "MyState", "Country" : "Nomans City" },
+	        "AddressWork": {"Addr1" : "My office street", "Addr2" : "103", "Postcode" : "999000", "City" : "Office City", "State" : "", "Country" : "Nowhere2Go?" }
 		},
 		"SocialNetworksData" : [
-	    	{"NetworkType": "Profile", "Title": "Profile", "Link":"https://www.xing.com/profile/GaneshKumar_Butcha/cv", "Description":"Xing", "CSS":"fa fa-xing" },
-	    	{"NetworkType": "Profile", "Title": "gkbatchu", "Link":"https://www.linkedin.com/in/gkbatchu", "Description":"Linkedin", "CSS":"fa fa-linkedin" },
-	    	{"NetworkType": "Messaging", "Title": "ganesh35", "Link":"https://twitter.com/ganesh35", "Description":"Twitter", "CSS":"fa fa-twitter" },
-	        {"NetworkType": "Chat", "Title": "ganesh35", "Link":"", "Description":"Google hangout" , "CSS":"fa fa-google-plus"},
-	        {"NetworkType": "Chat", "Title": "ganesh343@outlook.com", "Link":"", "Description":"Skype" , "CSS":"fa fa-skype"},
-	        {"NetworkType": "Web", "Title": "ganesh.batchu.org", "Link":"http://ganesh.batchu.org", "Description":"Personal website" , "CSS":"fa fa-link"},
+	    	{"NetworkType": "Profile", "Title": "Xing", "Link":"https://www.xing.com", "Description":"Xing", "CSS":"fa fa-xing" },
+	    	{"NetworkType": "Profile", "Title": "LinkedIn", "Link":"https://www.linkedin.com", "Description":"Linkedin", "CSS":"fa fa-linkedin" },
+	    	{"NetworkType": "Messaging", "Title": "Tweet", "Link":"https://twitter.com", "Description":"Twitter", "CSS":"fa fa-twitter" },
+	        {"NetworkType": "Chat", "Title": "Googleme", "Link":"", "Description":"Google hangout" , "CSS":"fa fa-google-plus"},
+	        {"NetworkType": "Chat", "Title": "mySkype", "Link":"", "Description":"Skype" , "CSS":"fa fa-skype"},
+	        {"NetworkType": "Web", "Title": "my.personal.web", "Link":"https://github.com/ganesh35/ngProfile", "Description":"Personal website" , "CSS":"fa fa-link"},
 	        {"NetworkType": "DevTools", "Title": "ganesh35", "Link":"https://github.com/ganesh35", "Description":"Github repository" , "CSS":"fa fa-github"},
-	        {"NetworkType": "Youtube Channel", "Title": "GoLang", "Link":"https://www.youtube.com/channel/UCi9Is8R72kWw7nvWtY7Pn3A", "Description":"How to videos on Golang Web Applications" , "CSS":"fa fa-youtube"},
-	        {"NetworkType": "Youtube Channel", "Title": "PHP Development", "Link":"https://www.youtube.com/user/idolator35", "Description":"Building a RESTful web services platform using Joomla Framework and other PHP development videos" , "CSS":"fa fa-youtube"},
-	        {"NetworkType": "Youtube Channel", "Title": "Mediadoxx", "Link":"https://www.youtube.com/user/Mediadoxx", "Description":"Videos related to projects of Mediadoxx" , "CSS":"fa fa-youtube"}
+	        {"NetworkType": "Youtube Channel", "Title": "GoLang", "Link":"https://www.youtube.com/channel/UCi9Is8R72kWw7nvWtY7Pn3A", "Description":"How to videos on Golang Web Applications" , "CSS":"fa fa-youtube"}
 	    ],
 
 		"EducationalData_Title": "<i class='fa fa-graduation-cap'></i> Education",
@@ -70,7 +73,7 @@
 				"Degree": "Master of Business Applications",
 				"DateFrom": "July 2001",
 				"DateTo": "March 2003",
-				"Description": "Major in Information Technology"
+				"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
 			},
 			{
 				"Institution": "Some other University, Other City, yCountry",
@@ -78,336 +81,68 @@
 				"Degree": "Bachelor of Commerce",
 				"DateFrom": "July 1996",
 				"DateTo": "May 2001",
-				"Description": "Commerce, Accountancy, Taxation and Business Management"
+				"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
 			}
 		],
-	"CertificationData" :[
-		{
-			"Institution": "APEL, Visakhapatnam, India",
-			"Degree": "Post Graduate Diploma in Computer Applications",
-			"DateFrom": 200004,
-			"DateTo": 200103,
-			"Description": "Subjects learned: Computer Concepts, BASIC, Wordstar, Lotus, DBase, COBOL, Unix, C and C++"
-		},
-		{
-			"Institution": "Allgemeiner Studierendenausschuss der Heinrich-Heine-Universtät, Dusseldorf, Germany",
-			"Degree": "Deutsch als Fremdsprache B1",
-			"DateFrom": 201411,
-			"DateTo": 201503,
-			"Description": "http://asta.uni-dusseldorf.de"
-		}			
-	],
+
+		"CertificationData_Title": "<i class='fa fa-certificate'></i> Certifications",
+		"CertificationData_Description": "Awards and Certifications",
+		"CertificationData_FieldOfStudy": "Field of study",
+		"CertificationData" :[
+			{
+				"Institution": "University of Mars Adventures",
+				"Degree": "Certified Mars Explorer",
+				"DateFrom": "April, 2000",
+				"DateTo": "March 2001",
+				"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+			},
+			{
+				"Institution": "Academy of Software Sciences",
+				"Degree": "Post Graduate Diploma in Computer Applications",
+				"DateFrom": "Jan, 2000",
+				"DateTo": "March 2000",
+				"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+			}
+		],
+	"ExperienceData_Title" :"<i class='fa fa-briefcase'></i> Professional Experience",
+	"ExperienceData_Description" :"History of Employments and Internships",
 	"ExperienceData" :[
 		{
 			"Role": "PHP Developer",
-			"Company": "Mediadoxx GmbH",
-			"Location": "Dusseldorf, Germany",
-			"DateFrom": 201008,
-			"DateTo": 201603,
+			"Company": "BlueMoon Company",
+			"Location": "MoonCity, MoonLand",
+			"DateFrom": "March 2008",
+			"DateTo": "March 2016",
 			"EmploymentType": "Board member",
 			"CareerLevel": "Professional/Experienced",
 			"Discipline": "IT & Software Development",
 			"Industry": "Internet and IT",
 			"LegalForm": "Privately held company",
 			"Employees": "1-10 employees",
-			"ShortDescription":"<ul><li>Managed a team in-house and offshore programmers</li><li>Managed in-house product design, development, maintenace and Testing.</li></ul>",
-			"Description": "<p>Co-Founder and PHP Developer of Mediadoxx GmbH and helped develop it into a well-respected brand within the small business community.</p><p>Major contribution goes into the Design, Development and co-ordination of the In-House Projects</p>",
-			"Url": "http://md.batchu.org/",
-			"Image": "mediadoxx.png",
-			"Primary" : true,
-			"Projects": [
-				{
-					"Title": "art-of-hair-dusseldorf.de",
-					"DateFrom": 201607,
-					"DateTo": 201607,
-					"Role": "Developer",
-					"ShortDescription":"Web profile for art-of-hair dusseldorf hair salon",
-					"Client": "Art of Hair",
-					"LineOfBusiness": "Wellness",
-					"Tools":"Bootstrap 4, CSS, HTML, Angular2",
-					"Description": "",
-					"Url": "http://art-of-hair-dusseldorf.de/",
-					"Image": "art-of-hair.png",
-					"CSS":"fa fa-cut"
-				},
-				{
-					"Title": "MotMotBikers.com",
-					"DateFrom": 201510,
-					"DateTo": 201512,
-					"Role": "Developer",
-					"ShortDescription":"Online E-Commerce platform, for both B2B and B2C Sales",
-					"Client": "MotMotBikers",
-					"LineOfBusiness": "B2C and B2B",
-					"Tools":"Apache, PHP, MYSQL, HTML, JQuery, Joomla Framework",
-					"Description": "<ul><li>Preliminary analysis: Initial study on how the website can be done</li><li>System design: Defining initial features and operation in detail, including screen layouts, business rules, process diagram etc.,</li><li>Development: Template design, Database preparation and Programming</li><li>Integration and testing: Combining all the pieces together and checks for errors, bugs and interoperability</li></ul>",
-					"Url": "http://motmotbikers3.batchu.org/",
-					"Image": "motmotbikers3.png",
-					"CSS":"fa fa-shopping-cart"
-				},
-				{
-					"Title": "BrandsConcept.com",
-					"DateFrom": 201508,
-					"DateTo": 201510,
-					"Role": "Developer",
-					"ShortDescription":"Online E-Commerce platform",
-					"Client": "BrandsConcept UG",
-					"LineOfBusiness": "E-Commerce",
-					"Tools":"Apache, PHP, MYSQL, HTML, JQuery, Joomla CMS + Virtuemart",
-					"Description": "End to End:  Requirements gathering to development to deployment.",
-					"Url": "http://bc.batchu.org/",
-					"Image": "bc.png",
-					"CSS":"fa fa-shopping-cart"
-				},
-				{
-					"Title": "DruckPlanet.com",
-					"DateFrom": 201504,
-					"DateTo": 201508,
-					"Role": "Developer",
-					"ShortDescription":"Online Print order system",
-					"Client": "DruckPlanet",
-					"LineOfBusiness": "Printing",
-					"Tools":"Apache, PHP, MYSQL, HTML, JQuery, Joomla Framework",
-					"Description": "End to End:  Requirements gathering to development to deployment.",
-					"Url": "http://dp.batchu.org/",
-					"Image": "dp.png",
-					"CSS":"fa fa-print"
-				},
-				{
-					"Title": "www.idemitsu-chemicals.de",
-					"DateFrom": 201502,
-					"DateTo": 201503,
-					"Role": "Developer",
-					"ShortDescription":"Corporate Website",
-					"Client": "Idemitsu Chemicals Europe PLC",
-					"LineOfBusiness": "Chemicals",
-					"Tools":"Apache, PHP, MYSQL, HTML, JQuery, Joomla CMS",
-					"Description": "End to End:  Requirements gathering to development to deployment.",
-					"Url": "http://www.idemitsu-chemicals.de",
-					"Image": "idemitsu-chemicals.png",
-					"CSS":"fa fa-link"
-				},
-				{
-					"Title": "www.pro-personal-trainer.de",
-					"DateFrom": 201501,
-					"DateTo": 201501,
-					"Role": "Coordinator",
-					"ShortDescription":"Professional Personal Website",
-					"Client": "Platinum Club Düsseldorf ",
-					"LineOfBusiness": "Professional Personal Trainer",
-					"Tools":"Apache, PHP, MYSQL, HTML, JQuery, Joomla CMS",
-					"Description": "End to End:  Requirements gathering to development to deployment.",
-					"Url": "http://www.pro-personal-trainer.de/",
-					"Image": "pro-personal-trainer.png"	,
-					"CSS":"fa fa-user"
-
-				},
-				{
-					"Title": "www.TaxiCentral.in",
-					"DateFrom": 201403,
-					"DateTo": 201501,
-					"Role": "Developer",
-					"ShortDescription":"Online taxi-aggregator, a common platform for Taxi users, drivers, and taxi companies.",
-					"Client": "In-House ",
-					"LineOfBusiness": "Vertical Market",
-					"Tools":"Linux,  Apache, PHP, MYSQL, HTML, JQuery, Yii2 and Joomla Framework",
-					"Description": "<ul><li>Preliminary analysis: Initial study on how the website can be done</li><li>System design: Defining initial features and operation in detail, including screen layouts, business rules, process diagram etc.,</li><li>Development: Template design, Database preparation and Programming</li><li>Integration and testing: Combining all the pieces together and checks for errors, bugs and interoperability</li><li>Joomla CMS version also can be accessed as <a target='_BLANK' href='http://tc2.batchu.org/'>http://tc2.batchu.org/</a> </li></ul>",
-					"Url": "http://tc.batchu.de/",
-					"Image": "tc3.png",
-					"CSS":"fa fa-taxi"	
-				},
-				{
-					"Title": "www.taxi-website.de",
-					"DateFrom": 201309,
-					"DateTo": 201402,
-					"Role": "Coordinator",
-					"ShortDescription":"Infrastructure as a Service (IaaS) for Taxi and Transfer vehicles providers",
-					"Client": "In-House ",
-					"LineOfBusiness": "Vertical Market",
-					"Tools":"Linux,  Apache, PHP, MYSQL, HTML, JQuery, Joomla CMS & Custom Extension development",
-					"Description": "<p>Infrastructure as a Service (IaaS) for Taxi and Transfer vehicles providers, which comes with pre-built websites each with its own design and niche market areas.</p><ul><li>Handling a team of 4 developers</li><li>Maintenance and Optimization of selling point website</li><li>Deployment upon client order</li><li>Server management</li><li>Documentation</li><li>Testing</li></ul>",
-					"Url": "http://taxiwebsite.batchu.org/de/",
-					"Image": "taxiwebsite.png",
-					"CSS":"fa fa-taxi"
-				},
-				{
-					"Title": "Taxi and Private Transfers",
-					"DateFrom": 201204,
-					"DateTo": 201308,
-					"Role": "Developer",
-					"ShortDescription":"Online Taxi or Transfers booking system",
-					"Client": "In-House ",
-					"LineOfBusiness": "Vertical Market",
-					"Tools":"Linux,  Apache, PHP, MYSQL, HTML, JQuery, Joomla CMS & Custom Extension development",
-					"Description": "<ul><li>Requirements gathering</li><li>Design, Development</li><li>Data migration from legacy environment, Deployment</li><li>Server management</li><li>Documentation</li><li>Testing</li><li>Optimization</li><li>Youtube Marketing</li><li>Other versions can be accessed here : <a href='http://dfs.batchu.org/de/' target='_BLANK'>http://dfs.batchu.org/de/</a> <br/><a href='http://fltaxi.batchu.org/de/' target='_BLANK'>http://fltaxi.batchu.org/de/</a>    </li></ul>",
-					"Url": "http://dt.batchu.org/de/",
-					"Image": "dt.png",
-					"CSS":"fa fa-taxi"	
-				},
-				{
-					"Title": "Funeral Information",
-					"DateFrom": 201010,
-					"DateTo": 201203,
-					"Role": "Developer",
-					"ShortDescription":"Online Funeral Information, price comparision and aggregation service",
-					"Client": "In-House ",
-					"LineOfBusiness": "Vertical Market",
-					"Tools":"Ubuntu, Apache, PHP, MYSQL, HTML, JQuery, Joomla CMS & Custom Extension development",
-					"Description": "<p>Online Funeral Information, Price comparision, Price Request, Directory System and aggregation service for users and Funeral Directors targeted  towards UK as well as Germany users and clients  </p><ul><li>Requirements gathering</li><li>Design, Development</li><li>Data migration from legacy environment, Deployment</li><li>Server management</li><li>Documentation</li><li>Testing</li><li>Optimization</li><li>Youtube Marketing</li><li>German version can be accessed here : <a href='http://bi.batchu.org/' target='_BLANK'>http://bi.batchu.org/</a></li></ul>",
-					"Url": "http://fi.batchu.org",
-					"Image": "fi.png",
-					"CSS":"fa fa-link"	
-				},
-				{
-					"Title": "QuickPoster",
-					"DateFrom": 200901,
-					"DateTo": 200906,
-					"Role": "Developer",
-					"ShortDescription":"Online order system for Poster and photo printing",
-					"Client": "Kwik Color GmbH",
-					"LineOfBusiness": "Printing",
-					"Tools":"Apache, PHP, MYSQL, HTML, JQuery, Flash, Joomla CMS & Custom Extension development",
-					"Description": "End to End:  Requirements gathering to development to deployment.",
-					"Url": "http://quickposter.de/",
-					"Image": "qp.png",
-					"CSS":"fa fa-print"	
-				}
-
-			]		
+			"ShortDescription":"<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><p>Separated they live in Bookmarksgrove right</p>",
+			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
+			"Url": "http://www.google.com/",
+			"Image": "exp01.jpg",
+			"Primary" : true
 		},	
 		{
 			"Role": "System Administrator",
-			"Company": "Institute of BioInformatics",
-			"Location": "Bengaluru, India",
-			"DateFrom": 200802,
-			"DateTo": 200810,
+			"Company": "Not-Yet-Another Company",
+			"Location": "DreamCity, Sleep Land",
+			"DateFrom": "March 2003",
+			"DateTo": "March 2008",
 			"EmploymentType": "Full-time employee",
 			"CareerLevel": "Professional/Experienced",
 			"Discipline": "IT & Software Development",
 			"Industry": "BioInformatics",
 			"LegalForm": "Scientific and Industrial Research Organization",
 			"Employees": "51-200 employees",
-			"ShortDescription":"<ul><li>The primary responsibility is to maintain server cluster of heavy computational requirements, monitoring grids and IT Infrastructure management</li><li>Managing Network, Linux desktops of various distributions and failsafe, backup and recovery</li></ul>",
-			"Description": "<p>The Institute of Bioinformatics is a non-profit organization engaged in Computational biology, Databases, Genomics and Proteomics research.</p><p>The primary responsibility is to maintain server cluster of heavy computational requirements, monitoring grids and IT Infrastructure management.</p><ul><li>Configured Named Service for various domains of ibioinformatics using bind</li><li>Implemented Central Authentication System using OpenLDAP for mail, samba,  egroupware, messaging sytem, Internal website and ftp.</li><li>Migrated Oracle data to mysql for the database Human Protein Reference Database (HPRD) </li><li>Implemented OpenVZ virtualization in production, staging and development environments.</li><li>Worked extensively on zope, plone and bioinformatics databases.</li><li>Designed and implemented 10TB NAS solution. </li><li>Worked on BOINC grid technology</li></ul>",
-			"Url": "http://www.ibioinformatics.org",
-			"Image": "iob.png",
-			"Primary" : false,
-			"Projects": [
-				{
-					"Title": "Implementation of Collaboration Platform",
-					"DateFrom": 200804,
-					"DateTo": 200807,
-					"Role": "System Administrator",
-					"ShortDescription":"A common platform for all the common needs of Email, Calendaring and Enterprise Applications for the internal use.",
-					"Client": "In-House",
-					"LineOfBusiness": "Collaboration Platform",
-					"Tools":"Apache, PHP, MYSQL, HTML, JQuery, Zimbra Collaboration Platform",
-					"Description": "<ul><li>Researching, testing and finalizing the right Open Source Platform.</li><li>Installation and Configuration on Linux Server</li><li>Maintenance of the Zimbra and monitoring</li><li>Provide credentials to users and train them to use it.</li></ul>",
-					"Url": "",
-					"Image": ""	
-				}
-			]		
-		},
-		{
-			"Role": "Member of Technical Support",
-			"Company": "Stivant Inc",
-			"Location": "Bengaluru, India",
-			"DateFrom": 200610,
-			"DateTo": 200802,
-			"EmploymentType": "Full-time employee",
-			"CareerLevel": "Professional/Experienced",
-			"Discipline": "IT & Software Development",
-			"Industry": "Internet and IT",
-			"LegalForm": "Privately held company",
-			"Employees": "11-50 employees",
-			"ShortDescription":"<ul><li>Internal and external infrastructure management, It resource management and strategy planning</li><li>Supporting both teams of Developers and Technical Recruiters</li></ul>",
-			"Description": "<p>Stivant is a One-Stop Enterprise Solutions Provider. From design and development to implementation and support can be provided for any business needs. It provides services like Application Development, Project Outsourcing and Staff Augmentation, Help Desk Support, e-Business Solutions etc.,</p><p>Internal and external infrastructure management, Support to developers and clients. IT resource management and strategy planning.</p><ul><li>Migrated existing linux servers to Linux based virtualization with OpenVZ</li><li>Worked on OpenVZ extensively in cloning existing production servers for staging</li><li>Provided technical support to internal and external users of stivant through chat, mail and voice.</li><li>Initiated a project management tool (gforge) which deals with Development Environment as well as Project management.</li><li>Provided support in the areas of central authentication system, webcal, timesheets, Cerberus.</li><li>Developed a perl based dynamic web page to manage internal user’s mail settings and procmail rules.</li><li>Developed a php based dynamic web page to read and display LDAP directory information.</li></ul>",
-			"Url": "http://www.stivant.com",
-			"Image": "stivant.png",
-			"Primary" : false,
-			"Projects": [
-
-				{
-					"Title": "Server Migration to Virtualization",
-					"DateFrom": 200703,
-					"DateTo": 200708,
-					"Role": "System Administrator",
-					"ShortDescription":"Migration of various flavored unix and linux physical servers to OpenVZ containers which include centos, ubuntu and  debian",
-					"Client": "In-House",
-					"LineOfBusiness": "Managed Offshore Development, Outsourced Support Services and Web Content Management and Publishing",
-					"Tools":"CentOS Linux 5.5, Ubuntu,  OpenVZ, OpenLDAP, Samba, Apache, MySQL, CerberusWeb, SugarCRM",
-					"Description": "<ul><li>Preparation of Implementation plan and personal task distribution</li><li>Server Backup</li><li>Data transfer from legacy servers to Virtual Private Servers</li><li>Setting up staging environment for testing</li><li>Making sure there not much downtime than planned duration</li><li>Coordinating with the users and clients regarding migration and possible errors.</li><li>Managing Live Backup on Virtual Servers</li></ul>",
-					"Url": "",
-					"Image": ""	
-				}
-			]		
-		},
-		{
-			"Role": "System Administrator",
-			"Company": "Indiainfo.com Limited",
-			"Location": "Bengaluru, India",
-			"DateFrom": 200601,
-			"DateTo": 200610,
-			"EmploymentType": "Full-time employee",
-			"CareerLevel": "Professional/Experienced",
-			"Discipline": "IT & Software Development",
-			"Industry": "Media and Publishing",
-			"LegalForm": "Publicly held corporation",
-			"Employees": "201-500 employees",
-			"ShortDescription":"<ul><li>Maintainance of both local and co-location servers</li><li>Implementation and maintenance of IT infrastructure, OS up-gradation, Inventory management, allotment and monitoring</li></ul>",
-			"Description": "<p>Indiainfo.com Ltd., an integrated Internet company, delivers content, community and commerce to Indian consumers and businesses</p><p>Primary responsibility is to maintain servers (local / remote) with 0% downtime, further responsibilities includes implementation and maintenance IT infrastructure, OS up-gradation, Inventory management, allotment and monitoring.</p><p>Tasks Handled:</p><ul><li>Updated and synchronized 12 production linux servers with local servers at 0% downtime.</li><li>Successfully installed and managed Web Hosting servers with ISPConfig.</li><li>Migrated windows based MDaemon mail server to linux based qmail </li><li>Implemented central authentication system with NIS for local infrastructure access</li><li>Installed and monitored linux based proxy server (IPCop) for internet sharing.</li><li>Designed, implemented and automated log rotate system using shell script.</li><li>Implemented Log analysis for the visits of indiainfo.com site using webtrendz</li></ul>",
-			"Url": "http://www.indiainfo.com",
-			"Image": "no-image.png",
-			"Primary" : false,
-			"Projects": [
-				{
-					"Title": "Server Management",
-					"DateFrom": 200601,
-					"DateTo": 200606,
-					"Role": "System Administrator",
-					"ShortDescription":"Distribution and separation of hardware and servers between two companies ",
-					"Client": "In-House",
-					"LineOfBusiness": "Web Content Management and Publishing",
-					"Tools":"Redhat Linux 9, CentOS, Ubuntu, Samba, Apache, MySQL, Windows 2000 Servers",
-					"Description": "<ul><li>Preparation of Hardware, Software and License listing</li><li>Distributing both onsite and co-location servers</li><li>Managing the public servers to make sure 99% uptime</li><li>Re-installation and configuration of both in-house and  co-location servers when required.</li><li>Updating, patching and maintaining both Servers and in-house computers</li><li>Managing Network, Routers and Windows work stations</li>",
-					"Url": "",
-					"Image": ""	
-				}
-			]		
-		},	
-		{
-			"Role": "System Administrator",
-			"Company": "Vis Infotech Pvt Ltd",
-			"Location": "Visakhapatnam, India",
-			"DateFrom": 200305,
-			"DateTo": 200509,
-			"EmploymentType": "Full-time employee",
-			"CareerLevel": "Professional/Experienced",
-			"Discipline": "IT & Software Development",
-			"Industry": "Medical Transcription",
-			"LegalForm": "Privately held company",
-			"Employees": "51-200 employees",
-			"ShortDescription":"<ul><li>Responsible for Linux server management OS installation, troubleshooting, diagnostics and upgrades</li><li>The position also involves 24/7 point of contact for Data Services</li></ul>",
-			"Description": "<p>VIS uses state-of-the-art technology, digital dictation systems, well-qualified and experienced technical staff, and high-end web based technology platform offering total solutions for US healthcare documentation requirements. Its online workflow application manages the full life cycle of electronic documents including dictation, transcription, and quality assurance document delivery.</p><p>Responsible for Linux server management, including hardware maintenance, OS installation, troubleshooting, diagnostics and upgrades.  Further responsibilities include media distribution, network implementation, training, coding and documentation.</p><p>The position also involves 24/7 point of contact for Data Services, operating in 12-hour shifts. Also addressed general system administration queries as third line support, assisted company clients with technical issues, and was always on call for emergencies.</p><p><strong>DETAILS OF SKILLS USED</strong>: Linux and Windows Server Installation, Configuration and Support. Coding in VB, ASP, php, Shell scripting and MySQL.</p>",
-			"Url": "http://www.visinfotech.com",
-			"Image": "visinfotech.png",
-			"Primary" : false,
-			"Projects": [
-				{
-					"Title": "Automation of Dictation Files Flow",
-					"DateFrom": 200308,
-					"DateTo": 200509,
-					"Role": "Developer",
-					"ShortDescription":"Automation for the flow of in-bound dictation files to out-bound transcription files",
-					"Client": "In-House",
-					"LineOfBusiness": "Medical Transcription",
-					"Tools":"Redhat Linux 9, Samba, MySQL, PHP, Visual Basic, MS Word Macros, Schell and Batch scripts",
-					"Description": "<p>Client calls the Dictation Server and provides dictation which will be recorded on the server and needs to be translated and sent back the client within the agreed duration.  The flow of files must be automated  in order to fulfill accuracy and on time delivery of transcribed documents.</p><ul><li>Installation and maintenance of Dictation Servers</li><li>Preparation / monitoring scripts windows task scheduler, batch scripts to sync files to local server</li><li>Manage auto syncing with the mysql database based on the file name</li><li>Assigning file/task to transcriptionists using PHP web environment</li><li>Monitoring completed transcription files on samba server and sending them to client based on their output criteria</li></ul>",
-					"Url": "",
-					"Image": ""	
-				}
-
-			]		
-		}				
+			"ShortDescription":"<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p><p>He lay on his armour-like</p>",
+			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
+			"Url": "http://www.google.com/",
+			"Image": "exp02.jpg",
+			"Primary" : false
+		}
 	],
 
 	"ProfessionalSkills_Title":"<i class='fa fa-briefcase'></i> Professional Skills",
@@ -441,7 +176,7 @@
 	],
 	
 
-	"TechnicalSkills_Title":"Technical Skills",
+	"TechnicalSkills_Title":"<i class='fa fa-gears'></i> Technical Skills",
 	"TechnicalSkills_Description":"The skills which I use make things done",
 	"TechnicalSkills": [
 		{ 
@@ -450,7 +185,7 @@
 			"Years": 8.5
 		},
 		{ 
-			"Title": "Javascript / JQuery",
+			"Title": "JQuery",
 			"Level": 4,
 			"Years": 7
 		},
@@ -470,14 +205,14 @@
 			"Years": 3
 		},
 		{ 
-			"Title": "Linux Virtualization / Virtuozzo",
+			"Title": "Angular2",
 			"Level": 6,
 			"Years": 6
 		}
 
 	],
 
-	"PersonalSkills_Title":"Personal Skills",
+	"PersonalSkills_Title":"<i class='fa fa-asterisk'></i> Personal Skills",
 	"PersonalSkills_Description":"The skills which defines me as me",
 	"PersonalSkills": [
 		{ 
@@ -485,23 +220,15 @@
 			"Level": 6
 		},
 		{ 
-			"Title": "Experience in Project life cycle",
-			"Level": 5
-		},
-		{ 
 			"Title": "Analytical thinking",
 			"Level": 6
 		},
 		{ 
-			"Title": "Able to work under stress",
-			"Level": 6
-		},
-		{ 
-			"Title": "Communication Skills",
+			"Title": "Communication",
 			"Level": 5
 		},
 		{ 
-			"Title": "Hardworking and commitment",
+			"Title": "Commitment",
 			"Level": 6
 		},
 		{ 
@@ -566,229 +293,169 @@
 		"DateCreated": 20160402
 	},
 	"ProjectsData" :[
-
 		{
-			"Title": "Step-by-Step Developing Web Apps using Go",
-			"DateFrom": 0,
-			"DateTo": 0,
+			"Title": "Step-by-Step Developing Apps",
+			"DatePosted": "Sep 05, 2016",
+			"DateCompleted":"05 Sep, 2016",
 			"Role": "Author",
-			"ShortDescription":"This video tutorial will help to write Go Lang Starters to create a Basic Web Server which serves a couple of test pages.",
-			"Client": "",
+			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"Client": "Flying-S-M",
 			"LineOfBusiness": "",
 			"Tools":"GoLanguage, Youtube",
-			"Description": "<p>This video series illustrates how to create  a basic Web Application using GoLanguage.<br/>This series has been divided into 4 parts</p><ol><li><a href='https://www.youtube.com/watch?v=SPEv_70RnKo' target='_BLANK'<i class='fa fa-youtube'></i> Basic Server :</a> Creates a Basic Web Server which serves a test page</li><li><a href='https://www.youtube.com/watch?v=jp-dAnV2lC4' target='_BLANK'<i class='fa fa-youtube'></i> Routing :</a>  Handling dynamic URL</li><li><a href='https://www.youtube.com/watch?v=sEzgVn9Jb2c' target='_BLANK'<i class='fa fa-youtube'></i> Static Pages :</a>  Preparing and Serving Static HTML pages</li><li><a href='https://www.youtube.com/watch?v=rx7puc9OXvU' target='_BLANK'<i class='fa fa-youtube'></i> Templates :</a>  Using GoLang template package</li></ol><p>Further works include Installation and Creating a Hello World! Program</p><ul><li><a href='https://www.youtube.com/watch?v=_b-9kcq-xmA' target='_BLANK'<i class='fa fa-youtube'></i> Step-by-Step Go installation on Windows</a></li><li><a href='https://www.youtube.com/watch?v=2NiA-xBqy5A' target='_BLANK'<i class='fa fa-youtube'></i> Step-by-Step Hello World! in Golang</a>  </li></ul>",
-			"Url": "https://www.youtube.com/channel/UCi9Is8R72kWw7nvWtY7Pn3A",
-			"Image": "goweb.png",
+			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
+			"Url": "https://github.com/ganesh35/ngProfile",
+			"Image": "dummy01.jpg",
 			"CSS":"fa fa-youtube"
 		},
 		{
-			"Title": "RESTful web services platform using Joomla! Framework",
-			"DateFrom": 0,
-			"DateTo": 0,
+			"Title": "RESTful web services",
+			"DatePosted": "Sep 05, 2016",
+			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"This video series explains about Building a RESTful web services platform using Joomla! Framework",
-			"Client": "",
+			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"Client": "Flying-S-M",
 			"LineOfBusiness": "",
 			"Tools":"PHP, Joomla Framework, Composer, Youtube",
-			"Description": "<p>The Joomla! Framework is a new PHP framework (a collection of software libraries/packages) for writing web and command line applications in PHP. It does not comes with all the bells and whistles,  so useful for php applications which use minimal packages like REST. <br/>This series has been divided into 6 parts</p><ol><li><a href='https://www.youtube.com/watch?v=7y3xGKMB07Q' target='_BLANK'<i class='fa fa-youtube'></i> Setting up the structure </a></li><li><a href='https://www.youtube.com/watch?v=I2wao-pqJAs' target='_BLANK'<i class='fa fa-youtube'></i> Routing</a></li><li><a href='https://www.youtube.com/watch?v=WAHxlWxZ2WU' target='_BLANK'<i class='fa fa-youtube'></i> Configuration File</a></li><li><a href='https://www.youtube.com/watch?v=0kmajGJ_O7c' target='_BLANK'<i class='fa fa-youtube'></i> Log File </a></li><li><a href='https://www.youtube.com/watch?v=3bfXd-reUCM' target='_BLANK'<i class='fa fa-youtube'></i> Accessing Database </a></li><li><a href='https://www.youtube.com/watch?v=-GRerB1wZ4w' target='_BLANK'<i class='fa fa-youtube'></i> Code Cleanup </a></li></ol><p>Please check the other videos related to PHP and Joomla Framework</p><ul><li><a href='https://www.youtube.com/watch?v=xN29r6jxP1M' target='_BLANK'<i class='fa fa-youtube'></i> XAMPP Installation on Windows 8</a></li><li><a href='https://www.youtube.com/watch?v=foDtdG-M2jI' target='_BLANK'<i class='fa fa-youtube'></i> Git Client installation on Windows 8</a>  </li><li><a href='https://www.youtube.com/watch?v=yBthJUBhnd8' target='_BLANK'<i class='fa fa-youtube'></i> Composer installation on Windows 8</a>  </li><li><a href='https://www.youtube.com/watch?v=By2p45luPS8' target='_BLANK'<i class='fa fa-youtube'></i> Step by Step: Joomla Framework Sample App Installation</a>  </li></ul>",
-			"Url": "https://www.youtube.com/watch?v=7y3xGKMB07Q&list=PLkUs_h4ayxR-XTdhN-2KSF_JOc3V-MlNm",
-			"Image": "restwithjs.png",
+			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
+			"Url": "https://github.com/ganesh35/ngProfile",
+			"Image": "dummy10.jpg",
 			"CSS":"fa fa-youtube"
 		},
 
 		{
-			"Title": "Joomla 3.0 for Developers: Module Development",
-			"DateFrom": 0,
-			"DateTo": 0,
+			"Title": "Module Development",
+			"DatePosted": "Sep 05, 2016",
+			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"A developer's guide to Module Development using Joomla 3.0",
-			"Client": "",
+			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"Client": "Flying-S-M",
 			"LineOfBusiness": "",
 			"Tools":"Joomla CMS, PHP, Youtube",
-			"Description": "<p>In this video tutorial we create a simple Quick Contact module for joomla 3.0</p><p>This video has been divided in to 4 segments</p><ol><li>Creating a Basic Module</li><li>Creating and using Module Configuration Fields</li><li>Using Helper classes and forms</li><li>Sending mail from the Module</li></ol>",
-			"Url": "https://www.youtube.com/watch?v=npx8QR-mn6Y",
-			"Image": "joomlamodule.png",
-			"CSS":"fa fa-youtube"
-		},
-		{
-			"Title": "Joomla 3.0 Administration for Beginners",
-			"DateFrom": 0,
-			"DateTo": 0,
-			"Role": "Author",
-			"ShortDescription":"A video series on Joomla 3.0 Administration",
-			"Client": "",
-			"LineOfBusiness": "",
-			"Tools":"PHP, Joomla CMS, Youtube",
-			"Description": "<p>Joomla is not only user/developer friendly CMS, but also mobile friendly from version 3.0 onwards. In this video series we will discuss about handling Joomla Administrator panel<br/>This series has been divided into 5 parts</p><ol><li><a href='https://www.youtube.com/watch?v=ijsOlLZShe8' target='_BLANK'<i class='fa fa-youtube'></i> Installation</a></li><li><a href='https://www.youtube.com/watch?v=ocKL4RjnT-M' target='_BLANK'<i class='fa fa-youtube'></i> Managing Categories</a></li><li><a href='https://www.youtube.com/watch?v=s8qYiM13Dn8' target='_BLANK'<i class='fa fa-youtube'></i> Creating Articles</a></li><li><a href='https://www.youtube.com/watch?v=NohoVC9ycPo' target='_BLANK'<i class='fa fa-youtube'></i> Menus and Menu Items</a></li><li><a href='https://www.youtube.com/watch?v=yt3H5txwV7Q' target='_BLANK'<i class='fa fa-youtube'></i> Backup and Restore using Akeeba Backup Core </a></li></ol>",
-			"Url": "https://www.youtube.com/playlist?list=PLY5Ly81zPCMTyLuaa8-59dSndjFgsNpIJ",
-			"Image": "joomlaadmin.png",
+			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
+			"Url": "https://github.com/ganesh35/ngProfile",
+			"Image": "dummy09.jpg",
 			"CSS":"fa fa-youtube"
 		},
 
-
-
-
 		{
-			"Title": "The Perfect Setup - OpenVZ with CentOS 4.4",
-			"DateFrom": 0,
-			"DateTo": 0,
+			"Title": "The Perfect Setup",
+			"DatePosted": "Sep 05, 2016",
+			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"A Step by Step tutorial on Setting up OpenVZ",
-			"Client": "www.howtoforge.com",
+			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"Client": "Flying-S-M",
 			"LineOfBusiness": "Content Publishing",
 			"Tools":"Virtualization, CentOS, OpenVZ",
-			"Description": "In this HowTo I have described how to prepare a CentOS 4.4 server for OpenVZ virtual machines. With OpenVZ you can create multiple Virtual Private Servers (VPS) on the same hardware, similar to Xen and the Linux Vserver project. OpenVZ is the open-source branch of Virtuozzo, a commercial virtualization solution used by many providers that offer virtual servers.",
-			"Url": "https://www.howtoforge.com/openvz_centos4.4",
-			"Image": "",
+			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
+			"Url": "https://github.com/ganesh35/ngProfile",
+			"Image": "dummy07.jpg",
 			"CSS":"fa fa-pencil"
 		},
 		{
-			"Title": "OpenLDAP Server in a container",
-			"DateFrom": 0,
-			"DateTo": 0,
+			"Title": "Docker and Go",
+			"DatePosted": "Sep 05, 2016",
+			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"A Step by Step tutorial on Setting up OpenLDAP",
-			"Client": "www.howtoforge.com",
+			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"Client": "Flying-S-M",
 			"LineOfBusiness": "Content Publishing",
-			"Tools":"Linux, Virtualization, CentOS, OpenVZ, OpenLDAP",
-			"Description": "This tutorial describes how to install and configure an OpenLDAP server and also an OpenLDAP client.",
-			"Url": "https://www.howtoforge.com/linux_openldap_setup_server_client",
-			"Image": "",
+			"Tools":"Docker, Go, Preinstalled",
+			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
+			"Url": "https://github.com/ganesh35/ngProfile",
+			"Image": "dummy06.jpg",
 			"CSS":"fa fa-pencil"
 		},	
 		{
-			"Title": "Learning C/C++ Step-By-Step",
-			"DateFrom": 201410,
-			"DateTo": 201412,
+			"Title": "Learning C/C++",
+			"DatePosted": "Sep 05, 2016",
+			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"Learners guide to C and C++",
-			"Client": "www.howtoforge.com",
+			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"Client": "Flying-S-M",
 			"LineOfBusiness": "Content Publishing",
 			"Tools":"C, C++",
-			"Description": "This tutorial starts with C language and leads to C++ by including comparision and explaination",
-			"Url": "https://www.howtoforge.com/learning-c-cplusplus-step-by-step",
-			"Image": ""	,
+			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
+			"Url": "https://github.com/ganesh35/ngProfile",
+			"Image": "dummy05.jpg"	,
 			"CSS":"fa fa-pencil"
 		},
 		{
-			"Title": "Step-by-Step IPP based Print Server using CUPS",
-			"DateFrom": 0,
-			"DateTo": 0,
+			"Title": "IPP based Print Server",
+			"DatePosted": "Sep 05, 2016",
+			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"A Step by Step guide on IPP based Print Server",
-			"Client": "www.howtoforge.com",
+			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"Client": "Flying-S-M",
 			"LineOfBusiness": "Content Publishing",
 			"Tools":"Linux, Redhat, IPP Print Server, CUPS",
-			"Description": "This tutorial describes how to install a Linux print server with CUPS. It also covers the installation and configuration of printer drivers on the print server as well as the printer setup on a Windows 2000 client.",
-			"Url": "https://www.howtoforge.com/ipp_based_print_server_cups",
-			"Image": ""	,
+			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
+			"Url": "https://github.com/ganesh35/ngProfile",
+			"Image": "dummy04.jpg"	,
 			"CSS":"fa fa-pencil"
 		},
 		{
-			"Title": "Step-By-Step Configuration of NAT with iptables",
-			"DateFrom": 0,
-			"DateTo": 0,
+			"Title": "NAT with iptables",
+			"DatePosted": "Sep 05, 2016",
+			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"A Step by Step guide on configuring NAT with iptables",
-			"Client": "www.howtoforge.com",
+			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"Client": "Flying-S-M",
 			"LineOfBusiness": "Content Publishing",
 			"Tools":"CentOS, Linux, Kernel, iptables, NAT",
-			"Description": "This tutorial shows how to set up network-address-translation (NAT) on a Linux system with iptables rules so that the system can act as a gateway and provide internet access to multiple hosts on a local network using a single public IP address. This is achieved by rewriting the source and/or destination addresses of IP packets as they pass through the NAT system.",
-			"Url": "https://www.howtoforge.com/nat_iptables",
-			"Image": "",
+			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
+			"Url": "https://github.com/ganesh35/ngProfile",
+			"Image": "dummy03.jpg",
 			"CSS":"fa fa-pencil"
 		},
 		{
-			"Title": "ITFamily.org",
-			"DateFrom": 201111,
-			"DateTo": 201201,
+			"Title": "Social networking platform",
+			"DatePosted": "Sep 05, 2016",
+			"DateCompleted":"",
 			"Role": "Developer",
-			"ShortDescription":"A closed community website",
-			"Client": "ITFamily",
+			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"Client": "Flying-S-M",
 			"LineOfBusiness": "Community",
 			"Tools":"Ubuntu, Apache, PHP, MYSQL, HTML, JQuery, Joomla CMS & Custom Extension development",
-			"Description": "<p>Designed and developed a closed community website.</p><p> In order to join in the websie the user has to be invited.</p><p>This website also provides services such as Business Directory, Profiling, Advertisement etc., </p>",
-			"Url": "http://itfamily.batchu.org",
-			"Image": "itfamily.png",
+			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
+			"Url": "https://github.com/ganesh35/ngProfile",
+			"Image": "dummy02.jpg",
 			"CSS":"fa fa-group "
-		},
-		{
-			"Title": "Food order System",
-			"DateFrom": 201309,
-			"DateTo": 201311,
-			"Role": "Developer",
-			"ShortDescription":"Online food order system for Restaurants",
-			"Client": "",
-			"LineOfBusiness": "Restaurant",
-			"Tools":"Apache, PHP, MYSQL, HTML, JQuery, Joomla CMS & Custom Extension development",
-			"Description": "<p>Designed and developed an online food order system for Restaurants and Restaurant chains</p>",
-			"Url": "http://f1.batchu.org",
-			"Image": "f1.png",
-			"CSS":"fa fa-coffee"
-		}		
+		}
+		],
+		"BannerData":[
+			{
+				"Title": "PHP Developer",
+				"ShortDescription":"A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am",
+				"Image": "banner/banner01.jpg"
+			},
+			{
+				"Title": "GoLang enthusiast",
+				"ShortDescription":"One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like",
+				"Image": "banner/banner02.jpg"
+			},
+			{
+				"Title": "Angular2 Learner",
+				"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds",
+				"Image": "banner/banner03.jpg"
+			},
+			{
+				"Title": "Linux Administrator",
+				"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.",
+				"Image": "banner/banner04.jpg"
+			},
+			{
+				"Title": "Get everything to cloud",
+				"ShortDescription":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantic.",
+				"Image": "banner/banner05.jpg"
+			}
 
-
-	],
-	"StatasticsData" : [
-		{
-	
-			"GroupTitle": "Skills",
-			"Id": "stat-skills",
-			"ItemsCurrent" :[
-				{"Title": "PHP", "Data": 70, "Color": "#6082bb"},
-				{"Title": "MySQL", "Data": 15, "Color": "#e58e00"},
-				{"Title": "Linux Administration", "Data": 5, "Color": "#c8b0d1"},
-				{"Title": "Documentation", "Data": 5, "Color": "#a8a8a8"},
-				{"Title": "Team Management", "Data": 5, "Color": "#21610B"}
-			],
-			"ItemsFuture" :[
-				{"Title": "PHP", "Data": 60, "Color": "#6082bb"},
-				{"Title": "GoLang", "Data": 15, "Color": "#6ad7e5"},
-				{"Title": "NoSQL", "Data": 15, "Color": "#459a45"},
-				{"Title": "Linux Administration", "Data": 5, "Color": "#c8b0d1"},
-				{"Title": "Documentation", "Data": 5, "Color": "#a8a8a8"}
-			]
-		},
-		{
-	
-			"GroupTitle": "Roles",
-			"Id": "stat-roles",
-
-			"ItemsCurrent" :[
-				{"Title": "PHP Developer", "Data": 70, "Color": "#AD1D28"},
-				{"Title": "Linux Administrator", "Data": 12, "Color": "#c8b0d1"},
-				{"Title": "Tech Support", "Data": 10, "Color": "#48CA3B"},
-				{"Title": "Tester", "Data": 8, "Color": "#21610B"}
-				
-			],
-			"ItemsFuture" :[
-				{"Title": "PHP Developer", "Data": 60, "Color": "#AD1D28"},
-				{"Title": "Go Developer", "Data": 20, "Color": "#6ad7e5"},
-				{"Title": "Tech Lead", "Data": 12, "Color": "#81610B"},
-				{"Title": "Linux Administrator", "Data": 8, "Color": "#c8b0d1"}
-			]
-		}		
-	]
-	
-
-
-
-
+		]
 
 	},
 
 
 
-
 	"IMPRINT_DISCLAIMER":"Disclaimer",
 	"IMPRINT_DISCLAIMER_MSG":"The information contained in this website is for general information purposes only. The information is provided by this website and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.<br><br>Every effort is made to keep the website up and running smoothly. However, we takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.",
-
-
-
-	"STAR_6": "<i class='fa fa-asterisk text-success' aria-hidden=true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i>",
-	"STAR_5": "<i class='fa fa-asterisk text-success' aria-hidden=true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk' aria-hidden=true'></i>",
-	"STAR_4": "<i class='fa fa-asterisk text-success' aria-hidden=true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i>",
-	"STAR_3": "<i class='fa fa-asterisk text-success' aria-hidden=true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i>",
-	"STAR_2": "<i class='fa fa-asterisk text-success' aria-hidden=true'></i><i class='fa fa-asterisk text-success' aria-hidden='true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i>",
-	"STAR_1": "<i class='fa fa-asterisk text-success' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i><i class='fa fa-asterisk' aria-hidden=true'></i>"
+	"RECENT_ACTIVITY":"Recent Activity"
 }

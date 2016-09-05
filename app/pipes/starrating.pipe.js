@@ -26,7 +26,7 @@ var StarRatingPipe = (function () {
         var html = '';
         for (var i = 1; i <= max; i++) {
             html = html + '<i class="' + icon;
-            if (value > 1) {
+            if (value > 0) {
                 html = html + ' ' + iconClass;
                 value--;
             }
