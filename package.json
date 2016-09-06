@@ -1,6 +1,6 @@
 {
   "name": "ngProfile",
-  "version": "0.2.0",
+  "version": "1.0.0-beta.02",
   "scripts": {
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
