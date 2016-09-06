@@ -1,56 +1,56 @@
 {
 	"Theme":"default",
-	"en-GB": "English",
-	"de-DE": "Deutsch",
-	"PREVIOUS": "Previous",
-	"NEXT": "Next",
-	"MORE_INFO":"More ...",
+	"en-GB": "Englisch",
+	"de-DE": "Deutsche",
+	"PREVIOUS": "Früher",
+	"NEXT": "Nächster",
+	"MORE_INFO":"Mehr ...",
 
 	"LOGO_TEXT":"Buchman, L.",
-	"LOGO_CAPTION":"My profile website",
-	"FOOTER_TEXT":"Copyright © 2016 Buchman, L. All rights reserved.",
+	"LOGO_CAPTION":"Mein Profil Website",
+	"FOOTER_TEXT":"Copyright © 2016 Buchman, L. Alle Rechte vorbehalten.",
 
-	"MENU_ITEM_HOME": "Home",
-	"MENU_ITEM_ABOUT": "About",
-	"MENU_ITEM_CONTACT": "Contact",
-	"MENU_ITEM_IMPRINT": "Imprint",
-	"MENU_ITEM_PROFILE": "Profile",
-	"IMPRINT_PAGE_TITLE":"Imprint",
-	"ABOUT_PAGE_TEXT1_HEAD":"About me",
-	"CONTACT_PAGE_HEAD":"Contact us",
+	"MENU_ITEM_HOME": "Startseit",
+	"MENU_ITEM_ABOUT": "Über mich",
+	"MENU_ITEM_CONTACT": "Kontakt",
+	"MENU_ITEM_IMPRINT": "Impressum",
+	"MENU_ITEM_PROFILE": "Profil",
+	"IMPRINT_PAGE_TITLE":"Impressum",
+	"ABOUT_PAGE_TEXT1_HEAD":"Über mich",
+	"CONTACT_PAGE_HEAD":"Kontakt",
 	"CONTACT_PAGE_MSG":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laboro autem non sine causa; Sullae consulatum? Nunc agendum est subtilius. <b>Praeclarae mortes sunt imperatoriae;</b> </p><ul><li>Non autem hoc: igitur ne illud quidem.</li><li>Duo Reges: constructio interrete.</li><li>Quis suae urbis conservatorem Codrum, quis Erechthei filias non maxime laudat?</li></ul><ol><li>Tu quidem reddes;</li><li>Si quicquam extra virtutem habeatur in bonis.</li></ol>",
 
 	"ProfilePage":{
-		"Mobile": "Mobile",
-		"Email": "E-Mail",
-		"Website": "Website",
-		"Address": "Address",
-		"My Objective": "<i class='fa fa-bullseye'></i> My Objective"
+		"Mobile": "Handy",
+		"Email": "Email",
+		"Website": "Webseite",
+		"Address": "Adresse",
+		"My Objective": "<i class='fa fa-bullseye'></i> Mein Ziel"
 	},
 
 	"Profile" : {
-		"PersonalData_Title" :"<i class='fa fa-user'></i> About me",
+		"PersonalData_Title" :"<i class='fa fa-user'></i> Über mich",
 		"PersonalData_DisplayName" : "Name",
-		"PersonalData_Nationality" : "Nationality",
-		"PersonalData_Address" : "Location",
-		"PersonalData_Experience" : "Experience",
-		"PersonalData_Availability" : "Availability",
-		"PersonalData_CurrentStatus" : "Current Status",
+		"PersonalData_Nationality" : "Nationalität",
+		"PersonalData_Address" : "Addresse",
+		"PersonalData_Experience" : "Erfahrung",
+		"PersonalData_Availability" : "Verfügbarkeit",
+		"PersonalData_CurrentStatus" : "Aktueller Status",
 		"PersonalData" :{
 	        "DisplayName": "Buchman K. Laxman",
-	        "DisplayProfession": "Web Developer",
-	        "DisplayCaption" : "Love to do Angular 2",
-	        "Nationality": "Living Rock",
-	        "Experience": "8 Years",
-	        "Availability": "Part-time/Full-time",
-	        "CurrentStatus": "Seeking employment",
+	        "DisplayProfession": "Web-Entwickler",
+	        "DisplayCaption" : "Liebe zu tun Angular 2",
+	        "Nationality": "Gewachsenen Fels",
+	        "Experience": "8 Jahre",
+	        "Availability": "Teilzeit/Vollzeit",
+	        "CurrentStatus": "Arbeitssuchend",
 	        "WebURL":"http://www.my-personal.cv",
 	        "Mobile": "+0099 123 123 123",
 	        "Phone": "+0099 123 123 123",
 	        "EmailWork": "buchman.l@my-workplace.com",
 	        "EmailPersonal": "buchman.l@my-personaldata.info",
-	        "AddressHome": {"Addr1" : "My home street", "Addr2" : "999", "Postcode" : "999000", "City" : "MyCity", "State" : "MyState", "Country" : "Nomans City" },
-	        "AddressWork": {"Addr1" : "My office street", "Addr2" : "103", "Postcode" : "999000", "City" : "Office City", "State" : "", "Country" : "Nowhere2Go?" }
+	        "AddressHome": {"Addr1" : "Meine Heimat Straße", "Addr2" : "999", "Postcode" : "999000", "City" : "MeineStadt", "State" : "MeinStaat", "Country" : "NiemandsLand" },
+	        "AddressWork": {"Addr1" : "Mein Büro Straße", "Addr2" : "103", "Postcode" : "999000", "City" : "Büro-Stadt", "State" : "", "Country" : "Nirgends2Go?" }
 		},
 		"SocialNetworksData" : [
 	    	{"NetworkType": "Profile", "Title": "Xing", "Link":"https://www.xing.com", "Description":"Xing", "CSS":"fa fa-xing" },
@@ -63,21 +63,21 @@
 	        {"NetworkType": "Youtube Channel", "Title": "GoLang", "Link":"https://www.youtube.com/channel/UCi9Is8R72kWw7nvWtY7Pn3A", "Description":"How to videos on Golang Web Applications" , "CSS":"fa fa-youtube"}
 	    ],
 
-		"EducationalData_Title": "<i class='fa fa-graduation-cap'></i> Education",
-		"EducationalData_Description": "Educationtional Qualifications",
-		"EducationtionalData_FieldOfStudy": "Field of study",
+		"EducationalData_Title": "<i class='fa fa-graduation-cap'></i> Ausbildung",
+		"EducationalData_Description": "Bildungsabschlüsse",
+		"EducationtionalData_FieldOfStudy": "Forschungsbereich",
 		"EducationalData" :[
 			{
-				"Institution": "Example University, Stdt City, xCountry",
-				"FieldOfStudy": "Business Administration",
+				"Institution": "Beispiel Universität, Studentenstadt , x Land",
+				"FieldOfStudy": "Geschäftsverwaltung",
 				"Degree": "Master of Business Applications",
 				"DateFrom": "July 2001",
 				"DateTo": "March 2003",
 				"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
 			},
 			{
-				"Institution": "Some other University, Other City, yCountry",
-				"FieldOfStudy": "Commerce",
+				"Institution": "Einige andere Universität, andere Stadt, Land",
+				"FieldOfStudy": "Handel",
 				"Degree": "Bachelor of Commerce",
 				"DateFrom": "July 1996",
 				"DateTo": "May 2001",
@@ -85,9 +85,9 @@
 			}
 		],
 
-		"CertificationData_Title": "<i class='fa fa-certificate'></i> Certifications",
-		"CertificationData_Description": "Awards and Certifications",
-		"CertificationData_FieldOfStudy": "Field of study",
+		"CertificationData_Title": "<i class='fa fa-certificate'></i> Zertifizierungen",
+		"CertificationData_Description": "Auszeichnungen und Zertifizierungen",
+		"CertificationData_FieldOfStudy": "Forschungsbereich",
 		"CertificationData" :[
 			{
 				"Institution": "University of Mars Adventures",
@@ -97,23 +97,23 @@
 				"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
 			},
 			{
-				"Institution": "Academy of Software Sciences",
+				"Institution": "Akademie der Software-Lizenzen",
 				"Degree": "Post Graduate Diploma in Computer Applications",
 				"DateFrom": "Jan, 2000",
 				"DateTo": "March 2000",
 				"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
 			}
 		],
-	"ExperienceData_Title" :"<i class='fa fa-briefcase'></i> Professional Experience",
-	"ExperienceData_Description" :"History of Employments and Internships",
+	"ExperienceData_Title" :"<i class='fa fa-briefcase'></i> Berufserfahrung",
+	"ExperienceData_Description" :"Geschichte der Beschäftigung und Praktika",
 	"ExperienceData" :[
 		{
-			"Role": "PHP Developer",
-			"Company": "BlueMoon Company",
+			"Role": "PHP-Entwickler",
+			"Company": "Firma BlueMoon",
 			"Location": "MoonCity, MoonLand",
 			"DateFrom": "March 2008",
 			"DateTo": "March 2016",
-			"EmploymentType": "Board member",
+			"EmploymentType": "Mitarbeiter",
 			"CareerLevel": "Professional/Experienced",
 			"Discipline": "IT & Software Development",
 			"Industry": "Internet and IT",
@@ -126,15 +126,15 @@
 			"Primary" : true
 		},	
 		{
-			"Role": "System Administrator",
+			"Role": "Systemadministrator",
 			"Company": "Not-Yet-Another Company",
 			"Location": "DreamCity, Sleep Land",
 			"DateFrom": "March 2003",
 			"DateTo": "March 2008",
-			"EmploymentType": "Full-time employee",
+			"EmploymentType": "Mitarbeiter",
 			"CareerLevel": "Professional/Experienced",
 			"Discipline": "IT & Software Development",
-			"Industry": "BioInformatics",
+			"Industry": "Telecommunications",
 			"LegalForm": "Scientific and Industrial Research Organization",
 			"Employees": "51-200 employees",
 			"ShortDescription":"<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p><p>He lay on his armour-like</p>",
@@ -145,8 +145,8 @@
 		}
 	],
 
-	"ProfessionalSkills_Title":"<i class='fa fa-briefcase'></i> Professional Skills",
-	"ProfessionalSkills_Description":"The skills which I use all the time",
+	"ProfessionalSkills_Title":"<i class='fa fa-briefcase'></i> Professionelle Fähigkeiten",
+	"ProfessionalSkills_Description":"Die Fähigkeiten, die ich benutzt ganze Zeit",
 	"ProfessionalSkills":[
 		{ 
 			"Title": "PHP",
@@ -176,7 +176,7 @@
 	],
 	
 
-	"TechnicalSkills_Title":"<i class='fa fa-gears'></i> Technical Skills",
+	"TechnicalSkills_Title":"<i class='fa fa-gears'></i> Technische Fähigkeiten",
 	"TechnicalSkills_Description":"The skills which I use make things done",
 	"TechnicalSkills": [
 		{ 
@@ -212,23 +212,23 @@
 
 	],
 
-	"PersonalSkills_Title":"<i class='fa fa-asterisk'></i> Personal Skills",
-	"PersonalSkills_Description":"The skills which defines me as me",
+	"PersonalSkills_Title":"<i class='fa fa-asterisk'></i> Persönliche Fähigkeiten",
+	"PersonalSkills_Description":"Die Fähigkeiten, die mich als mich definiert",
 	"PersonalSkills": [
 		{ 
-			"Title": "Quick learning",
+			"Title": "Schnelles Lernen",
 			"Level": 6
 		},
 		{ 
-			"Title": "Analytical thinking",
+			"Title": "Analytisches Denken",
 			"Level": 6
 		},
 		{ 
-			"Title": "Communication",
+			"Title": "Kommunikation",
 			"Level": 5
 		},
 		{ 
-			"Title": "Commitment",
+			"Title": "Engagement",
 			"Level": 6
 		},
 		{ 
@@ -240,22 +240,22 @@
 	"LanguageData":[
 
 		{
-			"Title": "English",
+			"Title": "Englisch",
 			"Level": 6,
 			"Read": 6,
 			"Write": 6,
 			"Speak": 6,
 			"Understand": 6,
-			"MoreInfo": "Fluent"
+			"MoreInfo": "Fließend"
 		},
 		{
-			"Title": "German",
+			"Title": "Deutsche",
 			"Level": 3,
 			"Read": 6,
 			"Write": 6,
 			"Speak": 4,
 			"Understand": 4,
-			"MoreInfo": "Good Knowledge"
+			"MoreInfo": "Gute Kenntnisse"
 		},
 		{
 			"Title": "Telugu",
@@ -264,7 +264,7 @@
 			"Write": 6,
 			"Speak": 6,
 			"Understand": 6,
-			"MoreInfo": "First language"
+			"MoreInfo": "Muttersprache"
 		},
 		{
 			"Title": "Hindi",
@@ -273,18 +273,18 @@
 			"Write": 6,
 			"Speak": 4,
 			"Understand": 4,
-			"MoreInfo": "Good Knowledge"
+			"MoreInfo": "Gute Kenntnisse"
 		}
 	],	
 	"MessageData" :{
-		"ShortMsg":"PHP Developer by Profession <br>and<br/> Go Learner by Passion",
-		"ToRecruiters": "Please do not ask me to change my profile to fit the job description, contact me only when the job description fits my profile.",
+		"ShortMsg":"PHP-Entwickler von Beruf <br>und<br/> Go Learner by Passion",
+		"ToRecruiters": "Bitte fragen Sie mich nicht, mein Profil zu ändern, um die Job-Beschreibung zu passen, kontaktieren Sie mich nur, wenn die Job-Beschreibung mein Profil passt.",
 		"ToFriends": "",
 		"ToCompanies": "",
 		"ToOthers": "",
 		"LongMsg":"<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p><p><ul><li>Phasellus viverra nulla ut metus varius laoreet.</li><li> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</li><li> Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.</li><li> sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</li></ul></p>",
-		"FooterMessage":"I can be reached by email via {{email}} or by mobile on {{mobile}}",
-		"Objective":"<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated</p>"
+		"FooterMessage":"Ich kann per E-Mail zu erreichen über {{email}} oder mobil auf {{mobile}}",
+		"Objective":"<p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans</p>"
 		
 	},
 	"SystemData" :{
@@ -294,11 +294,11 @@
 	},
 	"ProjectsData" :[
 		{
-			"Title": "Step-by-Step Developing Apps",
+			"Title": "Step-by-Step Entwicklung von Apps",
 			"DatePosted": "Sep 05, 2016",
 			"DateCompleted":"05 Sep, 2016",
 			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"ShortDescription":"Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich.",
 			"Client": "Flying-S-M",
 			"LineOfBusiness": "",
 			"Tools":"GoLanguage, Youtube",
@@ -308,11 +308,11 @@
 			"CSS":"fa fa-youtube"
 		},
 		{
-			"Title": "RESTful web services",
+			"Title": "RESTful Web Services",
 			"DatePosted": "Sep 05, 2016",
 			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"ShortDescription":"Und es war ihnen wie eine Bestätigung ihrer neuen Träume und guten Absichten",
 			"Client": "Flying-S-M",
 			"LineOfBusiness": "",
 			"Tools":"PHP, Joomla Framework, Composer, Youtube",
@@ -323,11 +323,11 @@
 		},
 
 		{
-			"Title": "Module Development",
+			"Title": "MModulentwicklung",
 			"DatePosted": "Sep 05, 2016",
 			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"ShortDescription":"Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte.",
 			"Client": "Flying-S-M",
 			"LineOfBusiness": "",
 			"Tools":"Joomla CMS, PHP, Youtube",
@@ -338,11 +338,11 @@
 		},
 
 		{
-			"Title": "The Perfect Setup",
+			"Title": "Das perfekte Setup",
 			"DatePosted": "Sep 05, 2016",
 			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"ShortDescription":"Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den süßen",
 			"Client": "Flying-S-M",
 			"LineOfBusiness": "Content Publishing",
 			"Tools":"Virtualization, CentOS, OpenVZ",
@@ -352,11 +352,11 @@
 			"CSS":"fa fa-pencil"
 		},
 		{
-			"Title": "Docker and Go",
+			"Title": "Docker und Go",
 			"DatePosted": "Sep 05, 2016",
 			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"ShortDescription":"Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben.",
 			"Client": "Flying-S-M",
 			"LineOfBusiness": "Content Publishing",
 			"Tools":"Docker, Go, Preinstalled",
@@ -366,11 +366,11 @@
 			"CSS":"fa fa-pencil"
 		},	
 		{
-			"Title": "Learning C/C++",
+			"Title": "Lern C/C++",
 			"DatePosted": "Sep 05, 2016",
 			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"ShortDescription":"Zwei flinke Boxer jagen die quirlige Eva und ihren Mops durch Sylt. Franz jagt.",
 			"Client": "Flying-S-M",
 			"LineOfBusiness": "Content Publishing",
 			"Tools":"C, C++",
@@ -380,11 +380,11 @@
 			"CSS":"fa fa-pencil"
 		},
 		{
-			"Title": "IPP based Print Server",
+			"Title": "IPP Druckserver",
 			"DatePosted": "Sep 05, 2016",
 			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"ShortDescription":"Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten",
 			"Client": "Flying-S-M",
 			"LineOfBusiness": "Content Publishing",
 			"Tools":"Linux, Redhat, IPP Print Server, CUPS",
@@ -394,11 +394,11 @@
 			"CSS":"fa fa-pencil"
 		},
 		{
-			"Title": "NAT with iptables",
+			"Title": "NAT mit iptables",
 			"DatePosted": "Sep 05, 2016",
 			"DateCompleted":"",
 			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"ShortDescription":"Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind.",
 			"Client": "Flying-S-M",
 			"LineOfBusiness": "Content Publishing",
 			"Tools":"CentOS, Linux, Kernel, iptables, NAT",
@@ -408,11 +408,11 @@
 			"CSS":"fa fa-pencil"
 		},
 		{
-			"Title": "Social networking platform",
+			"Title": "Social-Networking-Plattform",
 			"DatePosted": "Sep 05, 2016",
 			"DateCompleted":"",
 			"Role": "Developer",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
+			"ShortDescription":"Er hörte leise Schritte hinter sich. Das bedeutete nichts Gutes.",
 			"Client": "Flying-S-M",
 			"LineOfBusiness": "Community",
 			"Tools":"Ubuntu, Apache, PHP, MYSQL, HTML, JQuery, Joomla CMS & Custom Extension development",
@@ -424,28 +424,28 @@
 		],
 		"BannerData":[
 			{
-				"Title": "PHP Developer",
-				"ShortDescription":"A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am",
+				"Title": "PHP-Entwickler",
+				"ShortDescription":"Er hörte leise Schritte hinter sich. Das bedeutete nichts Gutes. Wer würde ihm schon folgen, spät in der Nacht und dazu noch in dieser engen Gasse mitten im übel.",
 				"Image": "banner/banner01.jpg"
 			},
 			{
-				"Title": "GoLang enthusiast",
-				"ShortDescription":"One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like",
+				"Title": "GoLang Enthusiasten",
+				"ShortDescription":"Es gibt im Moment in diese Mannschaft, oh, einige Spieler vergessen ihnen Profi was sie sind. ",
 				"Image": "banner/banner02.jpg"
 			},
 			{
 				"Title": "Angular2 Learner",
-				"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds",
+				"ShortDescription":"Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte, wurde er eines Morgens verhaftet. »Wie ein Hund!« sagte er, es war",
 				"Image": "banner/banner03.jpg"
 			},
 			{
 				"Title": "Linux Administrator",
-				"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.",
+				"ShortDescription":"Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den süßen Frühlingsmorgen, die ich mit ganzem Herzen genieße.",
 				"Image": "banner/banner04.jpg"
 			},
 			{
-				"Title": "Get everything to cloud",
-				"ShortDescription":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantic.",
+				"Title": "Holen Sie sich alles auf Cloud",
+				"ShortDescription":"Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen.",
 				"Image": "banner/banner05.jpg"
 			}
 
@@ -455,7 +455,7 @@
 
 
 
-	"IMPRINT_DISCLAIMER":"Disclaimer",
-	"IMPRINT_DISCLAIMER_MSG":"The information contained in this website is for general information purposes only. The information is provided by this website and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.<br><br>Every effort is made to keep the website up and running smoothly. However, we takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.",
-	"RECENT_ACTIVITY":"Recent Activity"
+	"IMPRINT_DISCLAIMER":"Verzichtserklärung",
+	"IMPRINT_DISCLAIMER_MSG":"Die Informationen auf dieser Website dient nur der allgemeinen Information. Die Informationen werden von dieser Website zur Verfügung gestellt und während wir die Informationen auf dem neuesten Stand und korrekt zu halten bemühen, machen wir keine Zusicherungen oder Gewährleistungen jeglicher Art, weder ausdrücklich noch stillschweigend , für die Vollständigkeit, Genauigkeit, Zuverlässigkeit, Eignung oder Verfügbarkeit in Bezug auf die Website oder die Informationen, Produkte, Dienstleistungen oder Grafiken, die auf der Website für jeden Zweck enthalten. Jegliches Vertrauen Sie auf diese Informationen ist daher auf eigene Gefahr.<br/>Es wird alles unternommen reibungslos die Website und läuft zu halten. Allerdings dauert wir keine Verantwortung für, und wird nicht haftbar gemacht werden für die Website aufgrund von technischen Problemen außerhalb unserer Kontrolle vorübergehend nicht verfügbar ist.",
+	"RECENT_ACTIVITY":"Letzte Aktivität"
 }

@@ -16,13 +16,12 @@ var SanitizeHTML = (function () {
     }
     SanitizeHTML.prototype.transform = function (v) {
         return this._sanitizer.bypassSecurityTrustHtml(v);
-        //return v;
     };
     SanitizeHTML = __decorate([
         core_1.Pipe({
             name: 'sanitizeHTML'
         }), 
-        __metadata('design:paramtypes', [platform_browser_1.DomSanitizationService])
+        __metadata('design:paramtypes', [platform_browser_1.DomSanitizer])
     ], SanitizeHTML);
     return SanitizeHTML;
 }());
