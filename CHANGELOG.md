@@ -10,15 +10,17 @@
 * **i18n:** Removed all unwanted entries in the language files
 * **images/:** Removed all unwanted image files
 
+
 ### Features
 
 * **Deutsch**: Deutsch language support included
 * **Theme**: Included support to Theme system
+* **globals.ts**: A new globals file has been created for the global variables
 
 ### PEER-DEPENDENCY UPDATES ###
-
 * **Angular**: Updated Angular from 2.0.0-rc.5 to 2.0.0-rc.6
 * **ng2-translate**: Updated ng2-translate from 2.4.1 to 2.4.3
 
 ### BREAKING CHANGES
 * **sanitizeHTML.pipe**: Replaced DomSanitizerService to DomSanitizer
+* **theme:** All component *.tpl.html files have been moved to themes/<theme> folder and pointed from the component using global variable themeName

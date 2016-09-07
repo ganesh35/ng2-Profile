@@ -9,13 +9,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var myGlobals = require('../../globals');
 var AboutComponent = (function () {
     function AboutComponent() {
         this.pageHeading = "About";
     }
     AboutComponent = __decorate([
         core_1.Component({
-            templateUrl: './app/components/about/about.tpl.html'
+            templateUrl: '../../themes/' + myGlobals.themeName + '/about.tpl.html'
         }), 
         __metadata('design:paramtypes', [])
     ], AboutComponent);

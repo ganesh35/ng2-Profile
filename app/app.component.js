@@ -9,8 +9,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var myGlobals = require('./globals');
 var ng2_translate_1 = require('ng2-translate/ng2-translate');
-var themeName = 'theme3';
+var themeName = 'theme1';
 var AppComponent = (function () {
     function AppComponent(translate) {
         this.translate = translate;
@@ -39,7 +40,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            templateUrl: '../themes/' + themeName + '/theme.tpl.html',
+            templateUrl: '../themes/' + myGlobals.themeName + '/index.tpl.html'
         }), 
         __metadata('design:paramtypes', [ng2_translate_1.TranslateService])
     ], AppComponent);
