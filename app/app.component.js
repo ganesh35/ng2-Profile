@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var myGlobals = require('./globals');
 var ng2_translate_1 = require('ng2-translate/ng2-translate');
+var core_2 = require('@angular/core');
 var themeName = 'theme1';
 var AppComponent = (function () {
     function AppComponent(translate) {
@@ -40,7 +41,9 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            templateUrl: '../themes/' + myGlobals.themeName + '/index.tpl.html'
+            styleUrls: ['../themes/' + myGlobals.themeName + '/css/theme.css'],
+            templateUrl: '../themes/' + myGlobals.themeName + '/index.tpl.html',
+            encapsulation: core_2.ViewEncapsulation.None,
         }), 
         __metadata('design:paramtypes', [ng2_translate_1.TranslateService])
     ], AppComponent);

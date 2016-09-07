@@ -15,6 +15,7 @@
 
 * **Deutsch**: Deutsch language support included
 * **Theme**: Included support to Theme system
+* **Themes**: Using globals.ts variable themeName we can set the theme.  Available themes : theme1, theme2
 * **globals.ts**: A new globals file has been created for the global variables
 
 ### PEER-DEPENDENCY UPDATES ###

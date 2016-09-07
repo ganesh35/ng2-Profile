@@ -1,12 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import myGlobals = require('./globals'); 
 import {TranslateService} from 'ng2-translate/ng2-translate';
-
+import {ViewEncapsulation} from '@angular/core';
 var themeName = 'theme1';
 
 @Component({
     selector: 'my-app',
-    templateUrl: '../themes/' + myGlobals.themeName + '/index.tpl.html'
+    styleUrls: ['../themes/' + myGlobals.themeName + '/css/theme.css'],
+    templateUrl: '../themes/' + myGlobals.themeName + '/index.tpl.html',
+    encapsulation: ViewEncapsulation.None, 
+
 })
 export class AppComponent implements OnInit { 
 	public langList = [];
