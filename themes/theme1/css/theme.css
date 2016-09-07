@@ -1,0 +1,50 @@
+/*!
+ * ngProfile
+ * Licensed under MIT
+ */
+/*
+*/
+body {
+    background: #f1f3f6 none repeat scroll 0 0;
+    border-top: 3px solid #d9534f;
+    color: #546673;
+    overflow-y: scroll;
+
+
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin: 0;
+    padding: 10px;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans Condensed",Arial,Helvetica,sans-serif;
+}
+.navbar-brand{
+    font-family: "Open Sans Condensed",Arial,Helvetica,sans-serif;   
+    font-size: 200%; 
+}
+
+.line{
+    border-bottom: 1px solid #d1d3d4;
+}
+
+
+.box {
+    background-color: #fff;
+    border: 1px solid #d3e0e9;
+    display: block;
+    margin-bottom: -1px;
+    padding: 10px 15px 15px 15px;
+    position: relative;
+    
+}
+
+hr {
+    border-color: #d1d3d4; -moz-use-text-color -moz-use-text-color;
+}
+
