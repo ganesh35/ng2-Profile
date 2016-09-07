@@ -23,7 +23,7 @@
 	"ProfilePage":{
 		"Mobile": "Handy",
 		"Email": "Email",
-		"Website": "Webseite",
+		"Website": "Web",
 		"Address": "Adresse",
 		"My Objective": "<i class='fa fa-bullseye'></i> Mein Ziel"
 	},
@@ -323,35 +323,6 @@
 		},
 
 		{
-			"Title": "MModulentwicklung",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Author",
-			"ShortDescription":"Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte.",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "",
-			"Tools":"Joomla CMS, PHP, Youtube",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ngProfile",
-			"Image": "dummy09.jpg",
-			"CSS":"fa fa-youtube"
-		},
-
-		{
-			"Title": "Das perfekte Setup",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Author",
-			"ShortDescription":"Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den süßen",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "Content Publishing",
-			"Tools":"Virtualization, CentOS, OpenVZ",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ngProfile",
-			"Image": "dummy07.jpg",
-			"CSS":"fa fa-pencil"
-		},
-		{
 			"Title": "Docker und Go",
 			"DatePosted": "Sep 05, 2016",
 			"DateCompleted":"",
@@ -393,20 +364,7 @@
 			"Image": "dummy04.jpg"	,
 			"CSS":"fa fa-pencil"
 		},
-		{
-			"Title": "NAT mit iptables",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Author",
-			"ShortDescription":"Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind.",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "Content Publishing",
-			"Tools":"CentOS, Linux, Kernel, iptables, NAT",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ngProfile",
-			"Image": "dummy03.jpg",
-			"CSS":"fa fa-pencil"
-		},
+
 		{
 			"Title": "Social-Networking-Plattform",
 			"DatePosted": "Sep 05, 2016",

@@ -1,53 +1,68 @@
-<div class="container">
-
-
-
+<div class="container box" >
 <div class="row">
+    <div class="col-md-7">  <!--    Header Left   -->
+        <a routerLink="/home" >
+            <h1 class="text-md-center" style="font-size: 300%;" [innerHTML]="'Profile.PersonalData.DisplayName' | translate ">
+                <br/>
+                <small>{{profile?.PersonalData?.DisplayProfession }}</small>
+            </h1>
+        </a>
+            <hr/>
 
-    <div class="col-md-9">  <!--    Header Left   -->
-      
-        <h1 class="text-md-center">
-          <hr/>
-            <a routerLink="/home">
-            {{'Profile.PersonalData.DisplayName' | translate }}<br/>
-            </a>
-            <small>{{profile?.PersonalData?.DisplayProfession }}</small>
-        </h1>
 
-            <p class="text-md-center" *ngIf="'Profile.SocialNetworksData' | translate">
-            <span *ngFor="let item of 'Profile.SocialNetworksData' | translate" class="nav nav-inline">
-                <a class="btn btn-sm btn-danger" target="_BLANK" href="{{item.Link}}" title="{{item.Description}} ({{item.NetworkType}}) : {{item.Title}}"> <span class="{{item.CSS}}" > </span></a> &nbsp; &nbsp; &nbsp; 
-            </span>
-            </p>
-            <br/>
+<nav class="navbar navbar-light bg-faded navbar-full" style="background-color: #e3f2fd;">
+  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+    &#9776;
+  </button>
+  <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/home" routerLinkActive="active"><i class="fa fa-home"></i> {{'MENU_ITEM_HOME' | translate}} </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about" routerLinkActive="active"><i class=" fa fa-th"></i> {{'MENU_ITEM_ABOUT' | translate}} </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/profile" routerLinkActive="active"><i class=" fa fa-user"></i> {{'MENU_ITEM_PROFILE' | translate}} </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active"><i class="fa fa-envelope"></i> {{'MENU_ITEM_CONTACT' | translate}} </a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
-        <hr/>
-            <nav class="nav nav-inline text-md-center">
-                <a class="nav-link" routerLink="/home" routerLinkActive="active"><i class="fa fa-home"></i> {{'MENU_ITEM_HOME' | translate}} </a>
-                <a class="nav-link" routerLink="/about" routerLinkActive="active"><i class=" fa fa-th"></i> {{'MENU_ITEM_ABOUT' | translate}} </a>
-                <a class="nav-link" routerLink="/profile" routerLinkActive="active"><i class=" fa fa-user"></i> {{'MENU_ITEM_PROFILE' | translate}} </a>
-                <a class="nav-link" routerLink="/contact" routerLinkActive="active"><i class="fa fa-envelope"></i> {{'MENU_ITEM_CONTACT' | translate}} </a>
-            </nav>
 
-        <hr/>
+            
 
     </div> <!--    Header Left /   -->
 
-    <div class="col-md-3">   <!--    Header Right   -->
-        <div class="card">    
-          <img class="card-img img-fluid img-responsive text-md-center img-thumbnail" src="themes/theme3/img/profile.png" alt="{{'LOGO_TEXT' | translate}}">
-        </div>
+    <div class="col-md-5">   <!--    Header Right   -->
+
+        <p *ngIf="'Profile.PersonalData.WebURL' | translate">
+            <strong><i class="fa fa-link"></i></strong> : {{'Profile.PersonalData.WebURL' | translate}}
+        </p>
+        <p *ngIf="'Profile.PersonalData.EmailPersonal' | translate">
+          <strong><i class="fa fa-envelope"></i></strong> : {{'Profile.PersonalData.EmailPersonal' | translate}}
+        </p>
+        <p *ngIf="'Profile.PersonalData.Mobile' | translate">
+            <strong><i class="fa fa-mobile"></i></strong> : {{'Profile.PersonalData.Mobile' | translate}}
+        </p>
+
+
+        <p class="" *ngIf="'Profile.SocialNetworksData' | translate">
+            <span *ngFor="let item of 'Profile.SocialNetworksData' | translate" class="nav nav-inline">
+                <a class="" target="_BLANK" href="{{item.Link}}" title="{{item.Description}} ({{item.NetworkType}}) : {{item.Title}}"> <span class="{{item.CSS}}" > </span></a> &nbsp; &nbsp; &nbsp; 
+            </span>
+        </p>
+
     </div>  <!--    Header Right /  -->
 
 </div>
-
+<hr/>
  <router-outlet></router-outlet>
 
-
-
-
-    
-    <hr/>
+<hr/>
     <!-- Site footer -->
     <footer class="footer">
 
