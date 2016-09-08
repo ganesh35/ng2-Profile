@@ -8,7 +8,7 @@
 * [FAQ](#faq)
 
 
-## Demo
+## Technical Informatoin
 This program uses the following repositories:
 - [Angular2 1.0.0-rc.6] (https://github.com/angular/angular)
 - [ng2-translate 2.4.3] (https://github.com/ocombe/ng2-translate)
