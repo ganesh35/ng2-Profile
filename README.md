@@ -1,6 +1,5 @@
 # ng2-Profile 
-
-### A Simple minimalistic MultiLingual Boiler-plate template for a perfect Profile website
+### A simple minimalistic MultiLingual Boiler-plate template for a perfect Profile website
 * [Technical Informatoin](#tech-info)
 * [Demo](#demo)
 * [Features](#features)
@@ -11,8 +10,8 @@
 
 ## Demo
 This program uses the following repositories:
-- [Angular2] 1.0.0-rc.6 (https://github.com/angular/angular)
-- [ng2-translate] 2.4.3 (https://github.com/ocombe/ng2-translate)
+- [Angular2 1.0.0-rc.6] (https://github.com/angular/angular)
+- [ng2-translate 2.4.3] (https://github.com/ocombe/ng2-translate)
 
 ## Demo
 Theme #1: [Demo of theme1](http://ng2-profile.theme1.batchu.org/)   
@@ -40,7 +39,7 @@ Theme #2: [Demo of theme2](http://ng2-profile.theme2.batchu.org/)
    **profile** should be the folder where you have extracted your files.  
    
 ## Usage
-Find the json file: **i18n/<lang>.json **  
+Find the json file: **i18n/<lang>.json**  
 Edit the content of the json file to change Logo, Caption, Menu Items, Footer Text and the complete Profile data.
 
 ## FAQ
@@ -56,3 +55,5 @@ if you are using npm lite-server it will re-create .js file from .ts file, other
 ```javascript
 exports.themeName = 'theme1';     // change to any available theme
 ```
+
+
