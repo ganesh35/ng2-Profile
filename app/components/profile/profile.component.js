@@ -16,7 +16,7 @@ var ProfileComponent = (function () {
     }
     ProfileComponent = __decorate([
         core_1.Component({
-            templateUrl: '../../themes/' + myGlobals.themeName + '/profile.tpl.html'
+            templateUrl: 'themes/' + myGlobals.themeName + '/profile.tpl.html'
         }), 
         __metadata('design:paramtypes', [])
     ], ProfileComponent);

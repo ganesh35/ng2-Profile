@@ -16,7 +16,7 @@ var ContactComponent = (function () {
     }
     ContactComponent = __decorate([
         core_1.Component({
-            templateUrl: '../../themes/' + myGlobals.themeName + '/contact.tpl.html'
+            templateUrl: 'themes/' + myGlobals.themeName + '/contact.tpl.html'
         }), 
         __metadata('design:paramtypes', [])
     ], ContactComponent);

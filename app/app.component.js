@@ -41,8 +41,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            styleUrls: ['../themes/' + myGlobals.themeName + '/css/theme.css'],
-            templateUrl: '../themes/' + myGlobals.themeName + '/index.tpl.html',
+            styleUrls: ['themes/' + myGlobals.themeName + '/css/theme.css'],
+            templateUrl: 'themes/' + myGlobals.themeName + '/index.tpl.html',
             encapsulation: core_2.ViewEncapsulation.None,
         }), 
         __metadata('design:paramtypes', [ng2_translate_1.TranslateService])

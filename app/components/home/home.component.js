@@ -16,7 +16,7 @@ var HomeComponent = (function () {
     }
     HomeComponent = __decorate([
         core_1.Component({
-            templateUrl: '../../themes/' + myGlobals.themeName + '/home.tpl.html'
+            templateUrl: 'themes/' + myGlobals.themeName + '/home.tpl.html'
         }), 
         __metadata('design:paramtypes', [])
     ], HomeComponent);

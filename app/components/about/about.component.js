@@ -16,7 +16,7 @@ var AboutComponent = (function () {
     }
     AboutComponent = __decorate([
         core_1.Component({
-            templateUrl: '../../themes/' + myGlobals.themeName + '/about.tpl.html',
+            templateUrl: 'themes/' + myGlobals.themeName + '/about.tpl.html',
         }), 
         __metadata('design:paramtypes', [])
     ], AboutComponent);
