@@ -10,7 +10,7 @@
             <hr/>
 
 
-<nav class="navbar navbar-light bg-faded navbar-full" style="background-color: #e3f2fd;">
+<nav class="navbar bg-faded navbar-full line" style="background-color: #e3f2fd;">
   <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
     &#9776;
   </button>
@@ -39,18 +39,18 @@
 
     <div class="col-md-5">   <!--    Header Right   -->
 
-        <p *ngIf="'Profile.PersonalData.WebURL' | translate">
+        <p *ngIf="'Profile.PersonalData.WebURL' | translate" class="text-md-right">
             <strong><i class="fa fa-link"></i></strong> : {{'Profile.PersonalData.WebURL' | translate}}
         </p>
-        <p *ngIf="'Profile.PersonalData.EmailPersonal' | translate">
+        <p *ngIf="'Profile.PersonalData.EmailPersonal' | translate" class="text-md-right">
           <strong><i class="fa fa-envelope"></i></strong> : {{'Profile.PersonalData.EmailPersonal' | translate}}
         </p>
-        <p *ngIf="'Profile.PersonalData.Mobile' | translate">
+        <p *ngIf="'Profile.PersonalData.Mobile' | translate" class="text-md-right">
             <strong><i class="fa fa-mobile"></i></strong> : {{'Profile.PersonalData.Mobile' | translate}}
         </p>
 
 
-        <p class="" *ngIf="'Profile.SocialNetworksData' | translate">
+        <p class="" *ngIf="'Profile.SocialNetworksData' | translate" class="text-md-right">
             <span *ngFor="let item of 'Profile.SocialNetworksData' | translate" class="nav nav-inline">
                 <a class="" target="_BLANK" href="{{item.Link}}" title="{{item.Description}} ({{item.NetworkType}}) : {{item.Title}}"> <span class="{{item.CSS}}" > </span></a> &nbsp; &nbsp; &nbsp; 
             </span>
@@ -64,7 +64,7 @@
 
 <hr/>
     <!-- Site footer -->
-    <footer class="footer">
+    <footer class="footer line">
 
         <div class="row">
             <div class="col-xs-6 col-md-6">{{'FOOTER_TEXT' | translate}}</div>

@@ -5,21 +5,16 @@
 /*
 */
 body {
-    background: #f1f3f6 none repeat scroll 0 0;
-    border-top: 3px solid #d9534f;
-    color: #546673;
+    background: #c9e6f2 none repeat scroll 0 0;
+    color: #546675;
     overflow-y: scroll;
-
-
     font-family: "Open Sans",Helvetica,Arial,sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 18px;
     margin: 0;
     padding: 10px;
-
 }
-
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans Condensed",Arial,Helvetica,sans-serif;
