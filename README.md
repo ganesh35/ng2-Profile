@@ -44,7 +44,7 @@ Edit the content of the json file to change Logo, Caption, Menu Items, Footer Te
 
 ## FAQ
 #### How can I change  `<title>` and `meta tags`
-Dynamic modification of title and meta-tags is not supported.   
+Dynamic modification of title and meta-tags are not supported yet.   
 Please open `index.html` and change them manually.
 
 #### How to switch themes
