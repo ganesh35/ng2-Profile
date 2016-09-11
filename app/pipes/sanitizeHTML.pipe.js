@@ -21,10 +21,9 @@ var SanitizeHTML = (function () {
         core_1.Pipe({
             name: 'sanitizeHTML'
         }), 
-        __metadata('design:paramtypes', [(typeof (_a = typeof platform_browser_1.DomSanitizer !== 'undefined' && platform_browser_1.DomSanitizer) === 'function' && _a) || Object])
+        __metadata('design:paramtypes', [platform_browser_1.DomSanitizer])
     ], SanitizeHTML);
     return SanitizeHTML;
-    var _a;
 }());
 exports.SanitizeHTML = SanitizeHTML;
 //# sourceMappingURL=sanitizeHTML.pipe.js.map

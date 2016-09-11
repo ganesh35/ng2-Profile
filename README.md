@@ -25,7 +25,7 @@ Theme #2: [Demo of theme2](http://ng2-profile.theme2.batchu.org/)
 + Bootstrap 4 Support
 
 ## Installation
-- **Step #1**: Download and extract [.zip file](https://github.com/ganesh35/ngProfile/archive/1.0.0-beta.01.zip)  
+- **Step #1**: Download and extract [.zip file](https://github.com/ganesh35/ng2-Profile/archive/1.0.0-beta.03.zip)  
 - **Step #2**: Extract the zip file contents to a folder (ex: profile)
 - **Step #3**: (only if the folder is not in the web servcer document-root):  
    Edit the file index.html  
