@@ -15,6 +15,8 @@ var home_component_1 = require('./components/home/home.component');
 var about_component_1 = require('./components/about/about.component');
 var profile_component_1 = require('./components/profile/profile.component');
 var contact_component_1 = require('./components/contact/contact.component');
+var page_component_1 = require('./components/page/page.component');
+var _404_component_1 = require('./components/404/404.component');
 var app_routing_1 = require('./app.routing');
 var http_1 = require('@angular/http');
 var ng2_translate_1 = require('ng2-translate/ng2-translate');
@@ -33,7 +35,7 @@ var AppModule = (function () {
                 ng2_translate_1.TranslateModule.forRoot(),
                 forms_1.FormsModule
             ],
-            declarations: [app_component_1.AppComponent, home_component_1.HomeComponent, about_component_1.AboutComponent, profile_component_1.ProfileComponent, contact_component_1.ContactComponent, starrating_pipe_1.StarRatingPipe, sanitizeHTML_pipe_1.SanitizeHTML],
+            declarations: [app_component_1.AppComponent, home_component_1.HomeComponent, about_component_1.AboutComponent, profile_component_1.ProfileComponent, contact_component_1.ContactComponent, page_component_1.PageComponent, _404_component_1.PageNotFoundComponent, starrating_pipe_1.StarRatingPipe, sanitizeHTML_pipe_1.SanitizeHTML],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

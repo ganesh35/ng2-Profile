@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import myGlobals = require('./globals'); 
 import {TranslateService} from 'ng2-translate/ng2-translate';
 import {ViewEncapsulation} from '@angular/core';
-var themeName = 'theme1';
 
 @Component({
     selector: 'my-app',
@@ -14,7 +13,7 @@ var themeName = 'theme1';
 export class AppComponent implements OnInit { 
 	public langList = [];
     public profile: any;
-
+    public showCookieConcent = true;
 	constructor(private translate: TranslateService) {
         //translate.setDefaultLang('en');
         translate.setDefaultLang('en');
@@ -22,6 +21,8 @@ export class AppComponent implements OnInit {
     }
 
     ngOnInit(){
+        var temp = localStorage.getItem("showCookieConcent");
+        if(temp == false) this.showCookieConcent = false;
     	this.langList = [
     		{lang:'en', 'flag':'en.gif' },
     		{lang:'de', 'flag':'de.gif' }
@@ -37,6 +38,11 @@ export class AppComponent implements OnInit {
         this.translate.get('Profile').subscribe((res: string) => {
              this.profile = res;
         });
+    }
+
+    closeCookieConcent(){
+        this.showCookieConcent=false;
+        localStorage.setItem("showCookieConcent", false);
     }
 
 }

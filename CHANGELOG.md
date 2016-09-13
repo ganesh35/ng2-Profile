@@ -1,3 +1,17 @@
+<a name="1.0.0-beta.04"></a>
+# [1.0.0-beta.04]
+
+
+### Features
+
+* **#2: EU Cookie Compliance**: Created Cookie page and implemented Cookie Concent
+* **#3: 404 implementation**: 404 Page implemented
+* **#4: Possibility to add more pages**: Implemented a page component to add and handle more pages when needed.
+
+
+
+
+
 <a name="1.0.0-beta.03"></a>
 # [1.0.0-beta.03] Branch : 06_Deutsch
 

@@ -12,17 +12,20 @@ var core_1 = require('@angular/core');
 var myGlobals = require('./globals');
 var ng2_translate_1 = require('ng2-translate/ng2-translate');
 var core_2 = require('@angular/core');
-var themeName = 'theme1';
 var AppComponent = (function () {
     function AppComponent(translate) {
         this.translate = translate;
         this.langList = [];
+        this.showCookieConcent = true;
         //translate.setDefaultLang('en');
         translate.setDefaultLang('en');
         translate.use('de');
     }
     AppComponent.prototype.ngOnInit = function () {
         var _this = this;
+        var temp = localStorage.getItem("showCookieConcent");
+        if (temp == false)
+            this.showCookieConcent = false;
         this.langList = [
             { lang: 'en', 'flag': 'en.gif' },
             { lang: 'de', 'flag': 'de.gif' }
@@ -37,6 +40,10 @@ var AppComponent = (function () {
         this.translate.get('Profile').subscribe(function (res) {
             _this.profile = res;
         });
+    };
+    AppComponent.prototype.closeCookieConcent = function () {
+        this.showCookieConcent = false;
+        localStorage.setItem("showCookieConcent", false);
     };
     AppComponent = __decorate([
         core_1.Component({

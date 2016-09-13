@@ -5,4 +5,6 @@
 exports.sep = '/';
 exports.version = "1.0.0-beta.03";
 exports.themeName = 'theme1';
+exports.allowedPages = ['terms', 'privacy', 'cookies', "imprint"];
+exports.cookieConcentEnabled = true;
 //# sourceMappingURL=globals.js.map
