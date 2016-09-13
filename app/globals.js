@@ -12,5 +12,4 @@ exports.languageList = [
     { lang: 'de', 'flag': 'de.gif' }
 ];
 exports.languageDefault = 'en';
-exports.mainMenuItems = [];
 //# sourceMappingURL=globals.js.map

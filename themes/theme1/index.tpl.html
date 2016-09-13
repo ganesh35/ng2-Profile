@@ -1,5 +1,5 @@
 
-<nav *ngIf="showCookieConcent=='true'" class="container navbar-fixed-top  alert alert-danger" style="position: relative;">
+<nav *ngIf="showCookieConcent" class="container navbar-fixed-top  alert alert-danger" style="position: relative;">
     <h4 *ngIf="'cookies.Heading' | translate " [innerHTML]="'cookies.Heading' | translate"></h4>
     <div *ngIf="'COOKIE_CONSENT_MSG' | translate " [innerHTML]="'COOKIE_CONSENT_MSG' | translate"></div>
     <a class="btn btn-link btn-sm" routerLink="/page/cookies">{{'FIND_OUT_MORE' | translate}}</a>

@@ -13,21 +13,21 @@ import {ViewEncapsulation} from '@angular/core';
 export class AppComponent implements OnInit { 
 	public langList = [];
     public profile: any;
-    public showCookieConcent = 'true';
+    public showCookieConcent = '';
     public currentLang = '';
 	constructor(private translate: TranslateService) {
         //translate.setDefaultLang('en');
         translate.setDefaultLang(myGlobals.languageDefault);
         translate.use(myGlobals.languageDefault);
         this.currentLang=myGlobals.languageDefault;
+        this.showCookieConcent = myGlobals.cookieConcentEnabled;
+
+        var temp = localStorage.getItem('showCookieConcent')
+        if(temp == '') this.showCookieConcent  = '';
     }
 
     ngOnInit(){
-        var temp = localStorage.getItem("showCookieConcent");
-        if(temp == '' || temp == undefined) this.showCookieConcent = '';
-
         this.langList  = myGlobals.languageList;
-
         this.translate.get('Profile').subscribe((res: string) => {
              this.profile = res;
         });
@@ -45,7 +45,7 @@ export class AppComponent implements OnInit {
 
     closeCookieConcent(){
         this.showCookieConcent='';
-        localStorage.setItem("showCookieConcent", '');
+        localStorage.setItem('showCookieConcent', '');
     }
 
 }

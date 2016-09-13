@@ -16,18 +16,19 @@ var AppComponent = (function () {
     function AppComponent(translate) {
         this.translate = translate;
         this.langList = [];
-        this.showCookieConcent = 'true';
+        this.showCookieConcent = '';
         this.currentLang = '';
         //translate.setDefaultLang('en');
         translate.setDefaultLang(myGlobals.languageDefault);
         translate.use(myGlobals.languageDefault);
         this.currentLang = myGlobals.languageDefault;
+        this.showCookieConcent = myGlobals.cookieConcentEnabled;
+        var temp = localStorage.getItem('showCookieConcent');
+        if (temp == '')
+            this.showCookieConcent = '';
     }
     AppComponent.prototype.ngOnInit = function () {
         var _this = this;
-        var temp = localStorage.getItem("showCookieConcent");
-        if (temp == '' || temp == undefined)
-            this.showCookieConcent = '';
         this.langList = myGlobals.languageList;
         this.translate.get('Profile').subscribe(function (res) {
             _this.profile = res;
@@ -43,7 +44,7 @@ var AppComponent = (function () {
     };
     AppComponent.prototype.closeCookieConcent = function () {
         this.showCookieConcent = '';
-        localStorage.setItem("showCookieConcent", '');
+        localStorage.setItem('showCookieConcent', '');
     };
     AppComponent = __decorate([
         core_1.Component({
