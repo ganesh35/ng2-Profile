@@ -14,10 +14,12 @@ export class AppComponent implements OnInit {
 	public langList = [];
     public profile: any;
     public showCookieConcent = 'true';
+    public currentLang = '';
 	constructor(private translate: TranslateService) {
         //translate.setDefaultLang('en');
         translate.setDefaultLang(myGlobals.languageDefault);
         translate.use(myGlobals.languageDefault);
+        this.currentLang=myGlobals.languageDefault;
     }
 
     ngOnInit(){
@@ -33,9 +35,12 @@ export class AppComponent implements OnInit {
 
     onLangChange(val){
     	this.translate.use(val);
+        this.currentLang=val;
+        
         this.translate.get('Profile').subscribe((res: string) => {
              this.profile = res;
         });
+
     }
 
     closeCookieConcent(){

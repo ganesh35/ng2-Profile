@@ -17,9 +17,11 @@ var AppComponent = (function () {
         this.translate = translate;
         this.langList = [];
         this.showCookieConcent = 'true';
+        this.currentLang = '';
         //translate.setDefaultLang('en');
         translate.setDefaultLang(myGlobals.languageDefault);
         translate.use(myGlobals.languageDefault);
+        this.currentLang = myGlobals.languageDefault;
     }
     AppComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -34,6 +36,7 @@ var AppComponent = (function () {
     AppComponent.prototype.onLangChange = function (val) {
         var _this = this;
         this.translate.use(val);
+        this.currentLang = val;
         this.translate.get('Profile').subscribe(function (res) {
             _this.profile = res;
         });

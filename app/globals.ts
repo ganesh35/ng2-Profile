@@ -14,3 +14,8 @@ export var languageList = [
 ];
 export var languageDefault = 'en';
 
+
+
+export var mainMenuItems=[
+	
+];

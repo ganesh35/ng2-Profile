@@ -1,21 +1,18 @@
 <a name="1.0.0-beta.04"></a>
-# [1.0.0-beta.04] (2016-08-31)
-
+# [1.0.0-beta.04] (2016-09-13)
 
 ### Features
-
 * **[#1: Add / Remove languages](https://github.com/ganesh35/ng2-Profile/issues/1)**: Adding / removing content languages simplified.
 * **[#2: EU Cookie Compliance](https://github.com/ganesh35/ng2-Profile/issues/2)**: Created Cookie page and implemented Cookie Concent
 * **#[3: 404 implementation](https://github.com/ganesh35/ng2-Profile/issues/3)**: 404 Page implemented
 * **[#4: Possibility to add more pages](https://github.com/ganesh35/ng2-Profile/issues/4)**: Implemented a page component to add and handle more pages when needed.
 
-
-
-
+### Bug Fixes
+* **[#6: Active language flag should not be clickable](https://github.com/ganesh35/ng2-Profile/issues/6)**: Active language has been fixed in app.component.ts
 
 
 <a name="1.0.0-beta.03"></a>
-# [1.0.0-beta.03] Branch : 06_Deutsch
+# [1.0.0-beta.03]
 
 ### Bug Fixes
 * **Logo Link:** Fixed logo link reload problem in theme.tpl.html
