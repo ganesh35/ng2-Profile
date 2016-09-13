@@ -1,3 +1,12 @@
+
+<nav *ngIf="showCookieConcent" class="container navbar-fixed-top  alert alert-danger" style="position: relative;">
+    <h4 *ngIf="'cookies.Heading' | translate " [innerHTML]="'cookies.Heading' | translate"></h4>
+    <div *ngIf="'COOKIE_CONSENT_MSG' | translate " [innerHTML]="'COOKIE_CONSENT_MSG' | translate"></div>
+    <a class="btn btn-link btn-sm" routerLink="/page/cookies">{{'FIND_OUT_MORE' | translate}}</a>
+    <button class="btn btn-sm btn-danger pull-right" (click)="closeCookieConcent()" >x</button>
+</nav>
+
+
 <div class="container">
 <div class="row">
 
@@ -49,8 +58,18 @@
     <footer class="footer">
 
         <div class="row">
-            <div class="col-xs-6 col-md-6">{{'FOOTER_TEXT' | translate}}</div>
-            <div class="col-xs-12 col-sm-6 col-md-6 ">
+            <div class="col-xs-4 col-md-5">
+                <small>
+                <nav class="nav nav-inline">
+                    <a class="nav-link" routerLink="/page/terms"  routerLinkActive="active">{{'MENU_ITEM_TERMS' | translate}}</a>
+                    <a class="nav-link" routerLink="/page/privacy"  routerLinkActive="active">{{'MENU_ITEM_PRIVACY' | translate}}</a>
+                    <a class="nav-link" routerLink="/page/cookies"  routerLinkActive="active">{{'MENU_ITEM_COOKIES' | translate}}</a>
+                    <a class="nav-link" routerLink="/page/imprint"  routerLinkActive="active">{{'MENU_ITEM_IMPRINT' | translate}}</a>
+                </nav>
+                </small>
+            </div>
+            <div class="col-xs-4 col-md-5">{{'FOOTER_TEXT' | translate}}</div>
+            <div class="col-xs-2 col-sm-2 col-md-2 ">
                 <p class="pull-right">
                 <span *ngFor="let item of langList">
                     <span *ngIf="currentLang==item.lang">

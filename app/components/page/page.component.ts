@@ -1,21 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import myGlobals = require('../../globals'); 
 
 import { Router, ActivatedRoute }              from '@angular/router';
 import {TranslateService} from 'ng2-translate/ng2-translate';
+import { Subscription }          from 'rxjs/Subscription';
+
 @Component({
   templateUrl: 'themes/' + myGlobals.themeName + '/page.tpl.html',
 })
 
-export class PageComponent implements OnInit{
+export class PageComponent implements OnInit, OnDestroy{
+
+	private sub: Subscription;
+	public pageHeading = "PAGE_NOT_FOUND_TITLE";
+	public pageContent = "PAGE_NOT_FOUND_MSG";
+
 	constructor(
 	 	private route: ActivatedRoute,
     	private router: Router,
     	private translate: TranslateService
     ){}
 
-	public pageHeading = "PAGE_NOT_FOUND_TITLE";
-	public pageContent = "PAGE_NOT_FOUND_MSG";
  	ngOnInit() {
 		this.sub = this.route.params.subscribe(params => {
 	       let page = params['page']; 
@@ -27,4 +32,7 @@ export class PageComponent implements OnInit{
 
 	    });
 	}
+	ngOnDestroy() {
+    	this.sub.unsubscribe();
+  	}	
 }

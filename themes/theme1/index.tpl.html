@@ -1,5 +1,5 @@
 
-<nav *ngIf="showCookieConcent" class="container navbar-fixed-top  alert alert-danger" style="position: relative;">
+<nav *ngIf="showCookieConcent=='true'" class="container navbar-fixed-top  alert alert-danger" style="position: relative;">
     <h4 *ngIf="'cookies.Heading' | translate " [innerHTML]="'cookies.Heading' | translate"></h4>
     <div *ngIf="'COOKIE_CONSENT_MSG' | translate " [innerHTML]="'COOKIE_CONSENT_MSG' | translate"></div>
     <a class="btn btn-link btn-sm" routerLink="/page/cookies">{{'FIND_OUT_MORE' | translate}}</a>
@@ -11,8 +11,7 @@
 <div class="row">
     <div class="col-md-7">  <!--    Header Left   -->
         <a routerLink="/home" >
-            <h1 class="text-md-center" style="font-size: 300%;" [innerHTML]="'Profile.PersonalData.DisplayName' | translate ">
-                <br/>
+            <h1 class="text-md-center" style="font-size: 300%;" [innerHTML]="'Profile.PersonalData.DisplayName' | translate ">   
                 <small>{{profile?.PersonalData?.DisplayProfession }}</small>
             </h1>
         </a>

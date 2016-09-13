@@ -13,20 +13,18 @@ import {ViewEncapsulation} from '@angular/core';
 export class AppComponent implements OnInit { 
 	public langList = [];
     public profile: any;
-    public showCookieConcent = true;
+    public showCookieConcent = 'true';
 	constructor(private translate: TranslateService) {
         //translate.setDefaultLang('en');
-        translate.setDefaultLang('en');
-        translate.use('de');
+        translate.setDefaultLang(myGlobals.languageDefault);
+        translate.use(myGlobals.languageDefault);
     }
 
     ngOnInit(){
         var temp = localStorage.getItem("showCookieConcent");
-        if(temp == false) this.showCookieConcent = false;
-    	this.langList = [
-    		{lang:'en', 'flag':'en.gif' },
-    		{lang:'de', 'flag':'de.gif' }
-    	];
+        if(temp == '' || temp == undefined) this.showCookieConcent = '';
+
+        this.langList  = myGlobals.languageList;
 
         this.translate.get('Profile').subscribe((res: string) => {
              this.profile = res;
@@ -41,8 +39,8 @@ export class AppComponent implements OnInit {
     }
 
     closeCookieConcent(){
-        this.showCookieConcent=false;
-        localStorage.setItem("showCookieConcent", false);
+        this.showCookieConcent='';
+        localStorage.setItem("showCookieConcent", '');
     }
 
 }
