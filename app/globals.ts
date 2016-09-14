@@ -8,7 +8,7 @@ export var themeName='theme1';
 
 export var allowedPages = ['terms', 'privacy', 'cookies', "imprint"];
 
-export var cookieConcentEnabled = true;
+export var cookieConcentEnabled = 'true';
 
 export var languageList = [
 	{lang:'en', 'flag':'en.gif' },
