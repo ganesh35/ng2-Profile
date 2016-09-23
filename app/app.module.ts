@@ -7,11 +7,6 @@ import { HomeComponent }      from './components/home/home.component';
 import { AboutComponent }      from './components/about/about.component';
 import { ProfileComponent }      from './components/profile/profile.component';
 import { ContactComponent }      from './components/contact/contact.component';
-
-import { LoginComponent }      from './components/login/login.component';
-import { FeedbackComponent }      from './components/feedback/feedback.component';
-
-
 import { PageComponent }      from './components/page/page.component';
 import { PageNotFoundComponent }      from './components/404/404.component';
 import {routing} from './app.routing';
@@ -35,7 +30,7 @@ import { FormsModule }   from '@angular/forms';
       TranslateModule.forRoot(),
       FormsModule, HttpModule
    ],
-  declarations: [ AppComponent, HomeComponent, AboutComponent, ProfileComponent, ContactComponent, PageComponent, LoginComponent, FeedbackComponent, PageNotFoundComponent, StarRatingPipe, SanitizeHTML ],
+  declarations: [ AppComponent, HomeComponent, AboutComponent, ProfileComponent, ContactComponent, PageComponent, PageNotFoundComponent, StarRatingPipe, SanitizeHTML ],
   bootstrap:    [ AppComponent  ]
 })
 export class AppModule { }

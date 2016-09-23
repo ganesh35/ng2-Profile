@@ -1,4 +1,4 @@
-# ng2-Profile 
+# ng2-Profile [1.0.0]
 ### A simple minimalistic MultiLingual Boiler-plate template for a perfect Profile website
 * [Technical Informatoin](#tech-info)
 * [Demo](#demo)
