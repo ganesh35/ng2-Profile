@@ -1,5 +1,7 @@
 # ng2-Profile [1.0.0]
-### A simple minimalistic MultiLingual Boiler-plate template for a perfect Profile website
+### A simple minimalistic MultiLingual Boiler-plate template for a perfect Profile website  
+This is an Angular 2 application developed using typescript v2.0.2.
+
 * [Technical Informatoin](#tech-info)
 * [Demo](#demo)
 * [Features](#features)
@@ -25,7 +27,7 @@ Theme #2: [Demo of theme2](http://ng2-profile.theme2.batchu.org/)
 + Bootstrap 4 Support
 
 ## Installation
-- **Step #1**: Download and extract [.zip file](https://github.com/ganesh35/ng2-Profile/archive/1.0.0-beta.04.zip)  
+- **Step #1**: Download and extract [.zip file](https://github.com/ganesh35/ng2-Profile/archive/v1.0.0.zip)  
 - **Step #2**: Extract the zip file contents to a folder (ex: profile)
 - **Step #3**: (only if the folder is not in the web servcer document-root):  
    Edit the file index.html  
