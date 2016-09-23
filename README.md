@@ -10,8 +10,8 @@
 
 ## Technical Informatoin
 This program uses the following repositories:
-- [Angular2 1.0.0-rc.6] (https://github.com/angular/angular)
-- [ng2-translate 2.4.3] (https://github.com/ocombe/ng2-translate)
+- [Angular 2.0.0] (https://github.com/angular/angular)
+- [ng2-translate 2.5.0] (https://github.com/ocombe/ng2-translate)
 
 ## Demo
 Theme #1: [Demo of theme1](http://ng2-profile.theme1.batchu.org/)   

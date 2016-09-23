@@ -8,8 +8,7 @@
 * **typescript:** Upgrade from "typescript": "^1.8.10" to "typescript": "^2.0.2",
 * **compiler-cli:** "@angular/compiler-cli": "0.6.0" removed from package.json
 * **Angular update:** "@angular/*": "2.0.0-rc.6" upgraded to "2.0.0" 
-
-
+* **ng2-translate:** "ng2-translate": "^2.4.3" upgraded to "2.5.0" 
 
 
 
