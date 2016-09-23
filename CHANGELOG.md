@@ -1,5 +1,5 @@
-<a name="1.0.0-beta.05"></a>
-# [1.0.0-beta.05] (2016-09-23)
+<a name="1.0.0"></a>
+# [1.0.0] (2016-09-23)
 
 ### Upgrade from Angular 2.0.0-rc.6 to Angular 2.0.0
 
