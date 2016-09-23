@@ -1,5 +1,6 @@
 # ng2-Profile [1.0.0]
-### A simple minimalistic MultiLingual Boiler-plate template for a perfect Profile website  
+### It is a simple minimalist Multi-lingual **Boiler-plate template** for a perfect Profile website.
+
 This is an Angular 2 application developed using typescript v2.0.2.
 
 * [Technical Informatoin](#tech-info)

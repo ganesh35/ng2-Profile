@@ -1,7 +1,8 @@
 ## Release notes
 
 ### What is ng2-Profile?
-ng2-Profile is A simple minimalistic MultiLingual **Boiler-plate template** for a perfect Profile website.  
+ng2-Profile is a simple minimalist Multi-lingual **Boiler-plate template** for a perfect Profile website.  
+
 This is an Angular 2 application developed using typescript v2.0.2.
 
 ### Why should I use it.  
@@ -67,5 +68,7 @@ It is possible to change between the themes which are in the `themes` folder.
 **File:** `app/globals.ts` and `app/globals.js`   
 if you are using npm lite-server it will re-create .js file from .ts file, otherwise plase change in the .js file
 ```javascript
-exports.themeName = 'theme1';     // change to any available theme
+exports.themeName = 'theme1'; 
 ```
+
+change to any available theme
