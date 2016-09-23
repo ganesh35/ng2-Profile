@@ -1,7 +1,7 @@
 <a name="1.0.0-beta.05"></a>
 # [1.0.0-beta.05] (2016-09-23)
 
-### Upgrade from Angular 2.0.0-rc.6 to Angular 2
+### Upgrade from Angular 2.0.0-rc.6 to Angular 2.0.0
 
 ### Code Refactoring
 
@@ -9,18 +9,6 @@
 * **compiler-cli:** "@angular/compiler-cli": "0.6.0" removed from package.json
 * **Angular update:** "@angular/*": "2.0.0-rc.6" upgraded to "2.0.0" 
 * **ng2-translate:** "ng2-translate": "^2.4.3" upgraded to "2.5.0" 
-
-
-
-### Features
-* **[#1: Add / Remove languages](https://github.com/ganesh35/ng2-Profile/issues/1)**: Adding / removing content languages simplified.
-* **[#2: EU Cookie Compliance](https://github.com/ganesh35/ng2-Profile/issues/2)**: Created Cookie page and implemented Cookie Concent
-* **#[3: 404 implementation](https://github.com/ganesh35/ng2-Profile/issues/3)**: 404 Page implemented
-* **[#4: Possibility to add more pages](https://github.com/ganesh35/ng2-Profile/issues/4)**: Implemented a page component to add and handle more pages when needed.
-
-### Bug Fixes
-* **[#6: Active language flag should not be clickable](https://github.com/ganesh35/ng2-Profile/issues/6)**: Active language has been fixed in app.component.ts
-
 
 
 <a name="1.0.0-beta.04"></a>
