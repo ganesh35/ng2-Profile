@@ -1,0 +1,40 @@
+<div class="card card-block">
+    <div class="contact center-block">
+        <div class="  animated fadeInDown">
+            <h2 class="small-heading">{{'CONTACT_PAGE_HEAD' | translate}}</h2>
+			<h3 *ngIf="'Profile.PersonalData.DisplayName' | translate">{{'Profile.PersonalData.DisplayName' | translate}} <small  *ngIf="'Profile.PersonalData.DisplayProfession' | translate">, {{'Profile.PersonalData.DisplayProfession' | translate}}</small></h3>
+            <h4  *ngIf="'Profile.PersonalData.DisplayCaption' | translate">{{'Profile.PersonalData.DisplayCaption' | translate}}</h4>
+   			<div class="contact-info">
+            	<div class="row">
+                	<div class="col-md-6 animated fadeInLeft">
+						<div class="data">
+                        	<i class="fa fa-map-marker"></i>
+                            <span>
+	                            <address *ngIf="'Profile.PersonalData.AddressHome' | translate">
+									{{'Profile.PersonalData.AddressHome.Addr1' | translate}}, {{'Profile.PersonalData.AddressHome.Addr2' | translate}}<br>
+									{{'Profile.PersonalData.AddressHome.Postcode' | translate}}, {{'Profile.PersonalData.AddressHome.City' | translate}}, {{'Profile.PersonalData.AddressHome.Country' | translate}}
+								</address>
+                            </span>
+						</div>
+
+                        <div class="data" *ngIf="'Profile.PersonalData.WebURL' | translate">
+                        	<i class="fa fa-link"></i>
+                            <span>  <a  style="color:black;" href="{{'Profile.PersonalData.WebURL' | translate}}" target="_BLANK">{{'Profile.PersonalData.WebURL' | translate}}</a></span>
+                        </div>
+                        <div class="data" *ngIf="'Profile.PersonalData.EmailPersonal' | translate">
+                        	<i class="fa fa-envelope"></i>
+                            <span>{{'Profile.PersonalData.EmailPersonal' | translate}}</span>
+                        </div>
+						<div class="data" *ngIf="'Profile.PersonalData.Phone' | translate">
+                        	<i class="fa fa-phone"></i>
+							<span >{{'Profile.PersonalData.Phone' | translate}}</span>
+                        </div>
+                    </div>
+                	<div class="col-md-6">
+						<p *ngIf="'CONTACT_PAGE_MSG'| translate" [innerHTML]="'CONTACT_PAGE_MSG'| translate" class=" animated fadeInRight"></p>
+    				</div>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>

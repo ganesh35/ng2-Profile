@@ -1,0 +1,126 @@
+body {
+  background: rgba(248,80,50,1);
+background: -moz-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 20%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,1)), color-stop(20%, rgba(241,111,92,1)), color-stop(51%, rgba(246,41,12,1)), color-stop(71%, rgba(240,47,23,1)), color-stop(100%, rgba(231,56,39,1)));
+background: -webkit-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 20%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+background: -o-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 20%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+background: -ms-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 20%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+background: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 20%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=1 );
+}
+a {
+    color: #ffece6;
+
+}
+
+a:focus, a:hover{
+    color: #ff8c66;
+}
+.bottom-align-text {
+   background: #000 none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    display: block;
+    font-family: "Roboto",sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    left: 0;
+    line-height: 31px;
+    opacity: 0.4;
+    padding: 12px 10px 12px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+ }
+.bottom-column
+{
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.gs-menu{
+    bottom: 0;
+    display: block;
+    left: 0;
+    line-height: 31px;
+    width: 100%;
+    text-align: right;
+    padding: 31px 0 32px;
+}
+
+h2 {
+    font-size: 3.375em;
+    font-weight: 400;
+}
+
+h2.small-heading {
+    padding: 60px 0 10px 0;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+h2.small-heading:after {
+    position: absolute;
+    font-family: 'FontAwesome';
+    font-size: 35px;
+    content: "\f107";
+    left: 48%;
+    bottom: -28px;
+    color: #073a63;
+    background-color: #ffffff;
+    padding: 0px 8px;
+}
+
+h2.small-heading:before {
+    position: absolute;
+    bottom: -10px;
+    content: "";
+    height: 2px;
+    background-color: #073a63;
+    display: block;
+    width: 23%;
+    left: 38%;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info .data {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contact-info .data i {
+    background: rgba(248,80,50,1);
+    border-radius: 50%;
+    border: 1px solid #C78443;
+    color: #ffffff;
+    font-size: 25px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 20px;
+    text-align: center;
+    width: 60px;
+}
+
+.contact-info .data span {
+    padding-top: 18px;
+}
+
+.contact-info .data:first-child span {
+    padding-top: 7px;
+}
+
+.sebm-google-map-container {
+  height: 300px;
+}
+
