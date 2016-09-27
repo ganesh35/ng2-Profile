@@ -1,443 +1,117 @@
 {
-	"Theme":"default",
 	"en-GB": "Englisch",
 	"de-DE": "Deutsche",
+	"HOURS": "Uhr",
 	"PREVIOUS": "Früher",
 	"NEXT": "Nächster",
 	"MORE_INFO":"Mehr ...",
+	"MRS":"Frau",
 
-	"LOGO_TEXT":"Buchman, L.",
-	"LOGO_CAPTION":"Mein Profil Website",
-	"FOOTER_TEXT":"Copyright © 2016 Buchman, L. Alle Rechte vorbehalten.",
+	"LOGO_TEXT":"Art of Hair",
+	"LOGO_CAPTION":"Damen & Herren Salon",
+	"FOOTER_TEXT":"Copyright © 2016 Art of Hair. Alle Rechte vorbehalten.",
+
 
 	"MENU_ITEM_HOME": "Startseit",
-	"MENU_ITEM_ABOUT": "Über mich",
+	"MENU_ITEM_ABOUT": "Über uns",
+	"MENU_ITEM_GALLERY": "Galerie",
+	"MENU_ITEM_PRICELIST": "Preisliste",
 	"MENU_ITEM_CONTACT": "Kontakt",
 	"MENU_ITEM_IMPRINT": "Impressum",
-	"MENU_ITEM_PROFILE": "Profil",
-	"MENU_ITEM_TERMS": "AGB",
-	"MENU_ITEM_PRIVACY": "Datenschutz",
+	"MENU_ITEM_BLOG": "Blog",
+	
 	"MENU_ITEM_COOKIES": "Cookie Policy",
 	"PAGE_NOT_FOUND_TITLE": "404 Nicht gefunden",
 	"PAGE_NOT_FOUND_MSG": "Es ist leider ein Fehler aufgetreten ist, Angeforderte Seite wurde nicht gefunden!",
 
-	"IMPRINT_PAGE_TITLE":"Impressum",
-	"ABOUT_PAGE_TEXT1_HEAD":"Über mich",
-	"CONTACT_PAGE_HEAD":"Kontakt",
-	"CONTACT_PAGE_MSG":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laboro autem non sine causa; Sullae consulatum? Nunc agendum est subtilius. <b>Praeclarae mortes sunt imperatoriae;</b> </p><ul><li>Non autem hoc: igitur ne illud quidem.</li><li>Duo Reges: constructio interrete.</li><li>Quis suae urbis conservatorem Codrum, quis Erechthei filias non maxime laudat?</li></ul><ol><li>Tu quidem reddes;</li><li>Si quicquam extra virtutem habeatur in bonis.</li></ol>",
-
-	"ProfilePage":{
-		"Mobile": "Handy",
-		"Email": "Email",
-		"Website": "Web",
-		"Address": "Adresse",
-		"My Objective": "<i class='fa fa-bullseye'></i> Mein Ziel"
-	},
-
-	"Profile" : {
-		"PersonalData_Title" :"<i class='fa fa-user'></i> Über mich",
-		"PersonalData_DisplayName" : "Name",
-		"PersonalData_Nationality" : "Nationalität",
-		"PersonalData_Address" : "Addresse",
-		"PersonalData_Experience" : "Erfahrung",
-		"PersonalData_Availability" : "Verfügbarkeit",
-		"PersonalData_CurrentStatus" : "Aktueller Status",
-		"PersonalData" :{
-	        "DisplayName": "Buchman K. Laxman",
-	        "DisplayProfession": "Web-Entwickler",
-	        "DisplayCaption" : "Liebe zu tun Angular 2",
-	        "Nationality": "Gewachsenen Fels",
-	        "Experience": "8 Jahre",
-	        "Availability": "Teilzeit/Vollzeit",
-	        "CurrentStatus": "Arbeitssuchend",
-	        "WebURL":"http://www.my-personal.cv",
-	        "Mobile": "+0099 123 123 123",
-	        "Phone": "+0099 123 123 123",
-	        "EmailWork": "buchman.l@my-workplace.com",
-	        "EmailPersonal": "buchman.l@my-personaldata.info",
-	        "AddressHome": {"Addr1" : "Meine Heimat Straße", "Addr2" : "999", "Postcode" : "999000", "City" : "MeineStadt", "State" : "MeinStaat", "Country" : "NiemandsLand" },
-	        "AddressWork": {"Addr1" : "Mein Büro Straße", "Addr2" : "103", "Postcode" : "999000", "City" : "Büro-Stadt", "State" : "", "Country" : "Nirgends2Go?" }
-		},
-		"SocialNetworksData" : [
-	    	{"NetworkType": "Profile", "Title": "Xing", "Link":"https://www.xing.com", "Description":"Xing", "CSS":"fa fa-xing" },
-	    	{"NetworkType": "Profile", "Title": "LinkedIn", "Link":"https://www.linkedin.com", "Description":"Linkedin", "CSS":"fa fa-linkedin" },
-	    	{"NetworkType": "Messaging", "Title": "Tweet", "Link":"https://twitter.com", "Description":"Twitter", "CSS":"fa fa-twitter" },
-	        {"NetworkType": "Chat", "Title": "Googleme", "Link":"", "Description":"Google hangout" , "CSS":"fa fa-google-plus"},
-	        {"NetworkType": "Chat", "Title": "mySkype", "Link":"", "Description":"Skype" , "CSS":"fa fa-skype"},
-	        {"NetworkType": "Web", "Title": "my.personal.web", "Link":"https://github.com/ganesh35/ng2-profile", "Description":"Personal website" , "CSS":"fa fa-link"},
-	        {"NetworkType": "DevTools", "Title": "ganesh35", "Link":"https://github.com/ganesh35", "Description":"Github repository" , "CSS":"fa fa-github"},
-	        {"NetworkType": "Youtube Channel", "Title": "GoLang", "Link":"https://www.youtube.com/channel/UCi9Is8R72kWw7nvWtY7Pn3A", "Description":"How to videos on Golang Web Applications" , "CSS":"fa fa-youtube"}
-	    ],
-
-		"EducationalData_Title": "<i class='fa fa-graduation-cap'></i> Ausbildung",
-		"EducationalData_Description": "Bildungsabschlüsse",
-		"EducationtionalData_FieldOfStudy": "Forschungsbereich",
-		"EducationalData" :[
-			{
-				"Institution": "Beispiel Universität, Studentenstadt , x Land",
-				"FieldOfStudy": "Geschäftsverwaltung",
-				"Degree": "Master of Business Applications",
-				"DateFrom": "July 2001",
-				"DateTo": "March 2003",
-				"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
-			},
-			{
-				"Institution": "Einige andere Universität, andere Stadt, Land",
-				"FieldOfStudy": "Handel",
-				"Degree": "Bachelor of Commerce",
-				"DateFrom": "July 1996",
-				"DateTo": "May 2001",
-				"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
-			}
-		],
-
-		"CertificationData_Title": "<i class='fa fa-certificate'></i> Zertifizierungen",
-		"CertificationData_Description": "Auszeichnungen und Zertifizierungen",
-		"CertificationData_FieldOfStudy": "Forschungsbereich",
-		"CertificationData" :[
-			{
-				"Institution": "University of Mars Adventures",
-				"Degree": "Certified Mars Explorer",
-				"DateFrom": "April, 2000",
-				"DateTo": "March 2001",
-				"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-			},
-			{
-				"Institution": "Akademie der Software-Lizenzen",
-				"Degree": "Post Graduate Diploma in Computer Applications",
-				"DateFrom": "Jan, 2000",
-				"DateTo": "March 2000",
-				"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-			}
-		],
-	"ExperienceData_Title" :"<i class='fa fa-briefcase'></i> Berufserfahrung",
-	"ExperienceData_Description" :"Geschichte der Beschäftigung und Praktika",
-	"ExperienceData" :[
-		{
-			"Role": "PHP-Entwickler",
-			"Company": "Firma BlueMoon",
-			"Location": "MoonCity, MoonLand",
-			"DateFrom": "March 2008",
-			"DateTo": "March 2016",
-			"EmploymentType": "Mitarbeiter",
-			"CareerLevel": "Professional/Experienced",
-			"Discipline": "IT & Software Development",
-			"Industry": "Internet and IT",
-			"LegalForm": "Privately held company",
-			"Employees": "1-10 employees",
-			"ShortDescription":"<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><p>Separated they live in Bookmarksgrove right</p>",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "http://www.google.com/",
-			"Image": "exp01.jpg",
-			"Primary" : true
-		},	
-		{
-			"Role": "Systemadministrator",
-			"Company": "Not-Yet-Another Company",
-			"Location": "DreamCity, Sleep Land",
-			"DateFrom": "March 2003",
-			"DateTo": "March 2008",
-			"EmploymentType": "Mitarbeiter",
-			"CareerLevel": "Professional/Experienced",
-			"Discipline": "IT & Software Development",
-			"Industry": "Telecommunications",
-			"LegalForm": "Scientific and Industrial Research Organization",
-			"Employees": "51-200 employees",
-			"ShortDescription":"<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p><p>He lay on his armour-like</p>",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "http://www.google.com/",
-			"Image": "exp02.jpg",
-			"Primary" : false
-		}
-	],
-
-	"ProfessionalSkills_Title":"<i class='fa fa-briefcase'></i> Professionelle Fähigkeiten",
-	"ProfessionalSkills_Description":"Die Fähigkeiten, die ich benutzt ganze Zeit",
-	"ProfessionalSkills":[
-		{ 
-			"Title": "PHP",
-			"Level": 6,
-			"Years": 8.5
-		},
-		{ 
-			"Title": "Go Language",
-			"Level": 3,
-			"Years": 1
-		},
-		{ 
-			"Title": "MySQL",
-			"Level": 6,
-			"Years": 8.5
-		},
-		{ 
-			"Title": "MongoDB",
-			"Level": 3,
-			"Years": 0.6
-		},
-		{ 
-			"Title": "Linux Admin",
-			"Level": 5,
-			"Years": 8
-		}
-	],
-	
-
-	"TechnicalSkills_Title":"<i class='fa fa-gears'></i> Technische Fähigkeiten",
-	"TechnicalSkills_Description":"The skills which I use make things done",
-	"TechnicalSkills": [
-		{ 
-			"Title": "HTML",
-			"Level": 6,
-			"Years": 8.5
-		},
-		{ 
-			"Title": "JQuery",
-			"Level": 4,
-			"Years": 7
-		},
-		{ 
-			"Title": "Bootstrap",
-			"Level": 6,
-			"Years": 4
-		},
-		{ 
-			"Title": "XAMPP / LAMPP",
-			"Level": 6,
-			"Years": 8
-		},
-		{ 
-			"Title": "SEO & SEM",
-			"Level": 4,
-			"Years": 3
-		},
-		{ 
-			"Title": "Angular2",
-			"Level": 6,
-			"Years": 6
-		}
-
-	],
-
-	"PersonalSkills_Title":"<i class='fa fa-asterisk'></i> Persönliche Fähigkeiten",
-	"PersonalSkills_Description":"Die Fähigkeiten, die mich als mich definiert",
-	"PersonalSkills": [
-		{ 
-			"Title": "Schnelles Lernen",
-			"Level": 6
-		},
-		{ 
-			"Title": "Analytisches Denken",
-			"Level": 6
-		},
-		{ 
-			"Title": "Kommunikation",
-			"Level": 5
-		},
-		{ 
-			"Title": "Engagement",
-			"Level": 6
-		},
-		{ 
-			"Title": "Initiative",
-			"Level": 6
-		}
-	],
-	"LanguageData_Title": "<i class='fa fa-language'></i> Language Skills",
-	"LanguageData":[
-
-		{
-			"Title": "Englisch",
-			"Level": 6,
-			"Read": 6,
-			"Write": 6,
-			"Speak": 6,
-			"Understand": 6,
-			"MoreInfo": "Fließend"
-		},
-		{
-			"Title": "Deutsche",
-			"Level": 3,
-			"Read": 6,
-			"Write": 6,
-			"Speak": 4,
-			"Understand": 4,
-			"MoreInfo": "Gute Kenntnisse"
-		},
-		{
-			"Title": "Telugu",
-			"Level": 6,
-			"Read": 6,
-			"Write": 6,
-			"Speak": 6,
-			"Understand": 6,
-			"MoreInfo": "Muttersprache"
-		},
-		{
-			"Title": "Hindi",
-			"Level": 4,
-			"Read": 6,
-			"Write": 6,
-			"Speak": 4,
-			"Understand": 4,
-			"MoreInfo": "Gute Kenntnisse"
-		}
-	],	
-	"MessageData" :{
-		"ShortMsg":"PHP-Entwickler von Beruf <br>und<br/> Go Learner by Passion",
-		"ToRecruiters": "Bitte fragen Sie mich nicht, mein Profil zu ändern, um die Job-Beschreibung zu passen, kontaktieren Sie mich nur, wenn die Job-Beschreibung mein Profil passt.",
-		"ToFriends": "",
-		"ToCompanies": "",
-		"ToOthers": "",
-		"LongMsg":"<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p><p><ul><li>Phasellus viverra nulla ut metus varius laoreet.</li><li> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</li><li> Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.</li><li> sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</li></ul></p>",
-		"FooterMessage":"Ich kann per E-Mail zu erreichen über {{email}} oder mobil auf {{mobile}}",
-		"Objective":"<p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans</p>"
-		
-	},
-	"SystemData" :{
-		"DateAccessed": 20160402,
-		"DateUpdated": 20160502,
-		"DateCreated": 20160402
-	},
-	"ProjectsData" :[
-		{
-			"Title": "Step-by-Step Entwicklung von Apps",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"05 Sep, 2016",
-			"Role": "Author",
-			"ShortDescription":"Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich.",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "",
-			"Tools":"GoLanguage, Youtube",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ng2-profile",
-			"Image": "dummy01.jpg",
-			"CSS":"fa fa-youtube"
-		},
-		{
-			"Title": "RESTful Web Services",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Author",
-			"ShortDescription":"Und es war ihnen wie eine Bestätigung ihrer neuen Träume und guten Absichten",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "",
-			"Tools":"PHP, Joomla Framework, Composer, Youtube",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ng2-profile",
-			"Image": "dummy10.jpg",
-			"CSS":"fa fa-youtube"
-		},
-
-		{
-			"Title": "Docker und Go",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Author",
-			"ShortDescription":"Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben.",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "Content Publishing",
-			"Tools":"Docker, Go, Preinstalled",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ng2-profile",
-			"Image": "dummy06.jpg",
-			"CSS":"fa fa-pencil"
-		},	
-		{
-			"Title": "Lern C/C++",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Author",
-			"ShortDescription":"Zwei flinke Boxer jagen die quirlige Eva und ihren Mops durch Sylt. Franz jagt.",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "Content Publishing",
-			"Tools":"C, C++",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ng2-profile",
-			"Image": "dummy05.jpg"	,
-			"CSS":"fa fa-pencil"
-		},
-		{
-			"Title": "IPP Druckserver",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Author",
-			"ShortDescription":"Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "Content Publishing",
-			"Tools":"Linux, Redhat, IPP Print Server, CUPS",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ng2-profile",
-			"Image": "dummy04.jpg"	,
-			"CSS":"fa fa-pencil"
-		},
-
-		{
-			"Title": "Social-Networking-Plattform",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Developer",
-			"ShortDescription":"Er hörte leise Schritte hinter sich. Das bedeutete nichts Gutes.",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "Community",
-			"Tools":"Ubuntu, Apache, PHP, MYSQL, HTML, JQuery, Joomla CMS & Custom Extension development",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ng2-profile",
-			"Image": "dummy02.jpg",
-			"CSS":"fa fa-group "
-		}
-		],
-		"BannerData":[
-			{
-				"Title": "PHP-Entwickler",
-				"ShortDescription":"Er hörte leise Schritte hinter sich. Das bedeutete nichts Gutes. Wer würde ihm schon folgen, spät in der Nacht und dazu noch in dieser engen Gasse mitten im übel.",
-				"Image": "banner/banner01.jpg"
-			},
-			{
-				"Title": "GoLang Enthusiasten",
-				"ShortDescription":"Es gibt im Moment in diese Mannschaft, oh, einige Spieler vergessen ihnen Profi was sie sind. ",
-				"Image": "banner/banner02.jpg"
-			},
-			{
-				"Title": "Angular2 Learner",
-				"ShortDescription":"Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte, wurde er eines Morgens verhaftet. »Wie ein Hund!« sagte er, es war",
-				"Image": "banner/banner03.jpg"
-			},
-			{
-				"Title": "Linux Administrator",
-				"ShortDescription":"Eine wunderbare Heiterkeit hat meine ganze Seele eingenommen, gleich den süßen Frühlingsmorgen, die ich mit ganzem Herzen genieße.",
-				"Image": "banner/banner04.jpg"
-			},
-			{
-				"Title": "Holen Sie sich alles auf Cloud",
-				"ShortDescription":"Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen.",
-				"Image": "banner/banner05.jpg"
-			}
-
-		]
-
-	},
-
-
-	"IMPRINT_DISCLAIMER":"Verzichtserklärung",
-	"IMPRINT_DISCLAIMER_MSG":"Die Informationen auf dieser Website dient nur der allgemeinen Information. Die Informationen werden von dieser Website zur Verfügung gestellt und während wir die Informationen auf dem neuesten Stand und korrekt zu halten bemühen, machen wir keine Zusicherungen oder Gewährleistungen jeglicher Art, weder ausdrücklich noch stillschweigend , für die Vollständigkeit, Genauigkeit, Zuverlässigkeit, Eignung oder Verfügbarkeit in Bezug auf die Website oder die Informationen, Produkte, Dienstleistungen oder Grafiken, die auf der Website für jeden Zweck enthalten. Jegliches Vertrauen Sie auf diese Informationen ist daher auf eigene Gefahr.<br/>Es wird alles unternommen reibungslos die Website und läuft zu halten. Allerdings dauert wir keine Verantwortung für, und wird nicht haftbar gemacht werden für die Website aufgrund von technischen Problemen außerhalb unserer Kontrolle vorübergehend nicht verfügbar ist.",
-	"RECENT_ACTIVITY":"Letzte Aktivität",
 	"COOKIE_CONSENT_MSG":"Diese Seite verwendet Cookies. Bitte stimmen Sie der Verwendung von Cookies zu, um alle Funktionen der Webseite nutzen zu können.",
 	"FIND_OUT_MORE":"Erfahren Sie mehr",
 	"cookies": {
 		"Heading": "Cookie-Richtlinien",
 		"Content": "<h2>What are Cookies?</h2> <p>A cookie is a very small piece of information that a website stores to save and collect basic information.</p> <p>Many cookies are essential to the operation of our website, for example to allow you to make a purchase or create an account with us.</p> <p>Cookies on our site are also used to customise certain areas of content just for you, and to make your browsing experience more efficient and faster.</p> <h2>How we use Cookies</h2> <p>Cookies on our website are used for the following purposes</p> <ul> <li>To enable you to add items to your shopping basket and purchase them.</li> <li>To enable you to create an account to have information such as order history, or your details remembered for later.</li> <li>To improve the website's usability by saving you time on making a purchase or tracking your order.</li> <li>To analyse the use of our website through Analytics software such as Google Analytics.</li> </ul> <h2>Information Collected</h2> <p>The cookies our website uses do not collect any sensitive information such as your name, address, email address, or any other contact details. The cookies this website uses are:</p> <h2>Strictly Necessary Cookies</h2> <p>These cookies perform important functions on our web site. Without them we cannot provide you with basic features and normal web site behaviour which you will expect from us. For this reason, you cannot disable these cookies.</p> <table class='table table-sm table-hover'> <tbody> <tr> <td>Name</td> <td>Description</td> <td>Purpose</td> </tr> <tr> <td>-none-</td> <td >-none-</td> <td>-none-</td> </tr> </tbody> </table> <h2>Functional Cookies</h2> <p>These cookies allow our web site to remember choices you make and provide enhanced, more personal features. They may also be used to provide services or functionality you indicate you are interested in through interactions with our web site. These cookies are only used to provide an improved browsing experience and we do not pass information about the choices you make to any third party or other organisation.</p> <table class='table table-sm table-hover'> <tbody> <tr> <td>Name</td> <td>Description</td> <td>Purpose</td> </tr> <tr> <td>-none-</td> <td >-none-</td> <td>-none-</td> </tr> </tbody> </table> <h2>Performance Cookies</h2> <p>These cookies collect general information about how visitors use our web site to help us improve our web site for everyone. For instance, we track which pages visitors go to most often and if they get error messages or broken links. These cookies do not collect personal information that identifies a visitor. All the information these cookies collect is aggregated and therefore anonymous.</p> <table class='table table-sm table-hover'> <tbody> <tr> <td>Name</td> <td>Description</td> <td>Purpose</td> </tr> <tr> <td>_ga</td> <td>Google Analytics</td> <td>Google Analytics is a third-party traffic analysis service that helps us understand how visitors use our web site. The information generated by the cookie about your use of the website (including your IP address) will be transmitted to and stored by Google on servers in the United States. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google. You can opt-out of all Google Analytics cookies by installing a browser add-on provided by Google:https://tools.google.com/dlpage/gaoptout</td> </tr> </tbody> </table> <h2>Targetting or Advertising Cookies</h2> <p>These cookies are used to deliver adverts more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign. They are usually placed by advertising networks with our permission. They remember that you have visited a website and this information is shared with other organisations such as advertisers. Quite often targeting or advertising cookies will be linked to site functionality provided by the other organisation.</p> <table class='table table-sm table-hover'> <tbody> <tr> <td>Name</td> <td>Description</td> <td>Purpose</td> </tr> <tr> <td>guest_id, pid</td> <td>Twitter</td> <td> You can find out more about how Twitter uses cookies on its web site: http://twitter.com/privacy</td> </tr> </tbody> </table> <p>If you wish to disable any cookie listed above for which we have not provided a specific means of disabling, you can also use your browser settings to disable cookies. An explanation of how to do this can be found here. Please note: By disabling cookies in your browser, you may render some of the functionality on our web site (and other web sites you visit) unusable and we make no guarantees as to the performance of our web site when cookies are disabled.</p> <h2>How do I Disable Cookies</h2> <p>To fully disable cookies on our website, you will need to change the settings in your website browser.</p> <h2>Links to Other Websites</h2> <p>This cookie policy does not cover the links within this site linking to other websites. We encourage you to read the privacy statements on the other websites you visit.</p>"
 	},
-	"terms": {
-		"Heading": "Allgemeine Geschäftsbedingungen",
-		"Content": "<p>Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«.</p> <p>Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus.</p> <p>Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft.</p> <p>Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden. Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks</p>"
-	},
-	"privacy": {
-		"Heading": "Datenschutz",
-		"Content": "<p>Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«.</p> <p>Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus.</p> <p>Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft.</p> <p>Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden. Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks</p>"
-	},
-	"imprint": {
-		"Heading": "Impressum",
-		"Content": "<p>Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«.</p> <p>Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus.</p> <p>Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft.</p> <p>Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden. Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks</p>"
-	}
 
+	"HOME_BANNER1": "Erstellen Sie glamourösen Frisur!",
+	"HOME_BANNER1TEXT":"Wir sind in der glamouröse Frisuren spezialisiert",
+	"HOME_BANNER2": "Erhalten Sie alles, was Sie für Haarverlängerung benötigen!",
+	"HOME_BANNER2TEXT":"Wählen Sie Ihre Haarverlängerung aus großen Auswahl an Optionen",
+	"HOME_BANNER3": "Jungen, Mädchen willkommen für einen kühlen Haarschnitt",
+	"HOME_BANNER4": "Große Auswahl an Frisuren Sie wählen könnten",
+
+
+	"HOME_CARD1": "Clip in Hair Extensions",
+	"HOME_CARD2": "Nail / U Spitze Haarverlängerungen",
+	"HOME_CARD3": "Micro Loop / link Haarverlängerungen",
+	"HOME_CARD4": "Stick / I Haar verlängerungenkippen",
+
+
+	"HOME_CARD1": "Damen haarschnitt",
+	"HOME_CARD2": "Augenbrauen zupfen",
+	"HOME_CARD3": "Waschen, Legen",
+	"HOME_CARD4": "Herren haarschnitt",
+
+
+	"PRICELIST_PRICE": "Preis",
+	"PRICELIST_WOMEN": "Damen",
+	"PRICELIST_MEN": "Herren",
+	"PRICELIST_KIDS": "Kinder",
+	"PRICELIST_OTHERS": "Sonstiges",
+	"PRICELIST_FROM": "ab",
+	
+	"PRICELIST_PAGE_HEADING":"Preisliste",
+	"PRICELIST_PAGE_TEXT":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+	"PRICELIST_WOMEN_HAIRCUT": "Damenhaarschnitt trocken",
+	"PRICELIST_WOMEN_HAIRCUT_WASH_DRY": "Waschen, Schneiden, Föhnen",
+	"PRICELIST_WOMEN_WASH_COLOR": "Haarwäsche & Färben",
+	"PRICELIST_WOMEN_STRANDS": "Strähnen (Folie / Haube)",
+	"PRICELIST_WOMEN_HAIRSTRAITENING": "Dauerwelle",
+	"PRICELIST_WOMEN_BLOWDRY": "Fönen",
+	"PRICELIST_WOMEN_WASH_ARRANGE": "Waschen, Legen",
+	"PRICELIST_WOMEN_HAIRUNTWIST": "Strähnen",
+	"PRICELIST_WOMEN_HAIREXTENSION": "Haarverlängerung",
+	"PRICELIST_WOMEN_EYEBROW_LINING": "Augenbrauen zupfen",
+	"PRICELIST_WOMEN_EYEBROW_EYELASHES_LINING": "Augenbrauen und Wimpern färben",
+
+	"PRICELIST_MEN_HAIRCUT": "Herrenhaarschnitt trocken",
+	"PRICELIST_MEN_HAIRCUT_WASH_DRY": "Waschen, Schneiden",
+
+	"PRICELIST_KINDER_HAIRCUT": "Kinderhaarschnitt",
+	"PRICELIST_KINDER_HAIRCUT_WASH_DRY": "Waschen, Schneiden",
+
+
+	"PRICELIST_NEED_APPOINTMENT": "Sie brauchen einen Termin?",
+	"PRICELIST_NEED_APPOINTMENT_MSG1": "Rufen Sie uns doch einfach an und vereinbaren Sie einen verbindlichen Termin mit uns:",
+	"PRICELIST_NEED_APPOINTMENT_MSG2": "Telefon: 01573 2799893",
+	"PRICELIST_OPENING_TIMES": "Öffnungszeiten",
+
+	"PRICELIST_OPENING_TIMES_MSG1": "Montag - Freitag",
+	"PRICELIST_OPENING_TIMES_MSG2": "Samstag",
+
+	"IMPRINT_PAGE_TITLE":"Impressum",
+	"IMPRINT_CHAMBER_OF_CRAFTS":"Handwerkskammer Düsseldorf",
+	"IMPRINT_HAIRDRESSERS":"Friseurbetrieb",
+	"IMPRINT_TAX_ID":"Umsatzsteuer-ID: D 230777429",
+	"IMPRINT_OWNER":"Inhaberin",
+	"IMPRINT_HAIRDRESSER":"Friseurmeisterin",
+	"IMPRINT_EMAIL_MSG":"Diese E-Mail-Adresse ist gegen Spambots geschützt! JavaScript muss aktiviert werden, damit sie angezeigt werden kann.",
+	"IMPRINT_DISCLAIMER":"Haftungshinweis",
+	"IMPRINT_DISCLAIMER_MSG":"Trotz sorgfältiger inhaltlicher Kontrolle können wir keine Haftung für die Inhalte externer Links übernehmen. Für den Inhalt der verlinkten Webseiten sind ausschließich deren Betreiber verantwortlich.",
+
+	"ABOUT_PAGE_TEXT1_HEAD":"Herzlich Willkommen",
+	"ABOUT_PAGE_TEXT1":"<p>In Düsseldorf Oberbilk verwöhnen wir Sie mit den neuesten Trendfrisuren. Individuelle Beratung ist bei uns selbstverständlich.</p><p>Ob Strähnen, verschiedene Arten von Tönungen, Färbungen, Hochsteckfrisuren, Hochzeitsfrisuren, Umwandlung von Naturkrause in glattes Haar, Echthaar und Rasta in allen Farben.</p><p>Wir machen alles möglich !</p>",
+	"ABOUT_PAGE_TEXT2_HEAD":"Nehmen Sie Platz und lassen Sie sich verwöhnen !",
+	"ABOUT_PAGE_TEXT2":"<p>Unsere Stärke befindet sich ebenfalls auf dem Gebiet: Haarverlängerung, Hair Extensions. Das Geheimnis der Haarprofis mit Tips, Tricks und Trends.</p><p>Haarverlängerung bei echten Haaren in verschiedenen Farbtönen und Arten. Wir arbeiten mit dem indischen und europäischen Echthaar.</p>",
+	"ABOUT_PAGE_TEXT3_HEAD":"Verschiedene Techniken",
+	"ABOUT_PAGE_TEXT3":"<p>Nähtechnik, Raste einflechten und einschweissen.</p><p>Vereinbaren Sie einen Termin, wir finden für alle Kunden eine individuelle Lösung.</p><p><strong>Wir freuen uns schon jetzt auf Ihren Besuch !</strong></p>",
+
+	"CONTACT_PAGE_HEAD":"Kontakt",
+	"CONTACT_PAGE_TEXT":"<p>Wenn Sie mehr Informationen wünschen, füllen Sie bitte dieses Formular aus. Wir werden Ihnen schnellstmöglich antworten.</p><p>Bitte füllen Sie alle erforderlichen Felder aus..</p>",
+	"CONTACT_FIND_US_HERE": "Finden Sie uns hier",
+
+	"GALLERY_FOLDER_ALL": "Alle Bilder anzeigen",
+	"GALLERY_FOLDER_INSIDE_STORE": "Geschäft",
+	"GALLERY_FOLDER_OUTSIDE_STORE": "Shop aus Außenansicht",
+	"GALLERY_FOLDER_TEAM": "Team-Fotos",
+	"GALLERY_FOLDER_WOMEN": "Frauen Haarschnitt",
+	"GALLERY_FOLDER_MEN": "Herren Haarschnitt"	
 }

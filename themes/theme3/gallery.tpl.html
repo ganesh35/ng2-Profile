@@ -1,0 +1,74 @@
+
+<span *ngIf="currentImg" >
+	<div class="card animated fadeIn">
+	  <div class="card-block">
+	  <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="hideImg()">
+          <span aria-hidden="true">&times;</span> Close 
+        </button>
+
+	    <h4 class="card-title animated fadeIn">{{currentImg.Title}}</h4>
+	  </div>
+	  <img src="images/gallery2/{{currentImg.folder}}/{{currentImg.FileName}}" alt="{{currentImg.Title}}" class="card-img img-fluid animated fadeIn"  >
+	</div>
+</span>
+
+
+<span *ngIf="!currentImg">
+	<div class="">
+	<ul class="nav nav-tabs">
+	<li class="nav-item">
+	    <a class="nav-link " [class.active]="!currentFolder" (click)="showFolder('')" style="cursor:pointer; cursor:hand;">{{'GALLERY_FOLDER_ALL' | translate}}</a>
+	  </li>	
+	  <li class="nav-item">
+	    <a class="nav-link " [class.active]="currentFolder=='inside'"  (click)="showFolder('inside')" style="cursor:pointer; cursor:hand;">{{'GALLERY_FOLDER_INSIDE_STORE' | translate}}</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link"  [class.active]="currentFolder=='outside'" (click)="showFolder('outside')" style="cursor:pointer; cursor:hand;">{{'GALLERY_FOLDER_OUTSIDE_STORE' | translate}}</a>
+	  </li>
+	  <!--
+	  <li class="nav-item">
+	    <a class="nav-link" [class.active]="currentFolder=='team'" (click)="showFolder('team')" style="cursor:pointer; cursor:hand;">{{'GALLERY_FOLDER_TEAM' | translate}}</a>
+	  </li>
+	  -->
+	  <li class="nav-item">
+	    <a class="nav-link"  [class.active]="currentFolder=='women'" (click)="showFolder('women')" style="cursor:pointer; cursor:hand;">{{'GALLERY_FOLDER_WOMEN' | translate}}</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link"  [class.active]="currentFolder=='men'" (click)="showFolder('men')" style="cursor:pointer; cursor:hand;">{{'GALLERY_FOLDER_MEN' | translate}}</a>
+	  </li>
+
+	</ul>
+	</div>
+
+
+	<div class="card-columns">
+		<span *ngFor="let item of imgList;let rowIndex = index"  >
+	  	<div class="card animated fadeIn" *ngIf="!currentFolder" id="card_{{item.folder}}_{{item.Id}}">
+	  		<a (click)="showImg(item)" style="cursor:pointer; cursor:hand;">
+	    	<img class="card-img-top img-fluid" src="images/gallery2/{{item.folder}}/{{item.ThumbName}}" alt="{{item.Title}}" width="100%">
+	    	</a>
+	    	
+	<!--     	<div class="card-img-overlay">
+				<p class="card-text center-text label label-danger" style="font-size: 120%;"> {{item.Title}}</p>
+			</div>
+	-->		
+		</div>
+		<span *ngIf="currentFolder">
+	  	<div class="card animated fadeIn" *ngIf="currentFolder == item.folder" id="card_{{item.folder}}_{{item.Id}}">
+	  		<a (click)="showImg(item)" style="cursor:pointer; cursor:hand;">
+	    	<img class="card-img-top img-fluid" src="images/gallery2/{{item.folder}}/{{item.ThumbName}}" alt="{{item.Title}}" width="100%">
+	    	</a>
+	    	
+	<!--     	<div class="card-img-overlay">
+				<p class="card-text center-text label label-danger" style="font-size: 120%;"> {{item.Title}}</p>
+			</div>
+	-->		
+		</div>			
+		</span>
+
+
+
+		</span>
+	</div>
+</span>
+

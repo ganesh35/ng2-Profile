@@ -7,90 +7,58 @@
 </nav>
 
 
+
 <div class="container">
-<div class="row">
-
-    <div class="col-md-9">  <!--    Header Left   -->
-      
-        <h1 class="text-md-center">
-          <hr/>
-            <a routerLink="/home">
-            {{'Profile.PersonalData.DisplayName' | translate }}<br/>
+    <div class="row">
+        <div class="col-sm-4">
+            <a href="home">
+                <img style="width:250px; " class="img-responsive " src="../images/logo.png" />
             </a>
-            <small>{{profile?.PersonalData?.DisplayProfession }}</small>
-        </h1>
-
-            <p class="text-md-center" *ngIf="'Profile.SocialNetworksData' | translate">
-            <span *ngFor="let item of 'Profile.SocialNetworksData' | translate" class="nav nav-inline">
-                <a class="btn btn-sm btn-danger" target="_BLANK" href="{{item.Link}}" title="{{item.Description}} ({{item.NetworkType}}) : {{item.Title}}"> <span class="{{item.CSS}}" > </span></a> &nbsp; &nbsp; &nbsp; 
-            </span>
-            </p>
-            <br/>
-
-        <hr/>
-            <nav class="nav nav-inline text-md-center">
+        </div>
+        <div class="col-sm-8">
+            <nav class="nav nav-inline gs-menu">
                 <a class="nav-link" routerLink="/home" routerLinkActive="active"><i class="fa fa-home"></i> {{'MENU_ITEM_HOME' | translate}} </a>
                 <a class="nav-link" routerLink="/about" routerLinkActive="active"><i class=" fa fa-th"></i> {{'MENU_ITEM_ABOUT' | translate}} </a>
-                <a class="nav-link" routerLink="/profile" routerLinkActive="active"><i class=" fa fa-user"></i> {{'MENU_ITEM_PROFILE' | translate}} </a>
-                <a class="nav-link" routerLink="/contact" routerLinkActive="active"><i class="fa fa-envelope"></i> {{'MENU_ITEM_CONTACT' | translate}} </a>
-            </nav>
-
-        <hr/>
-
-    </div> <!--    Header Left /   -->
-
-    <div class="col-md-3">   <!--    Header Right   -->
-        <div class="card">    
-          <img class="card-img img-fluid img-responsive text-md-center img-thumbnail" src="themes/theme2/img/profile.png" alt="{{'LOGO_TEXT' | translate}}">
+                <a class="nav-link" routerLink="/gallery"  routerLinkActive="active"><i class="fa fa-image"></i>  {{'MENU_ITEM_GALLERY' | translate}}</a>
+                <a class="nav-link" routerLink="/pricelist"  routerLinkActive="active"><i class="fa fa-euro"></i>  {{'MENU_ITEM_PRICELIST' | translate}}</a>
+            </nav>            
         </div>
-    </div>  <!--    Header Right /  -->
-
+    </div>
 </div>
 
- <router-outlet></router-outlet>
+<div class="container">
+    <router-outlet></router-outlet>
+</div> <!-- /container -->
 
 
 
+
+
+
+<footer role="contentinfo" class="footer">
+<div class="container">
+<hr>
+    <p class="has-warning pull-right"  style="color:#ffc6b3;"><small>{{'FOOTER_TEXT' | translate}}</small></p> 
+    <nav class="nav nav-inline">
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active"><i class="fa fa-phone"></i>  {{'MENU_ITEM_CONTACT' | translate}}</a>
+        <a class="nav-link" routerLink="/page/cookies"  routerLinkActive="active">{{'MENU_ITEM_COOKIES' | translate}}</a>
+        <a class="nav-link" routerLink="/imprint"  routerLinkActive="active">{{'MENU_ITEM_IMPRINT' | translate}}</a>
+        &nbsp; &nbsp; &nbsp; &nbsp;|
+        <span *ngFor="let item of langList">
+            <span *ngIf="currentLang==item.lang">
+                <img  class="privacy_link" src="images/{{item.flag}}"  > | 
+            </span>
+            <span *ngIf="currentLang!=item.lang" >
+                <a (click)="onLangChange(item.lang)" style="cursor: pointer; cursor: hand;"><img  src="images/{{item.flag}}"  ></a> |
+            </span>
+            
+        </span>
+
+    </nav>
 
     
-    <hr/>
-    <!-- Site footer -->
-    <footer class="footer">
-
-        <div class="row">
-            <div class="col-xs-4 col-md-5">
-                <small>
-                <nav class="nav nav-inline">
-                    <a class="nav-link" routerLink="/page/terms"  routerLinkActive="active">{{'MENU_ITEM_TERMS' | translate}}</a>
-                    <a class="nav-link" routerLink="/page/privacy"  routerLinkActive="active">{{'MENU_ITEM_PRIVACY' | translate}}</a>
-                    <a class="nav-link" routerLink="/page/cookies"  routerLinkActive="active">{{'MENU_ITEM_COOKIES' | translate}}</a>
-                    <a class="nav-link" routerLink="/page/imprint"  routerLinkActive="active">{{'MENU_ITEM_IMPRINT' | translate}}</a>
-                </nav>
-                </small>
-            </div>
-            <div class="col-xs-4 col-md-5" style="color:white;">{{'FOOTER_TEXT' | translate}}</div>
-            <div class="col-xs-2 col-sm-2 col-md-2 ">
-                <p class="pull-right">
-                <span *ngFor="let item of langList">
-                    <span *ngIf="currentLang==item.lang">
-                        <img  class="privacy_link" src="images/{{item.flag}}"  > 
-                    </span>
-                    <span *ngIf="currentLang!=item.lang" >
-                        <a (click)="onLangChange(item.lang)" style="cursor: pointer; cursor: hand;"><img  src="images/{{item.flag}}"  ></a>
-                    </span>
-                    &nbsp; &nbsp;
-                </span>
-
-                </p>
-
-            </div>
-            
-        </div>
-    </footer>
-    <div class="card card-outline-info" style="color:white;">
-        <small class="card-block">
-        <strong>{{'IMPRINT_DISCLAIMER' | translate}}</strong> :
-        <span   [innerHTML]="'IMPRINT_DISCLAIMER_MSG' | translate"  ></span> 
-        </small>
-    </div>
-</div> <!-- /container -->
+    
+    
+    
+</div>
+</footer>

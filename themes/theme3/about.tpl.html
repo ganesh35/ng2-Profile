@@ -1,11 +1,38 @@
-<div class="card card-block animated fadeInRight" >
-	<h2 class="small-heading">{{'ABOUT_PAGE_TEXT1_HEAD' | translate}}</h2>
-	<div class="row">
-		<div class="col-md-9">
-			<div class="card-block"  [innerHTML]="'Profile.MessageData.LongMsg' | translate"  ></div>
-		</div>
-		<div class="col-md-3">
-			<img class=" img-fluid pull-right" src="themes/theme2/img/card4.jpg" alt="{{'LOGO_TEXT' | translate}}">
-		</div>
-	</div>
+<div class="card-group">
+
+<div class="card text-xs-center animated fadeInLeft">
+  <div class="card-block">
+    <h4 class="card-title ">{{'ABOUT_PAGE_TEXT1_HEAD' | translate}}</h4>
+  </div>
+  <img class=" img img-responsive img-fluid" data-src="..." alt="{{'ABOUT_PAGE_TEXT1_HEAD' | translate}}" src="images/pic1.jpg">
+  <div class="card-block">
+    <p class="card-text"><span [innerHtml]="'ABOUT_PAGE_TEXT1'  | translate"></span></p>
+  </div>
 </div>
+
+
+<div class="card text-xs-center animated fadeIn">
+  <div class="card-block">
+    <h4 class="card-title">{{'ABOUT_PAGE_TEXT2_HEAD' | translate}}</h4>
+  </div>
+  <img class=" img img-responsive img-fluid" data-src="..." alt="{{'ABOUT_PAGE_TEXT2_HEAD' | translate}}" src="images/pic2.jpg">
+  <div class="card-block">
+    <p class="card-text"><span [innerHtml]="'ABOUT_PAGE_TEXT2'  | translate"></span></p>
+  </div>
+</div>
+
+
+<div class="card text-xs-center animated fadeInRight">
+  <div class="card-block">
+    <h4 class="card-title">{{'ABOUT_PAGE_TEXT3_HEAD' | translate}}</h4>
+  </div>
+  <img class=" img img-responsive img-fluid" data-src="..." alt="{{'ABOUT_PAGE_TEXT3_HEAD' | translate}}" src="images/pic3.jpg">
+  <div class="card-block">
+    <p class="card-text"><span [innerHtml]="'ABOUT_PAGE_TEXT3'  | translate"></span></p>
+  </div>
+</div>
+
+
+</div>
+
+

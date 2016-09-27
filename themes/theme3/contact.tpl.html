@@ -2,39 +2,85 @@
     <div class="contact center-block">
         <div class="  animated fadeInDown">
             <h2 class="small-heading">{{'CONTACT_PAGE_HEAD' | translate}}</h2>
-			<h3 *ngIf="'Profile.PersonalData.DisplayName' | translate">{{'Profile.PersonalData.DisplayName' | translate}} <small  *ngIf="'Profile.PersonalData.DisplayProfession' | translate">, {{'Profile.PersonalData.DisplayProfession' | translate}}</small></h3>
-            <h4  *ngIf="'Profile.PersonalData.DisplayCaption' | translate">{{'Profile.PersonalData.DisplayCaption' | translate}}</h4>
-   			<div class="contact-info">
-            	<div class="row">
-                	<div class="col-md-6 animated fadeInLeft">
-						<div class="data">
-                        	<i class="fa fa-map-marker"></i>
-                            <span>
-	                            <address *ngIf="'Profile.PersonalData.AddressHome' | translate">
-									{{'Profile.PersonalData.AddressHome.Addr1' | translate}}, {{'Profile.PersonalData.AddressHome.Addr2' | translate}}<br>
-									{{'Profile.PersonalData.AddressHome.Postcode' | translate}}, {{'Profile.PersonalData.AddressHome.City' | translate}}, {{'Profile.PersonalData.AddressHome.Country' | translate}}
-								</address>
-                            </span>
-						</div>
 
-                        <div class="data" *ngIf="'Profile.PersonalData.WebURL' | translate">
-                        	<i class="fa fa-link"></i>
-                            <span>  <a  style="color:black;" href="{{'Profile.PersonalData.WebURL' | translate}}" target="_BLANK">{{'Profile.PersonalData.WebURL' | translate}}</a></span>
-                        </div>
-                        <div class="data" *ngIf="'Profile.PersonalData.EmailPersonal' | translate">
-                        	<i class="fa fa-envelope"></i>
-                            <span>{{'Profile.PersonalData.EmailPersonal' | translate}}</span>
-                        </div>
-						<div class="data" *ngIf="'Profile.PersonalData.Phone' | translate">
-                        	<i class="fa fa-phone"></i>
-							<span >{{'Profile.PersonalData.Phone' | translate}}</span>
-                        </div>
-                    </div>
-                	<div class="col-md-6">
-						<p *ngIf="'CONTACT_PAGE_MSG'| translate" [innerHTML]="'CONTACT_PAGE_MSG'| translate" class=" animated fadeInRight"></p>
-    				</div>
-                </div>
+            <!--
+         <div class="map">
+              <iframe width="100%" height="350px" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2673.793186905526!2d-122.27026199999999!3d47.921039!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549aaa98e7706fcd%3A0xdce29d6d3f457ae8!2sHVACUSA!5e0!3m2!1sen!2sbd!4v1419537987498"></iframe>
             </div>
-		</div>
-	</div>
+          </div>    
+-->
+<div class="contact-info">
+                                <div class="row">
+                                    <div class="col-md-6 animated fadeInLeft">
+
+                                    <h3>{{'LOGO_TEXT' | translate }} <small>{{'LOGO_CAPTION' | translate }}</small></h3> 
+                                        <div class="data">
+                                            <i class="fa fa-map-marker"></i>
+                                            <span>
+                                                Kölnerstraße 334, <br>
+                                                40227 Düsseldorf<br>
+                                            </span>
+                                        </div>
+
+                                        <div class="data">
+                                            <i class="fa fa-google-plus"></i>
+                                            <span><a style="color:black;" href="https://plus.google.com/u/0/108808756831915399400/posts"  target="_BLANK">GooglePlus</a>
+                                            </span>
+                                        </div>
+                                        <div class="data">
+                                            <i class="fa fa-facebook"></i>
+                                            <span>  <a style="color:black;" href="https://www.facebook.com/Art-of-Hair-Salon-1682597878626388/" target="_BLANK">Facebook</a>
+                                            </span>
+                                        </div>
+
+
+                                        <div class="data">
+                                            <i class="fa fa-phone"></i>
+                                            <span>
+                                                +49 1573 2799 893 
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+
+
+                                   
+   
+          
+
+    <div class="card card-block animated fadeInRight">
+      <h3 class="card-title">{{'PRICELIST_NEED_APPOINTMENT' | translate}}</h3>
+      <p class="card-text">{{'PRICELIST_NEED_APPOINTMENT_MSG1' | translate}}</p>
+      <p class="card-text">{{'PRICELIST_NEED_APPOINTMENT_MSG2' | translate}}</p>
+    </div>
+
+
+
+    <div class="card card-block animated fadeInRight">
+      <h3 class="card-title">{{'PRICELIST_OPENING_TIMES' | translate}}</h3>
+      <div class="card-text">
+            <table class="table table-striped table-bordered table-hover table-sm">
+                <tr>
+                    <td>{{'PRICELIST_OPENING_TIMES_MSG1' | translate }}</td> 
+                    <td class="text-sm-right">11.00 - 19.30 {{'HOURS' | translate }}</td> 
+                </tr>
+            </table>
+      </div>
+      
+
+                                    </div>
+                                </div>
+                                    
+                            </div>
+
+        </div>
+
 </div>
+
+
+
+
+
+
+</div>
+
