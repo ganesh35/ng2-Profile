@@ -1,5 +1,5 @@
 import { NgModule }      from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 
 import { AppComponent }  from './app.component';
 
@@ -11,14 +11,11 @@ import { PageComponent }      from './components/page/page.component';
 import { PageNotFoundComponent }      from './components/404/404.component';
 import {routing} from './app.routing';
 
-
 import {HttpModule} from '@angular/http';
 import {TranslateModule} from 'ng2-translate/ng2-translate';
 
-
 import { StarRatingPipe } from './pipes/starrating.pipe';
 import { SanitizeHTML } from './pipes/sanitizeHTML.pipe';
-
 
 import { FormsModule }   from '@angular/forms';
 
@@ -31,6 +28,9 @@ import { FormsModule }   from '@angular/forms';
       FormsModule, HttpModule
    ],
   declarations: [ AppComponent, HomeComponent, AboutComponent, ProfileComponent, ContactComponent, PageComponent, PageNotFoundComponent, StarRatingPipe, SanitizeHTML ],
+  providers: [
+    Title
+  ],
   bootstrap:    [ AppComponent  ]
 })
 export class AppModule { }

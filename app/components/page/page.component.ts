@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Title }     from '@angular/platform-browser';
 import myGlobals = require('../../globals'); 
 
 import { Router, ActivatedRoute }              from '@angular/router';
@@ -18,8 +19,11 @@ export class PageComponent implements OnInit, OnDestroy{
 	constructor(
 	 	private route: ActivatedRoute,
     	private router: Router,
-    	private translate: TranslateService
-    ){}
+    	private translate: TranslateService,
+    	private titleService: Title
+    ){ 
+		
+	}
 
  	ngOnInit() {
 		this.sub = this.route.params.subscribe(params => {
@@ -28,6 +32,11 @@ export class PageComponent implements OnInit, OnDestroy{
 	       {
 	       		this.pageHeading = page + '.Heading';
 	       		this.pageContent = page + '.Content';
+
+				this.translate.get(this.pageHeading).subscribe((res: string) => {
+             		this.pageHeading = res;
+        		});
+        		this.titleService.setTitle( this.pageHeading );
         	}
 
 	    });

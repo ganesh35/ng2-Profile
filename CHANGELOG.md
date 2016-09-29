@@ -1,4 +1,37 @@
 <a name="1.0.0"></a>
+# [1.0.1] (2016-09-29)
+
+### Dynamic Title implementation
+
+### Code Refactoring
+
+* **Changes to app.module.ts :**   
+```javascript
+  ...
+import { BrowserModule, Title } from '@angular/platform-browser';
+  ...
+  providers: [
+    Title
+  ],
+  bootstrap:    [ AppComponent  ]
+  ...
+```
+
+* **Changes to components/<component>/<component>.component.ts :**   
+```javascript
+  ...
+  import { Title }     from '@angular/platform-browser';
+  ...
+  public constructor(private titleService: Title ) { 
+ 	this.titleService.setTitle( this.pageHeading );
+  }
+  ...
+```
+
+---
+
+
+<a name="1.0.0"></a>
 # [1.0.0] (2016-09-23)
 
 ### Upgrade from Angular 2.0.0-rc.6 to Angular 2.0.0
