@@ -14,4 +14,4 @@ export var languageList = [
 	{lang:'en', 'flag':'en.gif' },
     {lang:'de', 'flag':'de.gif' }	
 ];
-export var languageDefault = 'en';
+export var languageDefault = 'de';
