@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import myGlobals = require('./globals'); 
 import {TranslateService} from 'ng2-translate/ng2-translate';
 import {ViewEncapsulation} from '@angular/core';
+import './lib/rxjs-operators';
 
 @Component({
     selector: 'my-app',
@@ -49,3 +50,13 @@ export class AppComponent implements OnInit {
     }
 
 }
+
+/*
+ constructor(private translate: TranslateService) {
+        translate.addLangs(["en", "fr"]);
+        translate.setDefaultLang('en');
+
+        let browserLang = translate.getBrowserLang();
+        translate.use(browserLang.match(/en|fr/) ? browserLang : 'en');
+    }
+*/    
