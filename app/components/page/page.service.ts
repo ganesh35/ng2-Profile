@@ -15,7 +15,7 @@ export class PageService {
 	//http://localhost:8080/api/1.0.0/page/ykcb4MJqXW?Lang=en-GB
   	constructor (private http: Http) {}
 
-  getPage (pageAlias: string): Observable<Page[]> {
+  getPage (pageAlias: string): Observable<Page> {
 		this.pageUrl=  this.mainUrl + '/page';  // URL to web API
 
 		this.pageUrl = this.pageUrl + '/' + pageAlias;

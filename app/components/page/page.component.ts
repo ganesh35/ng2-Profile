@@ -24,6 +24,7 @@ export class PageComponent implements OnInit, OnDestroy{
 	public pageContent = "PAGE_NOT_FOUND_MSG";
 
 	public page: Page;
+	public errorMessage = '';
 
 	constructor(
 	 	private route: ActivatedRoute,
