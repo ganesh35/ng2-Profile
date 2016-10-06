@@ -6,7 +6,7 @@ import myGlobals = require('../../globals');
 })
 
 export class HomeComponent {
-	public pageHeading = "Welcome";
+	public pageHeading = "Fix My Gadgets : Your companion for all your service calls - HOME";
 	public constructor(private titleService: Title ) { 
 		this.titleService.setTitle( this.pageHeading );
 	}

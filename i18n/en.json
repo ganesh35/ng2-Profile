@@ -1,446 +1,99 @@
 {
 	"Theme":"default",
-	"en-GB": "English",
-	"de-DE": "Deutsch",
 	"PREVIOUS": "Previous",
 	"NEXT": "Next",
 	"MORE_INFO":"More ...",
 
-	"LOGO_TEXT":"Buchman, L.",
-	"LOGO_CAPTION":"My profile website",
-	"FOOTER_TEXT":"Copyright © 2016 Buchman, L. All rights reserved.",
+	"LOGO_TEXT":"FixMyGadgets.in",
+	"LOGO_CAPTION":"One service platform for all your Gadgets",
+	"FOOTER_TEXT":"Copyright © 2016 Fix My Gadgets Techservices Pvt. Ltd., All rights reserved.",
+	
+	"ContactInfo": {"Addr1" : "#807, 27th Main, 1st Sector", "Addr2" : "HSR Layout", "Postcode" : "560102", "City" : "Bangalore", "State" : "Karnataka", "Country" : "India",
+		"Mobile" :"",
+		"Phone" :"080 68888083",
+		"Email" :"info@fixmygadgets.in",
+		"WebURL": "http://www.fixmygadgets.in"
+	},
+
+
 
 	"MENU_ITEM_HOME": "Home",
-	"MENU_ITEM_ABOUT": "About",
-	"MENU_ITEM_CONTACT": "Contact",
-	"MENU_ITEM_IMPRINT": "Imprint",
-	"MENU_ITEM_PROFILE": "Profile",
+	"MENU_ITEM_ENTERPRISE": "Enterprise",
+	"MENU_ITEM_PARTNER": "Partner",
+	"MENU_ITEM_PARTNER2": "Service Providers",
+	"MENU_ITEM_AMC": "AMC",
+
+	"MENU_ITEM_HOME_TOOLTIP": "Start page",
+	"MENU_ITEM_ENTERPRISE_TOOLTIP": "for enterprise customers",
+	"MENU_ITEM_PARTNER_TOOLTIP": "for Partners and service providers",
+	"MENU_ITEM_AMC_TOOLTIP": "Annual Maintenance Contract simplified",
+
+	"MENU_ITEM_FMG_FAQ": "FAQ",
+	"MENU_ITEM_FMG_FAQ_TOOLTIP": "Frequently asked questions",
+	"MENU_ITEM_FMG_ADVANTAGE":"FMG Advantage",
+	"MENU_ITEM_FMG_ADVANTAGE_TOOLTIP":"Why should you use FixMyGadgets?",
+
+	"MENU_ITEM_FMG_HOWITWORKS":"How FMG work",
+	"MENU_ITEM_FMG_HOWITWORKS_TOOLTIP":"Learn how we simplify your cumbersome task of fixing your devices",
+
+	"MENU_ITEM_CONTACT": "Contact us",
+	"MENU_ITEM_CONTACT_TOOLTIP":"Contact us",
+	"MENU_ITEM_ABOUT": "About FMG",
+	"MENU_ITEM_ABOUT_TOOLTIP":"About FixMyGadgets.in",
+
 	"MENU_ITEM_TERMS": "Terms and Conditions",
-	"MENU_ITEM_PRIVACY": "Privacy Policy",
-	"MENU_ITEM_COOKIES": "Cookie Policy",
+	"MENU_ITEM_TERMS_TOOLTIP": "Terms and Conditions",
+
+	"MENU_ITEM_CANCELLATION_AND_REFUND": "Cancellation & Refund",
+	"MENU_ITEM_CANCELLATION_AND_REFUND_TOOLTIP": "Cancellation and Refund",
+
+	"MENU_ITEM_LOGIN": "Login",
+	"MENU_ITEM_LOGIN_TOOLTIP":"Login to your account",
+
+	"MENU_ITEM_LOGOUT": "Logout",
+	"MENU_ITEM_LOGOUT_TOOLTIP":"Logout from your account",
+
+	"MENU_ITEM_REGISTER": "Register",
+	"MENU_ITEM_REGISTER_TOOLTIP":"Create a new account",
+
 	"PAGE_NOT_FOUND_TITLE": "404 Not Found",
 	"PAGE_NOT_FOUND_MSG": "Sorry, an error has occurred, Requested page not found!",
 
-	"IMPRINT_PAGE_TITLE":"Imprint",
-	"ABOUT_PAGE_TEXT1_HEAD":"About me",
+	
 	"CONTACT_PAGE_HEAD":"Contact us",
 	"CONTACT_PAGE_MSG":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laboro autem non sine causa; Sullae consulatum? Nunc agendum est subtilius. <b>Praeclarae mortes sunt imperatoriae;</b> </p><ul><li>Non autem hoc: igitur ne illud quidem.</li><li>Duo Reges: constructio interrete.</li><li>Quis suae urbis conservatorem Codrum, quis Erechthei filias non maxime laudat?</li></ul><ol><li>Tu quidem reddes;</li><li>Si quicquam extra virtutem habeatur in bonis.</li></ol>",
-
-	"ProfilePage":{
-		"Mobile": "Mobile",
-		"Email": "E-Mail",
-		"Website": "Web",
-		"Address": "Address",
-		"My Objective": "<i class='fa fa-bullseye'></i> My Objective"
-	},
-
-	"Profile" : {
-		"PersonalData_Title" :"<i class='fa fa-user'></i> About me",
-		"PersonalData_DisplayName" : "Name",
-		"PersonalData_Nationality" : "Nationality",
-		"PersonalData_Address" : "Location",
-		"PersonalData_Experience" : "Experience",
-		"PersonalData_Availability" : "Availability",
-		"PersonalData_CurrentStatus" : "Current Status",
-		"PersonalData" :{
-	        "DisplayName": "Buchman K. Laxman",
-	        "DisplayProfession": "Web Developer",
-	        "DisplayCaption" : "Love to do Angular 2",
-	        "Nationality": "Living Rock",
-	        "Experience": "8 Years",
-	        "Availability": "Part-time/Full-time",
-	        "CurrentStatus": "Seeking employment",
-	        "WebURL":"http://www.my-personal.cv",
-	        "Mobile": "+0099 123 123 123",
-	        "Phone": "+0099 123 123 123",
-	        "EmailWork": "buchman.l@my-workplace.com",
-	        "EmailPersonal": "buchman.l@my-personaldata.info",
-	        "AddressHome": {"Addr1" : "My home street", "Addr2" : "999", "Postcode" : "999000", "City" : "MyCity", "State" : "MyState", "Country" : "Nomans City" },
-	        "AddressWork": {"Addr1" : "My office street", "Addr2" : "103", "Postcode" : "999000", "City" : "Office City", "State" : "", "Country" : "Nowhere2Go?" }
-		},
-		"SocialNetworksData" : [
-	    	{"NetworkType": "Profile", "Title": "Xing", "Link":"https://www.xing.com", "Description":"Xing", "CSS":"fa fa-xing" },
-	    	{"NetworkType": "Profile", "Title": "LinkedIn", "Link":"https://www.linkedin.com", "Description":"Linkedin", "CSS":"fa fa-linkedin" },
-	    	{"NetworkType": "Messaging", "Title": "Tweet", "Link":"https://twitter.com", "Description":"Twitter", "CSS":"fa fa-twitter" },
-	        {"NetworkType": "Chat", "Title": "Googleme", "Link":"", "Description":"Google hangout" , "CSS":"fa fa-google-plus"},
-	        {"NetworkType": "Chat", "Title": "mySkype", "Link":"", "Description":"Skype" , "CSS":"fa fa-skype"},
-	        {"NetworkType": "Web", "Title": "my.personal.web", "Link":"https://github.com/ganesh35/ng2-profile", "Description":"Personal website" , "CSS":"fa fa-link"},
-	        {"NetworkType": "DevTools", "Title": "ganesh35", "Link":"https://github.com/ganesh35", "Description":"Github repository" , "CSS":"fa fa-github"},
-	        {"NetworkType": "Youtube Channel", "Title": "GoLang", "Link":"https://www.youtube.com/channel/UCi9Is8R72kWw7nvWtY7Pn3A", "Description":"How to videos on Golang Web Applications" , "CSS":"fa fa-youtube"}
-	    ],
-
-		"EducationalData_Title": "<i class='fa fa-graduation-cap'></i> Education",
-		"EducationalData_Description": "Educationtional Qualifications",
-		"EducationtionalData_FieldOfStudy": "Field of study",
-		"EducationalData" :[
-			{
-				"Institution": "Example University, Stdt City, xCountry",
-				"FieldOfStudy": "Business Administration",
-				"Degree": "Master of Business Applications",
-				"DateFrom": "July 2001",
-				"DateTo": "March 2003",
-				"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
-			},
-			{
-				"Institution": "Some other University, Other City, yCountry",
-				"FieldOfStudy": "Commerce",
-				"Degree": "Bachelor of Commerce",
-				"DateFrom": "July 1996",
-				"DateTo": "May 2001",
-				"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
-			}
-		],
-
-		"CertificationData_Title": "<i class='fa fa-certificate'></i> Certifications",
-		"CertificationData_Description": "Awards and Certifications",
-		"CertificationData_FieldOfStudy": "Field of study",
-		"CertificationData" :[
-			{
-				"Institution": "University of Mars Adventures",
-				"Degree": "Certified Mars Explorer",
-				"DateFrom": "April, 2000",
-				"DateTo": "March 2001",
-				"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-			},
-			{
-				"Institution": "Academy of Software Sciences",
-				"Degree": "Post Graduate Diploma in Computer Applications",
-				"DateFrom": "Jan, 2000",
-				"DateTo": "March 2000",
-				"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-			}
-		],
-	"ExperienceData_Title" :"<i class='fa fa-briefcase'></i> Professional Experience",
-	"ExperienceData_Description" :"History of Employments and Internships",
-	"ExperienceData" :[
-		{
-			"Role": "PHP Developer",
-			"Company": "BlueMoon Company",
-			"Location": "MoonCity, MoonLand",
-			"DateFrom": "March 2008",
-			"DateTo": "March 2016",
-			"EmploymentType": "Board member",
-			"CareerLevel": "Professional/Experienced",
-			"Discipline": "IT & Software Development",
-			"Industry": "Internet and IT",
-			"LegalForm": "Privately held company",
-			"Employees": "1-10 employees",
-			"ShortDescription":"<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><p>Separated they live in Bookmarksgrove right</p>",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "http://www.google.com/",
-			"Image": "exp01.jpg",
-			"Primary" : true
-		},	
-		{
-			"Role": "System Administrator",
-			"Company": "Not-Yet-Another Company",
-			"Location": "DreamCity, Sleep Land",
-			"DateFrom": "March 2003",
-			"DateTo": "March 2008",
-			"EmploymentType": "Full-time employee",
-			"CareerLevel": "Professional/Experienced",
-			"Discipline": "IT & Software Development",
-			"Industry": "BioInformatics",
-			"LegalForm": "Scientific and Industrial Research Organization",
-			"Employees": "51-200 employees",
-			"ShortDescription":"<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p><p>He lay on his armour-like</p>",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "http://www.google.com/",
-			"Image": "exp02.jpg",
-			"Primary" : false
-		}
-	],
-
-	"ProfessionalSkills_Title":"<i class='fa fa-briefcase'></i> Professional Skills",
-	"ProfessionalSkills_Description":"The skills which I use all the time",
-	"ProfessionalSkills":[
-		{ 
-			"Title": "PHP",
-			"Level": 6,
-			"Years": 8.5
-		},
-		{ 
-			"Title": "Go Language",
-			"Level": 3,
-			"Years": 1
-		},
-		{ 
-			"Title": "MySQL",
-			"Level": 6,
-			"Years": 8.5
-		},
-		{ 
-			"Title": "MongoDB",
-			"Level": 3,
-			"Years": 0.6
-		},
-		{ 
-			"Title": "Linux Admin",
-			"Level": 5,
-			"Years": 8
-		}
-	],
-	
-
-	"TechnicalSkills_Title":"<i class='fa fa-gears'></i> Technical Skills",
-	"TechnicalSkills_Description":"The skills which I use make things done",
-	"TechnicalSkills": [
-		{ 
-			"Title": "HTML",
-			"Level": 6,
-			"Years": 8.5
-		},
-		{ 
-			"Title": "JQuery",
-			"Level": 4,
-			"Years": 7
-		},
-		{ 
-			"Title": "Bootstrap",
-			"Level": 6,
-			"Years": 4
-		},
-		{ 
-			"Title": "XAMPP / LAMPP",
-			"Level": 6,
-			"Years": 8
-		},
-		{ 
-			"Title": "SEO & SEM",
-			"Level": 4,
-			"Years": 3
-		},
-		{ 
-			"Title": "Angular2",
-			"Level": 6,
-			"Years": 6
-		}
-
-	],
-
-	"PersonalSkills_Title":"<i class='fa fa-asterisk'></i> Personal Skills",
-	"PersonalSkills_Description":"The skills which defines me as me",
-	"PersonalSkills": [
-		{ 
-			"Title": "Quick learning",
-			"Level": 6
-		},
-		{ 
-			"Title": "Analytical thinking",
-			"Level": 6
-		},
-		{ 
-			"Title": "Communication",
-			"Level": 5
-		},
-		{ 
-			"Title": "Commitment",
-			"Level": 6
-		},
-		{ 
-			"Title": "Initiative",
-			"Level": 6
-		}
-	],
-	"LanguageData_Title": "<i class='fa fa-language'></i> Language Skills",
-	"LanguageData":[
-
-		{
-			"Title": "English",
-			"Level": 6,
-			"Read": 6,
-			"Write": 6,
-			"Speak": 6,
-			"Understand": 6,
-			"MoreInfo": "Fluent"
-		},
-		{
-			"Title": "German",
-			"Level": 3,
-			"Read": 6,
-			"Write": 6,
-			"Speak": 4,
-			"Understand": 4,
-			"MoreInfo": "Good Knowledge"
-		},
-		{
-			"Title": "Telugu",
-			"Level": 6,
-			"Read": 6,
-			"Write": 6,
-			"Speak": 6,
-			"Understand": 6,
-			"MoreInfo": "First language"
-		},
-		{
-			"Title": "Hindi",
-			"Level": 4,
-			"Read": 6,
-			"Write": 6,
-			"Speak": 4,
-			"Understand": 4,
-			"MoreInfo": "Good Knowledge"
-		}
-	],	
-	"MessageData" :{
-		"ShortMsg":"PHP Developer by Profession <br>and<br/> Go Learner by Passion",
-		"ToRecruiters": "Please do not ask me to change my profile to fit the job description, contact me only when the job description fits my profile.",
-		"ToFriends": "",
-		"ToCompanies": "",
-		"ToOthers": "",
-		"LongMsg":"<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p><p><ul><li>Phasellus viverra nulla ut metus varius laoreet.</li><li> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</li><li> Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero.</li><li> sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</li></ul></p>",
-		"FooterMessage":"I can be reached by email via {{email}} or by mobile on {{mobile}}",
-		"Objective":"<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated</p>"
-		
-	},
-	"SystemData" :{
-		"DateAccessed": 20160402,
-		"DateUpdated": 20160502,
-		"DateCreated": 20160402
-	},
-	"ProjectsData" :[
-		{
-			"Title": "Step-by-Step Developing Apps",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"05 Sep, 2016",
-			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "",
-			"Tools":"GoLanguage, Youtube",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ng2-profile",
-			"Image": "dummy01.jpg",
-			"CSS":"fa fa-youtube"
-		},
-		{
-			"Title": "RESTful web services",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "",
-			"Tools":"PHP, Joomla Framework, Composer, Youtube",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ng2-profile",
-			"Image": "dummy10.jpg",
-			"CSS":"fa fa-youtube"
-		},
-
-		{
-			"Title": "Module Development",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "",
-			"Tools":"Joomla CMS, PHP, Youtube",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ng2-profile",
-			"Image": "dummy09.jpg",
-			"CSS":"fa fa-youtube"
-		},
-
-
-		{
-			"Title": "Docker and Go",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "Content Publishing",
-			"Tools":"Docker, Go, Preinstalled",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ng2-profile",
-			"Image": "dummy06.jpg",
-			"CSS":"fa fa-pencil"
-		},	
-		{
-			"Title": "Learning C/C++",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Author",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "Content Publishing",
-			"Tools":"C, C++",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ng2-profile",
-			"Image": "dummy05.jpg"	,
-			"CSS":"fa fa-pencil"
-		},
-
-		{
-			"Title": "Social networking platform",
-			"DatePosted": "Sep 05, 2016",
-			"DateCompleted":"",
-			"Role": "Developer",
-			"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk",
-			"Client": "Flying-S-M",
-			"LineOfBusiness": "Community",
-			"Tools":"Ubuntu, Apache, PHP, MYSQL, HTML, JQuery, Joomla CMS & Custom Extension development",
-			"Description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bonum liberi: misera orbitas. <mark>Scrupulum, inquam, abeunti;</mark> Memini me adesse P. <i>Ego vero isti, inquam, permitto.</i> Audeo dicere, inquit. Duo Reges: constructio interrete. </p><ol><li>Ut aliquid scire se gaudeant?</li><li>Crassus fuit, qui tamen solebat uti suo bono, ut hodie est noster Pompeius, cui recte facienti gratia est habenda;</li></ol><ul><li>Addidisti ad extremum etiam indoctum fuisse.</li><li>Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur.</li></ul><dl><dt><dfn>Sullae consulatum?</dfn></dt><dd>Tanti autem aderant vesicae et torminum morbi, ut nihil ad eorum magnitudinem posset accedere.</dd><dt><dfn>An eiusdem modi?</dfn></dt><dd>Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur?</dd><dt><dfn>Haec dicuntur inconstantissime.</dfn></dt><dd>Quae fere omnia appellantur uno ingenii nomine, easque virtutes qui habent, ingeniosi vocantur.</dd></dl>",
-			"Url": "https://github.com/ganesh35/ng2-profile",
-			"Image": "dummy02.jpg",
-			"CSS":"fa fa-group "
-		}
-		],
-		"BannerData":[
-			{
-				"Title": "PHP Developer",
-				"ShortDescription":"A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am",
-				"Image": "banner/banner01.jpg"
-			},
-			{
-				"Title": "GoLang enthusiast",
-				"ShortDescription":"One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like",
-				"Image": "banner/banner02.jpg"
-			},
-			{
-				"Title": "Angular2 Learner",
-				"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds",
-				"Image": "banner/banner03.jpg"
-			},
-			{
-				"Title": "Linux Administrator",
-				"ShortDescription":"The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.",
-				"Image": "banner/banner04.jpg"
-			},
-			{
-				"Title": "Get everything to cloud",
-				"ShortDescription":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantic.",
-				"Image": "banner/banner05.jpg"
-			}
-
-		]
-
-	},
-
-
 
 	"IMPRINT_DISCLAIMER":"Disclaimer",
 	"IMPRINT_DISCLAIMER_MSG":"The information contained in this website is for general information purposes only. The information is provided by this website and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.<br><br>Every effort is made to keep the website up and running smoothly. However, we takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.",
 	"RECENT_ACTIVITY":"Recent Activity",
 	"COOKIE_CONSENT_MSG":"This site uses cookies. By continuing to use this site you agree to our use of cookies.",
 	"FIND_OUT_MORE":"Find out more",
-	"cookies": {
-		"Heading": "Cookie Policy",
+	"faq": {
+		"Heading": "Frequently Asked Questions",
 		"Content": "<h2>What are Cookies?</h2> <p>A cookie is a very small piece of information that a website stores to save and collect basic information.</p> <p>Many cookies are essential to the operation of our website, for example to allow you to make a purchase or create an account with us.</p> <p>Cookies on our site are also used to customise certain areas of content just for you, and to make your browsing experience more efficient and faster.</p> <h2>How we use Cookies</h2> <p>Cookies on our website are used for the following purposes</p> <ul> <li>To enable you to add items to your shopping basket and purchase them.</li> <li>To enable you to create an account to have information such as order history, or your details remembered for later.</li> <li>To improve the website's usability by saving you time on making a purchase or tracking your order.</li> <li>To analyse the use of our website through Analytics software such as Google Analytics.</li> </ul> <h2>Information Collected</h2> <p>The cookies our website uses do not collect any sensitive information such as your name, address, email address, or any other contact details. The cookies this website uses are:</p> <h2>Strictly Necessary Cookies</h2> <p>These cookies perform important functions on our web site. Without them we cannot provide you with basic features and normal web site behaviour which you will expect from us. For this reason, you cannot disable these cookies.</p> <table class='table table-sm table-hover'> <tbody> <tr> <td>Name</td> <td>Description</td> <td>Purpose</td> </tr> <tr> <td>-none-</td> <td >-none-</td> <td>-none-</td> </tr> </tbody> </table> <h2>Functional Cookies</h2> <p>These cookies allow our web site to remember choices you make and provide enhanced, more personal features. They may also be used to provide services or functionality you indicate you are interested in through interactions with our web site. These cookies are only used to provide an improved browsing experience and we do not pass information about the choices you make to any third party or other organisation.</p> <table class='table table-sm table-hover'> <tbody> <tr> <td>Name</td> <td>Description</td> <td>Purpose</td> </tr> <tr> <td>-none-</td> <td >-none-</td> <td>-none-</td> </tr> </tbody> </table> <h2>Performance Cookies</h2> <p>These cookies collect general information about how visitors use our web site to help us improve our web site for everyone. For instance, we track which pages visitors go to most often and if they get error messages or broken links. These cookies do not collect personal information that identifies a visitor. All the information these cookies collect is aggregated and therefore anonymous.</p> <table class='table table-sm table-hover'> <tbody> <tr> <td>Name</td> <td>Description</td> <td>Purpose</td> </tr> <tr> <td>_ga</td> <td>Google Analytics</td> <td>Google Analytics is a third-party traffic analysis service that helps us understand how visitors use our web site. The information generated by the cookie about your use of the website (including your IP address) will be transmitted to and stored by Google on servers in the United States. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google. You can opt-out of all Google Analytics cookies by installing a browser add-on provided by Google:https://tools.google.com/dlpage/gaoptout</td> </tr> </tbody> </table> <h2>Targetting or Advertising Cookies</h2> <p>These cookies are used to deliver adverts more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign. They are usually placed by advertising networks with our permission. They remember that you have visited a website and this information is shared with other organisations such as advertisers. Quite often targeting or advertising cookies will be linked to site functionality provided by the other organisation.</p> <table class='table table-sm table-hover'> <tbody> <tr> <td>Name</td> <td>Description</td> <td>Purpose</td> </tr> <tr> <td>guest_id, pid</td> <td>Twitter</td> <td> You can find out more about how Twitter uses cookies on its web site: http://twitter.com/privacy</td> </tr> </tbody> </table> <p>If you wish to disable any cookie listed above for which we have not provided a specific means of disabling, you can also use your browser settings to disable cookies. An explanation of how to do this can be found here. Please note: By disabling cookies in your browser, you may render some of the functionality on our web site (and other web sites you visit) unusable and we make no guarantees as to the performance of our web site when cookies are disabled.</p> <h2>How do I Disable Cookies</h2> <p>To fully disable cookies on our website, you will need to change the settings in your website browser.</p> <h2>Links to Other Websites</h2> <p>This cookie policy does not cover the links within this site linking to other websites. We encourage you to read the privacy statements on the other websites you visit.</p>"
 	},
-	"terms": {
+	"terms-and-conditions": {
 		"Heading": "Terms and Conditions",
 		"Content": "<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p> <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>"
 	},
-	"privacy": {
-		"Heading": "Privacy Policy",
+	"about-us": {
+		"Heading": "About us",
 		"Content": "<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p> <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>"
 	},
-	"imprint": {
-		"Heading": "Imprint",
+	"cancellation-refund": {
+		"Heading": "Cancellation and Refund",
+		"Content": "<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p> <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>"
+	},
+	"how-it-works": {
+		"Heading": "How FMG Work",
+		"Content": "<div class='text-md-center'> <h4><strong>WE ARE THE LEADER IN THE REPAIR OF CONSUMER ELECTRONICS</strong></h4> <br/><br/> <div class='row vdivide'> <div class='col-md-6'> <img class='pull-xs-left img-rounded img-fluid' src='images/certified.png' alt='Certified Technicians' style='margin-right:25px;'> <ul class='text-md-left'> <li><strong>Certified Technicians</strong></li> <li> <i class='fa fa-angle-right'></i> Most Qualified Technicians </li> <li> <i class='fa fa-angle-right'></i> Background verified to ensure 100% guarantee </li> </ul> </div> <div class='col-md-6'> <img class='pull-xs-left img-rounded img-fluid' src='images/warranty.png' alt='Warranty' style='margin-right:25px;'> <ul class='text-md-left'> <li><strong>Warranty</strong></li> <li> <i class='fa fa-angle-right'></i> 3 months service warranty </li> <li> <i class='fa fa-angle-right'></i> Insurance Coverage </li> </ul> </div> </div> <br/> <h5 ><strong>Once you book service from our website or mobile app</strong></h5> <p>We arrange free pickup from your location and deliver it to anywhere of your choice.<br> State of the art dust free technical lab and experienced technicians will fix your gadgets.</p> <p> We are a leader in the repair of consumer electronics.Just bring your gadget, be it a laptop, MacBook, a TV, a Tablet, or a Smartphone, we are here to help you fix it.</p> <br/> <div class='row'> <div class='col-md-1'></div> <div class='col-md-2'> <img src='images/imgcarousel/home/howwork/smartphone.png' class='img-fluid text-md-center'> </div> <div class='col-md-2'> <img src='images/imgcarousel/home/howwork/tablets.png' class='img-fluid text-md-center'> </div> <div class='col-md-2'> <img src='images/imgcarousel/home/howwork/laptop.png' class='img-fluid text-md-center'> </div> <div class='col-md-2'> <img src='images/imgcarousel/home/howwork/microwave.png' class='img-fluid text-md-center'> </div> <div class='col-md-2'> <img src='images/imgcarousel/home/howwork/television.png' class='img-fluid text-md-center'> </div> <div class='col-md-1'></div> </div> <br/> <h5><strong>Certified Technicians</strong></h5> <p>We have the most qualified technicians in the industry. Our technicians are specialized in the repair of almost every type of gadget including laptops, desktops, smartphones and tablets, and they are prepared to go the extra mile to make your gadget livable. They are vested in the use of modern high-tech repair tools and parts to give you an incomparable repair service.</p> <h5><strong>Warranty</strong></h5> <p> Our cherished customers get a 3 months after-repair warranty, why, because cutomers are always at the fore front of our policies</p> </div>"
+	},
+	"advantages": {
+		"Heading": "How FMG Work",
 		"Content": "<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p> <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then</p>"
 	}
+
+
+
 
 }

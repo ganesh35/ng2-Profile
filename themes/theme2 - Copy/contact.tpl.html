@@ -1,0 +1,29 @@
+<div class="box">
+<h1>{{'CONTACT_PAGE_HEAD' | translate}}</h1>
+
+<p *ngIf="'CONTACT_PAGE_MSG'| translate" [innerHTML]="'CONTACT_PAGE_MSG'| translate"></p>
+
+<hr>
+<h3 *ngIf="'Profile.PersonalData.DisplayName' | translate">{{'Profile.PersonalData.DisplayName' | translate}} <small  *ngIf="'Profile.PersonalData.DisplayProfession' | translate">, {{'Profile.PersonalData.DisplayProfession' | translate}}</small></h3>
+
+<h4  *ngIf="'Profile.PersonalData.DisplayCaption' | translate">{{'Profile.PersonalData.DisplayCaption' | translate}}</h4>
+
+
+<address *ngIf="'ContactInfo' | translate">
+{{'ContactInfo.Addr1' | translate}}, {{'ContactInfo.Addr2' | translate}}<br>
+{{'ContactInfo.Postcode' | translate}}, {{'ContactInfo.City' | translate}}<br>
+{{'ContactInfo.Country' | translate}}<br/><br/>
+
+
+<strong *ngIf="'ContactInfo.Phone' | translate"><i class="fa fa-phone"></i>: {{'ContactInfo.Phone' | translate}}</strong><br/>
+<strong *ngIf="'ContactInfo.Email' | translate"><i class="fa fa-envelope"></i> : {{'ContactInfo.Email' | translate}}</strong><br/>
+<strong *ngIf="'ContactInfo.WebURL' | translate"><i class="fa fa-link"></i> : <a href="{{'Profile.PersonalData.WebURL' | translate}}" target="_BLANK">{{'ContactInfo.WebURL' | translate}}</a></strong><br/>
+</address>
+
+    
+
+
+
+
+
+</div>

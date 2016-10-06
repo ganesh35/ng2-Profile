@@ -13,7 +13,6 @@ import './lib/rxjs-operators';
 })
 export class AppComponent implements OnInit { 
 	public langList = [];
-    public profile: any;
     public showCookieConcent = '';
     public currentLang = '';
 	constructor(private translate: TranslateService) {
@@ -29,19 +28,11 @@ export class AppComponent implements OnInit {
 
     ngOnInit(){
         this.langList  = myGlobals.languageList;
-        this.translate.get('Profile').subscribe((res: string) => {
-             this.profile = res;
-        });
     }
 
     onLangChange(val){
     	this.translate.use(val);
         this.currentLang=val;
-        
-        this.translate.get('Profile').subscribe((res: string) => {
-             this.profile = res;
-        });
-
     }
 
     closeCookieConcent(){
