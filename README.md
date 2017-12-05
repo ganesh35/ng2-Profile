@@ -1,3 +1,5 @@
+Depricated.  Please see - [ngx-profile] (https://github.com/ganesh35/ngx-profile)
+
 # ng2-Profile [1.0.0]
 ### It is a simple minimalist Multi-lingual **Boiler-plate template** for a perfect Profile website.
 
